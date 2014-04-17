@@ -1,4 +1,5 @@
-fjvi
-====
+**Narsi's blog**
 
-YGSJ_Git
+This is my blog.It's powered by Jekyll.
+
+Welcome.

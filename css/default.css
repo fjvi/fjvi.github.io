@@ -1,0 +1,265 @@
+/**
+ * Author:           Narsi
+ * Contact:          huangxc.com
+ */
+
+/* 重置浏览器CSS */
+html{color:#000;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+body,button,input,select,textarea{font-size:12px/1.5;}
+input,select,textarea{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+th{text-align:inherit;}
+fieldset,img,a img{border:0;}
+iframe{display:block;}
+abbr,acronym{border:0;font-variant:normal;}
+del{text-decoration:line-through;}
+address,caption,cite,code,dfn,em,th,var {font-style:normal;font-weight:500;}
+ol,ul {list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:500;}
+q:before,q:after {content:'';}
+
+.clearfix:after {visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+.clearfix{zoom:1;}
+body .hide{display:none;}
+.left,.right{display:inline;}
+.left{float:left;}
+.right{float:right;}
+
+
+/***********default settings**********/
+body {font-family: "微软雅黑","Arial","Helvetica","sans-serif";font-size:16px; background:rgb(245, 245, 245);}
+a {color:#4A75B5;text-decoration:none;outline:none;}
+a:hover {text-decoration:underline}
+.entry-title,.entry-title a {font-size:30px;font-weight:bold;margin-bottom:6px;color:#000;text-align:center;}
+.entry-title a:hover {text-decoration:none;}
+.entry-date {text-align:center;color:#999;margin-bottom:60px;font-size:14px;}
+
+h2 {font-size:22px; font-weight:bold; margin:25px 0;}
+h3 {font-size:18px;font-weight:bold;margin-bottom:25px;}
+h4,h5,h6 {font-weight:bold;margin-bottom:15px;}
+p {margin-bottom:25px;line-height:1.8em;}
+code {background:#eee;border:1px solid #ccc;padding:0 5px;font-family:"Consolas";line-height:14px;font-size:14px;word-wrap:break-word; }
+pre {background-color:#000;padding:15px;overflow:auto;margin-bottom:40px;font-size:14px;border: 1px solid #eee;-webkit-border-radius: 4px 4px 4px 4px;-moz-border-radius: 4px 4px 4px 4px;border-radius: 4px 4px 4px 4px;color:#b9bdb6;margin-top:-20px; }
+h4+pre { margin-top:20px; }
+pre code{background-color:transparent;border:none;padding:0;word-wrap:normal;}
+pre ol{margin-left:25px;list-style-type:decimal;}
+
+/************layout style*****************/
+#content {width:1060px;margin:90px auto 20px;min-height:400px;height:auto !important;height:400px; }
+
+
+/****************entry style**************/
+.sidenav { width:240px; background:#fff; float:right; padding:20px; margin-bottom:50px; box-shadow:0 1px 4px #ccc; }
+.sidenav h2 { font-size:18px; color:#333; margin-bottom:15px; }
+.sidenav ul { margin-bottom:50px; }
+.sidenav li { margin-bottom:12px; }
+.sidenav a { color:#555; font-size:14px; display:block;}
+.entry{margin:auto; width:70%; position:relative; background:#fff; box-shadow:0 2px 6px #ccc; z-index:0;}
+.entry h1 {padding:30px 0 5px;}
+.entry h2, .entry h3, .entry h4{padding:10px 20px;}
+.entry h2 {width:96%; box-shadow:1px 1px 1px 1px rgb(199, 199, 199); background:rgb(245, 245, 245);}
+.entry ul{padding:0 30px; list-style:disc;line-height:1.8em;}
+.entry ol{margin-bottom:25px;margin-left:25px;}
+.entry ol li{margin-bottom:5px;list-style:decimal;line-height:1.1em;}
+.entry blockquote{margin-left:25px;font-size:14px;font-style:italic}
+.entry img{max-width:670px;display:block;margin:10px auto;}
+.entry p, .entry pre, .entry ul, .entry ol{margin:0 30px 20px;}
+.entry li p {margin:25px 0;}
+.index-content .section { margin:auto 15%; padding-top:80px;}
+
+.index-content .article-list { width:70%; margin:0 auto; background:rgb(255, 255, 255); box-shadow:0 2px 6px rgb(204, 204, 204); padding:20px 0;}
+.index-content .article-list li { margin-bottom:50px;}
+.index-content .article-list li div {padding:20px 30px 0;}
+.index-content h2 {margin-bottom:5px; padding:10px 30px; width:92%; background:rgb(245, 245, 245); box-shadow:1px 1px 1px 1px rgb(199, 199, 199);}
+.index-content h2 a { color:#444 }
+.index-content h2 a:hover { color:rgb(255, 0, 0); text-decoration:none; }
+.index-content .title-desc {color:#999;font-size:14px;line-height:1.6em;}
+
+.index-content .artical-cate { width:70%; margin:0 auto; }
+.index-content .artical-cate li { display:inline-block; *float:left; zoom:1; font-size:18px; width:32%; cursor:pointer; }
+.index-content .artical-cate li a,
+.index-content .artical-cate li a:visited { display:inline-block; zoom:1; color:#000; width:100%; }
+.index-content .artical-cate li a:hover { text-decoration:none; }
+.index-content .artical-cate li.on span{ color:red; }
+
+.index-content .cate-bar { height:3px; width:70%; margin:0 auto;margin-bottom:40px; }
+.index-content #cateBar { display:inline-block; zoom:1; height:3px; background:red; position:relative; width:0; }
+
+/***************Wiki Style*****************/
+.wiki h2{cursor:pointer;}
+.wiki ul{margin-left:30px;margin-bottom:20px;list-style:disc}
+.wiki ul li{margin-bottom:5px;}
+.wiki ul ul{list-style:circle;margin-top:10px;margin-bottom:10px;}
+
+/***************contact style*************/
+#disqus_container {font-size:12px;}
+#disqus_container a.comment{font-size:14px;}
+h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
+.about-link a {margin-right:10px;font-weight:bold;font-style:italic;font-size:13px;color:#E50053}
+
+
+/**************目录导航**************/
+#menuIndex {overflow:auto;}
+#menuIndex a {display:block; padding:2px 0; }
+#menuIndex a:hover {text-decoration:none;}
+#menuIndex ul {margin-bottom:10px;}
+#menuIndex ul li{font-size:12px;margin-bottom:5px;word-wrap:break-word;padding-left:10px;}
+#menuIndex ul li.on{background-color:#f5f5f5;}
+#menuIndex li.h1{font-size:14px;font-weight:normal;padding-left:0;margin-bottom:10px;}
+#menuIndex li.h3{padding-left:25px;}
+
+.home-menu { position:fixed; top:15px; left:15px; z-index:5; font-size:0; }
+.home-menu-icon { line-height:38px; padding:0 8px; display:inline-block; color:#fff; font-size:18px;  background:#000; }
+.home-follow { margin-left:2px; line-height:38px; padding:0 8px; display:inline-block; color:#fff; font-size:18px; background:#000;  }
+.home-menu-icon:hover,
+.home-follow:hover { color:#fff; text-decoration:none; }
+.home-contact { color:#fff; margin-top:2px; background:#000; padding:8px 0 7px; text-align:center; display:none;}
+.home-contact a { width:30px; display:inline-block; }
+.home-contact img { width:18px; }
+
+@media screen and (max-width: 750px){
+    body {font-size:14px;}
+    #content {width:85%;margin:100px auto 50px; }
+
+    h2{font-size:20px;}
+    h3{font-size:16px;}
+    embed {display:none;}
+
+    .entry-title,.entry-title a {font-size:24px;}
+    .entry-date {margin-bottom:40px;}
+    .entry img{max-width:90%;}
+    .entry pre ol li{margin-bottom:0;line-height:1em;}
+    .entry pre code{line-height:1em;font-size:12px;}
+    .sidenav {display:none;}
+    .entry {float:none; width:auto; background:transparent; padding:30px 0; box-shadow:none;}
+
+    .index-content .aside { position:relative; width:100%; height:300px; max-width:none; }
+    .index-content .section { margin-left:0; padding-right:0; }
+    /*.index-content .section ul { width:85%; }*/
+    .index-content .cate-bar { width:85%; }
+    .index-content .artical-cate { margin-top:50px; }
+
+    .blog .aside,
+    .project .aside,
+    .opinion .aside {display:none;background-image:none;}
+    
+    #category {width:270px!important; left:50px!important;}
+}
+@media (max-width: 300px){
+    #category {left:10px!important;}
+}
+@media (max-width: 650px){
+    #about_douban_show {display:none;}
+}
+@media (max-width: 1020px){
+    #menuIndex {display:none;}
+    .home-menu { position:absolute; }
+    .index-content .cate-bar ,
+    .index-content .article-list,
+    .index-content .artical-cate { width:85%; }
+    .sidenav {display:none;}
+    .entry {float:none; width:auto; background:transparent; padding:30px 0; box-shadow:none; top:100px;}
+    #content {width:85%;margin:20px auto 50px; }
+    
+}
+@media (max-width: 1300px){
+    .home-menu {position:absolute; }
+}
+@media (max-width: 1320px){
+    #about_douban_show {float:left!important;}
+}
+
+
+
+/***********back-to-top settings***********/
+#back-to-top {position:fixed; bottom:20px; left:80%; z-index:99;}
+#back-to-top a{display:block; width:80px; -moz-transition:color 1s; -webkit-transition:color 1s; -o-transition:color 1s;}
+
+
+/***********home_avatar***********/
+#home_avatar {width:100px; height:100px; position:absolute; border-radius:50%; opacity:0; z-index:9;}
+#nav_avatars {float:left; display:none;}
+#nav_avatars_back { background:url('/images/bird.png') no-repeat -5px -5px; width:100px; height:100px; border-radius:50%; box-shadow:1px 1px 3px rgb(136, 136, 136);}
+.nav_avatar {width:56px; height:56px; border-radius:50%; position:relative; box-shadow:1px 1px 1px rgb(136, 136, 136); float:left;}
+#nav_avatar1 {top:-75px; left:25px;}
+#nav_avatar2 {top:-75px; left:-31px;}
+#nav_avatar3 {top:-75px; left:-87px;}
+
+
+/***********category***********/
+#category {width: 35%; position:fixed; left:35%; top:10%; background:rgb(255, 255, 255); box-shadow:0 2px 6px rgb(204, 204, 204); display:none; z-index:9999;}
+#category ul div {font-size:14px; color:rgb(128, 128, 128); margin:0 20px 20px;}
+#category ul{font-size: 16px;}
+#category ul li {margin:20px;}
+#category ul li a {color:rgb(0, 0, 0);}
+#category a:hover {color:red; text-decoration:none;}
+.post_time {font-size:15px; color:gray; font-weight:normal;}
+.close_window img {width:30px; height:30px; position:relative; left:-10px; top:-10px; opacity:0.5;}
+#floater {width:100%; height:3000px; position:absolute; left:0; top:0; display:none; background:rgb(232, 232, 232); opacity:0.7; z-index:999;}
+
+
+/***********disqus***********/
+#other_posts {width:97%; margin:10px auto;}
+#other_posts a {font-size:14px; color:rgb(128, 128, 128);}
+#other_posts a:hover {text-decoration:none;}
+#disqus {padding:20px 30px; border-top:solid thin rgb(232, 232, 232); text-align:center;}
+#disqus a {color:rgb(128, 128, 128)}
+#disqus a:hover {text-decoration:none; color:rgb(255, 0, 0);}
+
+
+/***********duoshuo**********/
+#ds-thread {margin:20px 10px;}
+
+
+/***********copyright***********/
+#footer {width:49%; margin:0 auto; text-align:right; font-size:13px; color:rgba(128, 128, 128, 0.6); clear:both;}
+
+
+/***********category page***********/
+#category_all {width: 70%; left:30%; top:10%; margin:auto; padding:20px 0; background:rgb(255, 255, 255); box-shadow:0 2px 6px rgb(204, 204, 204);}
+#category_all ul{font-size: 16px;}
+#category_all ul li {margin:10px 30px; color:rgb(128, 128, 128);}
+#category_all a:hover {color:rgb(255, 0, 0); text-decoration:none;}
+.category_year {margin:10px 30px; font-size:20px; font-weight:bold;}
+.category_list {margin:auto; padding:20px 0; color:rgb(128, 128, 128);}
+.article a {color:rgb(74, 117, 181);}
+
+
+/***********pagination***********/
+.pagination {width:49%; margin:0 auto 15px; text-align:right; font-size:13px;}
+.pagination .current_page {color:rgb(255, 0, 0); border-bottom:solid rgb(255, 0, 0); padding:0px 4px;}
+.pagination a {color:rgb(128, 128, 128); padding:0 3px;}
+.pagination a:hover {color:rgb(255, 255, 255); background-color:rgb(255, 0, 0); text-decoration:none;}
+
+
+/***********about_me page***********/
+#about_content {width:70%; margin:auto;}
+#about_content .content { padding:10px;}
+.about_cards {background:rgb(255, 255, 255); box-shadow:0 2px 6px rgb(204, 204, 204); margin-bottom:30px;}
+#about_douban_show {width:400px; float:right;}
+#about_douban_show .content {text-align:center;}
+#about_douban_show .words {text-align:left;}
+#about_douban_show .content  td img{margin:10px 13px; box-shadow:2px 3px 6px rgb(204, 204, 204);}
+#about_contact {width:245px; float:left;}
+#about_contact li {margin:7px 5px;}
+#about_contact .icons {width:21px; margin-bottom:-5px;}
+#about_contact a {color:rgb(128, 128, 128); text-decoration:none;}
+#about_contact a:hover {color:rgb(255, 0, 0);}
+#about_poem {padding:20px 0;}
+.poem {margin:20px; letter-spacing:2px; text-align:center; color:rgb(128, 128, 128); text-shadow:2px 3px 6px rgb(195, 195, 195);}
+.poet {width:35%; text-align:right; margin:auto; font-size:15px; color:rgb(128, 128, 128);}
+#about_me {padding:20px 0;}
+#about_me .part1 {margin:20px auto; text-align:left; width:35%; line-height:30px;}
+#about_me .part2, .part3{text-align:center; color:rgb(250, 225, 50); }
+.part4 {width:80px; margin:0 10px;}
+.part4 img{float:left; border-radius:50%; width:150px ;height:150px; margin:20% 5px 0;}
+
+
+/***********404 page***********/
+#part404 {background:rgb(255, 255, 255); box-shadow:2px 3px 6px rgb(204, 204, 204); width:600px; height:200px; margin:40px auto; padding:20px;}
+#part404 h1 {margin:150px auto 20px; font-size:30px; text-align:center;}
+#part404 div {margin:50px auto; text-align:center;}
+#part404 p {margin:60px auto; text-align:center; font-size:25px;}
