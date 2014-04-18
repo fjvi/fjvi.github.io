@@ -1,0 +1,5 @@
+Markdown 其实不是一种新语言，只是 HTML 的一种转换器。语法可参照官方的 Syntax。编辑器这里推荐：
+Mou (OS X)
+MarkdownPad (Windows)
+编辑好的文件保存为 .md 格式文件，按照要求个文件名格式保存在 _post 目录下。
+然后使用本地环境编译，然后 push 或者 sync 所有文件到 GitHub。 .md 文件都得转换成 html 格式文件才能用浏览器查看。所以，如果像 Windows 系统没有安装 Ruby 和 Jekyll 环境的是不行的。但是可以在没有 Jekyll 环境的 Windows 电脑上利用 Markdown 文件写文章，把 .md 文件 sync 到 GitHub，然后等有时间的时候再在 OS X 的电脑中编译并 sync。
