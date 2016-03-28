@@ -2,7 +2,7 @@ safe:        true
 auto:        false
 server:      false
 server_port: 4000
-url:         http://blog.fjvi.tk
+url:         fjvi.github.io
 
 source:      .
 destination: ./_site
