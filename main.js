@@ -304,47 +304,89 @@ searchBox.addEventListener("input", () => {
 // ✅ 页面加载时自动尝试加载远程书签
 window.addEventListener("DOMContentLoaded", async () => {
   const urlParams = new URLSearchParams(window.location.search);
-  const dataUrl = urlParams.get('data') || "data/bookmarks.json";
+  const dataParam = urlParams.get('data');
+
+  // 🔹 定义默认数据源
+  const defaultDataUrl = "https://api.mgt.xx.kg/data/bookmarks.json?token=read692";
+  const dataUrl = dataParam || defaultDataUrl;
 
   try {
+    // 加载书签
     await loadBookmarks(dataUrl);
 
+    // ✅ 如果用户传入了 data 参数，则保留在地址栏；
+    // 否则清理 URL，避免显示默认远程路径
+    if (!dataParam) {
+      const cleanUrl = window.location.origin + window.location.pathname;
+      window.history.replaceState({}, document.title, cleanUrl);
+    }
+
+    // 🔹 恢复标题点击逻辑
     topBarTitle.addEventListener("click", () => {
       searchBox.value = "";
       searchBox.style.display = "none";
       searchIcon.style.display = "block";
       topBar.classList.remove("searching");
-      titleText.style.display = window.innerWidth <= 480 ? "inline" : "inline";
+      titleText.style.display = "inline";
       bookmarkTree.innerHTML = originalBookmarkTreeHTML;
       bindFolderClickEvents("topBarTitle click");
     });
   } catch (e) {
-    alert(`⚠️ 无法加载书签: ${e.message}\n您可以点击"导入书签"手动上传。`);
+    alert(`⚠️ 无法加载书签: ${e.message}\n您可以点击 "导入书签" 手动上传。`);
   }
 });
 
-// 添加"加载"按钮功能（保持原逻辑）
+
+// 添加“加载”按钮功能（自动补全 .json + 带上 token）
 const loadBtn = document.getElementById("load-btn");
 
 if (loadBtn) {
   loadBtn.addEventListener("click", async () => {
-    const defaultPath = "bookmarks.json";
-    const input = prompt("请输入文件名（如 bookmarks.json）或完整URL", defaultPath);
+    const defaultPath = "bookmarks";
+    const input = prompt("请输入文件名（如 bookmarks.json）或完整 URL", defaultPath);
 
     if (!input) return;
 
     try {
-      const finalUrl = input.startsWith('http') ? input : `data/${input}`;
+      let finalUrl;
+
+      if (input.startsWith("http")) {
+        // ✅ 完整 URL：直接使用
+        finalUrl = input;
+      } else {
+        // ✅ 自动补全 .json
+        let filename = input.trim();
+        if (!filename.endsWith(".json")) {
+          filename += ".json";
+        }
+
+        // ✅ 拼接远程路径 + 默认 token
+        finalUrl = `https://api.mgt.xx.kg/data/${filename}`;
+        if (!finalUrl.includes("?token=")) {
+          finalUrl += "?token=read692";
+        }
+      }
+
+      // ✅ 加载书签
       await loadBookmarks(finalUrl);
+
+      // ✅ 同步更新地址栏（如果定义了 updateBookmarkSource）
+      if (window.updateBookmarkSource) {
+        await window.updateBookmarkSource(finalUrl);
+      }
+
     } catch (e) {
       alert(`加载失败：${e.message}`);
     }
-    // 新增：20秒后自动关闭（时间可调）
+
+    // ✅ 20 秒后自动关闭导入框
     setTimeout(() => {
       importModal.style.display = "none";
     }, 20000);
   });
 }
+
+
 
 // 修改后的 loadBookmarks（保持原接口）
 async function loadBookmarks(url) {
