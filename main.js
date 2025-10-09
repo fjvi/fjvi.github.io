@@ -301,90 +301,143 @@ searchBox.addEventListener("input", () => {
   }
 });
 
-// ✅ 页面加载时自动尝试加载远程书签
-window.addEventListener("DOMContentLoaded", async () => {
-  const urlParams = new URLSearchParams(window.location.search);
-  const dataParam = urlParams.get('data');
+// ✅ 页面加载时自动尝试加载远程书签（支持简写 ?data=test）
+// 配置区 —— 根据你项目需要调整
+const DATA_BASE = "https://api.mgt.xx.kg/data/"; // 数据基址
+const DEFAULT_TOKEN = "read692";                 // 默认 token
+const DEFAULT_FILE = "bookmarks";                // 默认文件名
 
-  // 🔹 定义默认数据源
-  const defaultDataUrl = "https://api.mgt.xx.kg/data/bookmarks.json?token=read692";
-  const dataUrl = dataParam || defaultDataUrl;
+/**
+ * 根据 location.search 构造实际要请求的 URL
+ * - 当 URL 没有 ?data 时 -> 使用默认文件（但不在地址栏显示任何参数）
+ * - 当 ?data=xxx（且 xxx 不是 http 链接） -> 视为简写名，拼接完整 URL，并保持地址栏显示 ?data=xxx
+ * - 当 ?data= 完整 http 链接 -> 使用完整链接，保持地址栏原样（不隐藏）
+ */
+function resolveDataUrlFromLocation() {
+  const params = new URLSearchParams(window.location.search);
+  const dataParam = params.get("data");
+
+  if (!dataParam) {
+    // 无参数：返回默认文件的完整 URL（注意：不改地址栏）
+    return {
+      dataUrl: `${DATA_BASE}${DEFAULT_FILE}.json?token=${DEFAULT_TOKEN}`,
+      shortParam: null, // 表示地址栏应显示“无参数”（root）
+      cameFromUrlParam: false
+    };
+  }
+
+  // 有 data 参数
+  if (dataParam.startsWith("http")) {
+    // 完整 URL：原样使用，地址栏保持传入的样子
+    return { dataUrl: dataParam, shortParam: null, cameFromUrlParam: true };
+  } else {
+    // 简写模式：拼接完整 URL，地址栏显示简写（?data=short）
+    const clean = dataParam.replace(/\.json$/i, "");
+    return {
+      dataUrl: `${DATA_BASE}${clean}.json?token=${DEFAULT_TOKEN}`,
+      shortParam: clean,
+      cameFromUrlParam: true
+    };
+  }
+}
+
+/**
+ * 加载并在成功后根据 shortParam 决定是否在地址栏显示 ?data=xxx
+ * - 如果 shortParam 为 null 且页面最初没有 ?data，地址栏设置为根（无参数）
+ * - 如果 shortParam 为 非空（例如 "test"），地址栏显示 ?data=test
+ * - 如果使用了完整 URL（input startsWith http），不修改地址栏
+ */
+async function loadAndSyncAddress(dataUrl, shortParam, initiallyHadParam) {
+  await loadBookmarks(dataUrl); // 你现有的加载函数（可能抛出异常）
+  // 成功后更新地址栏：仅在 shortParam 非 null 时显示 ?data=shortParam
+  if (shortParam) {
+    const shortUrl = `${location.origin}${location.pathname}?data=${encodeURIComponent(shortParam)}`;
+    history.replaceState(null, "", shortUrl);
+  } else if (!initiallyHadParam) {
+    // 没有传入 ?data（默认加载场景），保持地址栏为根（无参数）
+    history.replaceState(null, "", `${location.origin}${location.pathname}`);
+  }
+  // 如果 initiallyHadParam 且 shortParam 为 null（说明传入的是完整 URL），不改地址栏
+}
+
+/* ---------------- 页面初始化：DOMContentLoaded ---------------- */
+window.addEventListener("DOMContentLoaded", async () => {
+  const { dataUrl, shortParam, cameFromUrlParam } = resolveDataUrlFromLocation();
 
   try {
-    // 加载书签
-    await loadBookmarks(dataUrl);
+    // 在默认加载（即地址栏原本没有 ?data）时，我们也要把地址栏保留为根 -> 
+    // loadAndSyncAddress 会在成功后根据 shortParam / cameFromUrlParam 做替换
+    await loadAndSyncAddress(dataUrl, shortParam, cameFromUrlParam);
 
-    // ✅ 如果用户传入了 data 参数，则保留在地址栏；
-    // 否则清理 URL，避免显示默认远程路径
-    if (!dataParam) {
-      const cleanUrl = window.location.origin + window.location.pathname;
-      window.history.replaceState({}, document.title, cleanUrl);
-    }
-
-    // 🔹 恢复标题点击逻辑
+    // 绑定顶部标题点击（保持你原有逻辑）
     topBarTitle.addEventListener("click", () => {
       searchBox.value = "";
       searchBox.style.display = "none";
       searchIcon.style.display = "block";
       topBar.classList.remove("searching");
-      titleText.style.display = "inline";
+      titleText.style.display = window.innerWidth <= 480 ? "inline" : "inline";
       bookmarkTree.innerHTML = originalBookmarkTreeHTML;
       bindFolderClickEvents("topBarTitle click");
     });
   } catch (e) {
-    alert(`⚠️ 无法加载书签: ${e.message}\n您可以点击 "导入书签" 手动上传。`);
+    alert(`⚠️ 无法加载书签: ${e.message}\n您可以点击“导入书签”手动上传。`);
+    // 地址栏不改动（保留原样）
   }
 });
 
-
-// 添加“加载”按钮功能（自动补全 .json + 带上 token）
+/* ---------------- 加载按钮逻辑（只在用户输入文件名时显示 ?data=xxx） ---------------- */
 const loadBtn = document.getElementById("load-btn");
-
 if (loadBtn) {
   loadBtn.addEventListener("click", async () => {
-    const defaultPath = "bookmarks";
-    const input = prompt("请输入文件名（如 bookmarks.json）或完整 URL", defaultPath);
-
+    const defaultPath = DEFAULT_FILE; // "bookmarks"
+    const input = prompt("请输入文件名（如 bookmarks ）或完整 URL", defaultPath);
     if (!input) return;
 
     try {
-      let finalUrl;
+      let dataUrl, shortParam = null;
 
       if (input.startsWith("http")) {
-        // ✅ 完整 URL：直接使用
-        finalUrl = input;
+        // 完整 URL：不改地址栏（用户显式给出完整 URL）
+        dataUrl = input;
       } else {
-        // ✅ 自动补全 .json
-        let filename = input.trim();
-        if (!filename.endsWith(".json")) {
-          filename += ".json";
-        }
-
-        // ✅ 拼接远程路径 + 默认 token
-        finalUrl = `https://api.mgt.xx.kg/data/${filename}`;
-        if (!finalUrl.includes("?token=")) {
-          finalUrl += "?token=read692";
-        }
+        const cleanName = input.replace(/\.json$/i, "");
+        dataUrl = `${DATA_BASE}${cleanName}.json?token=${DEFAULT_TOKEN}`;
+        shortParam = cleanName;
       }
 
-      // ✅ 加载书签
-      await loadBookmarks(finalUrl);
+      await loadBookmarks(dataUrl);
 
-      // ✅ 同步更新地址栏（如果定义了 updateBookmarkSource）
-      if (window.updateBookmarkSource) {
-        await window.updateBookmarkSource(finalUrl);
+      // 只有当用户输入的是简写（短名）时，才在地址栏显示 ?data=短名
+      if (shortParam) {
+        const shortUrl = `${location.origin}${location.pathname}?data=${encodeURIComponent(shortParam)}`;
+        history.replaceState(null, "", shortUrl);
+      } else {
+        // 输入完整 URL 时，不改变地址栏 —— 保持为根或原有 ?data
       }
 
     } catch (e) {
-      alert(`加载失败：${e.message}`);
+      alert(`⚠️ 加载失败：${e.message}`);
+    } finally {
+      // 20 秒后自动关闭导入弹窗（保持原逻辑）
+      setTimeout(() => {
+        importModal.style.display = "none";
+      }, 20000);
     }
-
-    // ✅ 20 秒后自动关闭导入框
-    setTimeout(() => {
-      importModal.style.display = "none";
-    }, 20000);
   });
 }
+
+/* ---------------- 处理浏览器前进/后退（可选，但建议保留） ---------------- */
+window.addEventListener("popstate", async () => {
+  // 当用户通过前进/后退改变 ?data 时（或回到无参数状态），重新根据地址加载
+  const { dataUrl, shortParam, cameFromUrlParam } = resolveDataUrlFromLocation();
+  try {
+    // 不需要再更新地址栏（popstate 本身就是地址变更），直接加载
+    await loadBookmarks(dataUrl);
+  } catch (e) {
+    alert(`⚠️ 数据加载失败：${e.message}`);
+  }
+});
+
 
 
 
@@ -465,8 +518,8 @@ modalUploadBtn?.addEventListener("click", async () => {
   const token = prompt("请输入 GitHub Token：");
   if (!token) return alert("❌ 未提供 Token，上传已取消");
 
-  const repo = "fjvi/bookmark";
-  const path = "data/bookmarks.json";
+  const repo = "fjvi/data";
+  const path = "data/backup.json";
   const branch = "main";
   const getURL = `https://api.github.com/repos/${repo}/contents/${path}`;
   let sha = null;
