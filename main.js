@@ -576,7 +576,7 @@ exportBtn?.addEventListener("click", async () => {
   }
 
   try {
-    const response = await fetch("https://api.692.cloudns.be/api/check-password", {
+    const response = await fetch("https://api.mgt.xx.kg/password", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
