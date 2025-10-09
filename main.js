@@ -519,7 +519,7 @@ modalUploadBtn?.addEventListener("click", async () => {
   if (!token) return alert("❌ 未提供 Token，上传已取消");
 
   const repo = "fjvi/data";
-  const path = "data/backup.json";
+  const path = "backup.json";
   const branch = "main";
   const getURL = `https://api.github.com/repos/${repo}/contents/${path}`;
   let sha = null;
