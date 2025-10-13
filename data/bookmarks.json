@@ -1827,10 +1827,19 @@
                     "url": "https://github.com/fjvi/workes"
                   },
                   {
+                    "dateAdded": 1747821403674,
+                    "id": "239",
+                    "index": 3,
+                    "parentId": "226",
+                    "syncing": true,
+                    "title": "fjvi/navvv",
+                    "url": "https://github.com/fjvi/nav"
+                  },
+                  {
                     "dateAdded": 1747821434602,
                     "dateLastUsed": 1748877416125,
                     "id": "229",
-                    "index": 3,
+                    "index": 4,
                     "parentId": "226",
                     "syncing": true,
                     "title": "fjvi/note",
@@ -1840,7 +1849,7 @@
                     "dateAdded": 1741508130684,
                     "dateLastUsed": 1759740540449,
                     "id": "231",
-                    "index": 4,
+                    "index": 5,
                     "parentId": "226",
                     "syncing": true,
                     "title": "fjvi/wiki",
@@ -1849,7 +1858,7 @@
                   {
                     "dateAdded": 1747821471140,
                     "id": "232",
-                    "index": 5,
+                    "index": 6,
                     "parentId": "226",
                     "syncing": true,
                     "title": "fjvi/photo",
@@ -1858,7 +1867,7 @@
                   {
                     "dateAdded": 1747824338006,
                     "id": "233",
-                    "index": 6,
+                    "index": 7,
                     "parentId": "226",
                     "syncing": true,
                     "title": "fjvi/data",
@@ -1867,7 +1876,7 @@
                   {
                     "dateAdded": 1747821324738,
                     "id": "234",
-                    "index": 7,
+                    "index": 8,
                     "parentId": "226",
                     "syncing": true,
                     "title": "fjvi/bookmarks_rcx",
@@ -1876,7 +1885,7 @@
                   {
                     "dateAdded": 1747821358698,
                     "id": "235",
-                    "index": 8,
+                    "index": 9,
                     "parentId": "226",
                     "syncing": true,
                     "title": "fjvi/bookmarks",
@@ -1886,7 +1895,7 @@
                     "dateAdded": 1741508163329,
                     "dateLastUsed": 1747816308930,
                     "id": "236",
-                    "index": 9,
+                    "index": 10,
                     "parentId": "226",
                     "syncing": true,
                     "title": "fjvi/sq",
@@ -1895,7 +1904,7 @@
                   {
                     "dateAdded": 1747821455018,
                     "id": "237",
-                    "index": 10,
+                    "index": 11,
                     "parentId": "226",
                     "syncing": true,
                     "title": "fjvi/Gmeek",
@@ -1904,20 +1913,11 @@
                   {
                     "dateAdded": 1747821440162,
                     "id": "238",
-                    "index": 11,
+                    "index": 12,
                     "parentId": "226",
                     "syncing": true,
                     "title": "fjvi/blog",
                     "url": "https://github.com/fjvi/blog"
-                  },
-                  {
-                    "dateAdded": 1747821403674,
-                    "id": "239",
-                    "index": 12,
-                    "parentId": "226",
-                    "syncing": true,
-                    "title": "fjvi/navvv",
-                    "url": "https://github.com/fjvi/nav"
                   },
                   {
                     "dateAdded": 1759344148869,
@@ -1930,7 +1930,7 @@
                   }
                 ],
                 "dateAdded": 1747616185011,
-                "dateGroupModified": 1760170247357,
+                "dateGroupModified": 1760374037479,
                 "id": "226",
                 "index": 0,
                 "parentId": "225",
@@ -7747,7 +7747,7 @@
         "title": "其他书签"
       }
     ],
-    "dateAdded": 1760361202118,
+    "dateAdded": 1760372791481,
     "id": "0",
     "syncing": false,
     "title": ""
