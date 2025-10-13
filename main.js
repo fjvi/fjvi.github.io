@@ -301,78 +301,73 @@ searchBox.addEventListener("input", () => {
   }
 });
 
-// ✅ 页面加载时自动尝试加载本地书签文件
+// ✅ 页面加载时自动尝试加载远程书签（支持简写 ?data=test）
 // 配置区 —— 根据你项目需要调整
-const LOCAL_DATA_PATH = "data/bookmarks.json";   // 本地书签文件路径
-const REMOTE_DATA_BASE = "https://api.mgt.xx.kg/data/"; // 远程数据基址
+const DATA_BASE = "https://api.mgt.xx.kg/data/"; // 数据基址
 const DEFAULT_TOKEN = "read692";                 // 默认 token
 const DEFAULT_FILE = "bookmarks";                // 默认文件名
 
 /**
- * 根据 location.search 解析加载策略
- * - 当 URL 没有 ?data 时 -> 使用本地文件
- * - 当 ?data=xxx（且 xxx 不是 http 链接） -> 视为远程简写名
- * - 当 ?data= 完整 http 链接 -> 使用完整远程链接
+ * 根据 location.search 构造实际要请求的 URL
+ * - 当 URL 没有 ?data 时 -> 使用默认文件（但不在地址栏显示任何参数）
+ * - 当 ?data=xxx（且 xxx 不是 http 链接） -> 视为简写名，拼接完整 URL，并保持地址栏显示 ?data=xxx
+ * - 当 ?data= 完整 http 链接 -> 使用完整链接，保持地址栏原样（不隐藏）
  */
 function resolveDataUrlFromLocation() {
   const params = new URLSearchParams(window.location.search);
   const dataParam = params.get("data");
 
   if (!dataParam) {
-    // 无参数：返回本地文件路径
+    // 无参数：返回默认文件的完整 URL（注意：不改地址栏）
     return {
-      dataUrl: LOCAL_DATA_PATH,
-      shortParam: null,
-      cameFromUrlParam: false,
-      isLocal: true
+      dataUrl: `${DATA_BASE}${DEFAULT_FILE}.json?token=${DEFAULT_TOKEN}`,
+      shortParam: null, // 表示地址栏应显示“无参数”（root）
+      cameFromUrlParam: false
     };
   }
 
   // 有 data 参数
   if (dataParam.startsWith("http")) {
-    // 完整 URL：原样使用
-    return { 
-      dataUrl: dataParam, 
-      shortParam: null, 
-      cameFromUrlParam: true,
-      isLocal: false
-    };
+    // 完整 URL：原样使用，地址栏保持传入的样子
+    return { dataUrl: dataParam, shortParam: null, cameFromUrlParam: true };
   } else {
-    // 简写模式：拼接完整远程 URL
+    // 简写模式：拼接完整 URL，地址栏显示简写（?data=short）
     const clean = dataParam.replace(/\.json$/i, "");
     return {
-      dataUrl: `${REMOTE_DATA_BASE}${clean}.json?token=${DEFAULT_TOKEN}`,
+      dataUrl: `${DATA_BASE}${clean}.json?token=${DEFAULT_TOKEN}`,
       shortParam: clean,
-      cameFromUrlParam: true,
-      isLocal: false
+      cameFromUrlParam: true
     };
   }
 }
 
 /**
- * 加载并在成功后根据策略更新地址栏
+ * 加载并在成功后根据 shortParam 决定是否在地址栏显示 ?data=xxx
+ * - 如果 shortParam 为 null 且页面最初没有 ?data，地址栏设置为根（无参数）
+ * - 如果 shortParam 为 非空（例如 "test"），地址栏显示 ?data=test
+ * - 如果使用了完整 URL（input startsWith http），不修改地址栏
  */
-async function loadAndSyncAddress(dataUrl, shortParam, initiallyHadParam, isLocal) {
-  await loadBookmarks(dataUrl); // 你现有的加载函数
-  
-  // 成功后更新地址栏逻辑
+async function loadAndSyncAddress(dataUrl, shortParam, initiallyHadParam) {
+  await loadBookmarks(dataUrl); // 你现有的加载函数（可能抛出异常）
+  // 成功后更新地址栏：仅在 shortParam 非 null 时显示 ?data=shortParam
   if (shortParam) {
-    // 远程简写模式：显示 ?data=shortParam
     const shortUrl = `${location.origin}${location.pathname}?data=${encodeURIComponent(shortParam)}`;
     history.replaceState(null, "", shortUrl);
-  } else if (!initiallyHadParam && !isLocal) {
-    // 没有传入 ?data 且不是本地加载：保持地址栏为根
+  } else if (!initiallyHadParam) {
+    // 没有传入 ?data（默认加载场景），保持地址栏为根（无参数）
     history.replaceState(null, "", `${location.origin}${location.pathname}`);
   }
-  // 其他情况（本地加载或完整URL）不改地址栏
+  // 如果 initiallyHadParam 且 shortParam 为 null（说明传入的是完整 URL），不改地址栏
 }
 
 /* ---------------- 页面初始化：DOMContentLoaded ---------------- */
 window.addEventListener("DOMContentLoaded", async () => {
-  const { dataUrl, shortParam, cameFromUrlParam, isLocal } = resolveDataUrlFromLocation();
+  const { dataUrl, shortParam, cameFromUrlParam } = resolveDataUrlFromLocation();
 
   try {
-    await loadAndSyncAddress(dataUrl, shortParam, cameFromUrlParam, isLocal);
+    // 在默认加载（即地址栏原本没有 ?data）时，我们也要把地址栏保留为根 -> 
+    // loadAndSyncAddress 会在成功后根据 shortParam / cameFromUrlParam 做替换
+    await loadAndSyncAddress(dataUrl, shortParam, cameFromUrlParam);
 
     // 绑定顶部标题点击（保持你原有逻辑）
     topBarTitle.addEventListener("click", () => {
@@ -385,43 +380,43 @@ window.addEventListener("DOMContentLoaded", async () => {
       bindFolderClickEvents("topBarTitle click");
     });
   } catch (e) {
-    alert(`⚠️ 无法加载书签: ${e.message}\n您可以点击"导入书签"手动上传。`);
+    alert(`⚠️ 无法加载书签: ${e.message}\n您可以点击“导入书签”手动上传。`);
     // 地址栏不改动（保留原样）
   }
 });
 
-/* ---------------- 加载按钮逻辑（手动加载远程文件） ---------------- */
+/* ---------------- 加载按钮逻辑（只在用户输入文件名时显示 ?data=xxx） ---------------- */
 const loadBtn = document.getElementById("load-btn");
 if (loadBtn) {
   loadBtn.addEventListener("click", async () => {
     const defaultPath = DEFAULT_FILE; // "bookmarks"
-    const input = prompt("请输入远程文件名（如 bookmarks ）或完整 URL", defaultPath);
+    const input = prompt("请输入文件名（如 bookmarks ）或完整 URL", defaultPath);
     if (!input) return;
 
     try {
       let dataUrl, shortParam = null;
 
       if (input.startsWith("http")) {
-        // 完整 URL
+        // 完整 URL：不改地址栏（用户显式给出完整 URL）
         dataUrl = input;
       } else {
-        // 远程简写名
         const cleanName = input.replace(/\.json$/i, "");
-        dataUrl = `${REMOTE_DATA_BASE}${cleanName}.json?token=${DEFAULT_TOKEN}`;
+        dataUrl = `${DATA_BASE}${cleanName}.json?token=${DEFAULT_TOKEN}`;
         shortParam = cleanName;
       }
 
       await loadBookmarks(dataUrl);
 
-      // 只有当用户输入的是简写名时，才在地址栏显示 ?data=短名
+      // 只有当用户输入的是简写（短名）时，才在地址栏显示 ?data=短名
       if (shortParam) {
         const shortUrl = `${location.origin}${location.pathname}?data=${encodeURIComponent(shortParam)}`;
         history.replaceState(null, "", shortUrl);
+      } else {
+        // 输入完整 URL 时，不改变地址栏 —— 保持为根或原有 ?data
       }
-      // 输入完整 URL 时，不改变地址栏
 
     } catch (e) {
-      alert(`⚠️ 远程加载失败：${e.message}`);
+      alert(`⚠️ 加载失败：${e.message}`);
     } finally {
       // 20 秒后自动关闭导入弹窗（保持原逻辑）
       setTimeout(() => {
