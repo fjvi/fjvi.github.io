@@ -212,24 +212,6 @@
                     "syncing": true,
                     "title": "庭院设计720",
                     "url": "https://www.720yun.com/vr/82fj5Oenrw0"
-                  },
-                  {
-                    "dateAdded": 1760203968016,
-                    "id": "979",
-                    "index": 7,
-                    "parentId": "19",
-                    "syncing": true,
-                    "title": "扩展设置",
-                    "url": "chrome-extension://bpchmgblmojinbogghdgnjeegojpnnmm/settings/settings.html"
-                  },
-                  {
-                    "dateAdded": 1760206652563,
-                    "id": "985",
-                    "index": 8,
-                    "parentId": "19",
-                    "syncing": true,
-                    "title": "data/bookmarks.json at main · fjvi/data",
-                    "url": "https://github.com/fjvi/data/blob/main/bookmarks.json"
                   }
                 ],
                 "dateAdded": 1728149124774,
@@ -356,7 +338,7 @@
                 "index": 12,
                 "parentId": "2",
                 "syncing": true,
-                "title": "图欧资源导航",
+                "title": "图欧资源",
                 "url": "https://tuostudy.upnb.top/"
               }
             ],
@@ -370,6 +352,36 @@
           },
           {
             "children": [
+              {
+                "children": [
+                  {
+                    "dateAdded": 1759954302563,
+                    "dateLastUsed": 1759997756781,
+                    "id": "900",
+                    "index": 0,
+                    "parentId": "62",
+                    "syncing": true,
+                    "title": "bookmarks文件",
+                    "url": "chrome-extension://bpchmgblmojinbogghdgnjeegojpnnmm/viewer/viewer.html?raw=bookmarks__NL__bookmarks_2024_10_3__NL__hub__NL__sheji__NL__test"
+                  },
+                  {
+                    "dateAdded": 1759999815927,
+                    "id": "901",
+                    "index": 1,
+                    "parentId": "62",
+                    "syncing": true,
+                    "title": "api.mgt.xx.kg/token",
+                    "url": "chrome-extension://bpchmgblmojinbogghdgnjeegojpnnmm/viewer/viewer.html?raw=https%3A%2F%2Fapi.mgt.xx.kg%2Fdata%2Fbookmarks.json%3Ftoken%3Dread692"
+                  }
+                ],
+                "dateAdded": 1747741971293,
+                "dateGroupModified": 1760013287928,
+                "id": "62",
+                "index": 0,
+                "parentId": "45",
+                "syncing": true,
+                "title": "🟨 便签"
+              },
               {
                 "children": [
                   {
@@ -466,40 +478,10 @@
                 "dateAdded": 1759740208920,
                 "dateGroupModified": 1760361608165,
                 "id": "46",
-                "index": 0,
-                "parentId": "45",
-                "syncing": true,
-                "title": "📜 代码"
-              },
-              {
-                "children": [
-                  {
-                    "dateAdded": 1759954302563,
-                    "dateLastUsed": 1759997756781,
-                    "id": "900",
-                    "index": 0,
-                    "parentId": "62",
-                    "syncing": true,
-                    "title": "bookmarks文件",
-                    "url": "chrome-extension://bpchmgblmojinbogghdgnjeegojpnnmm/viewer/viewer.html?raw=bookmarks__NL__bookmarks_2024_10_3__NL__hub__NL__sheji__NL__test"
-                  },
-                  {
-                    "dateAdded": 1759999815927,
-                    "id": "901",
-                    "index": 1,
-                    "parentId": "62",
-                    "syncing": true,
-                    "title": "api.mgt.xx.kg/token",
-                    "url": "chrome-extension://bpchmgblmojinbogghdgnjeegojpnnmm/viewer/viewer.html?raw=https%3A%2F%2Fapi.mgt.xx.kg%2Fdata%2Fbookmarks.json%3Ftoken%3Dread692"
-                  }
-                ],
-                "dateAdded": 1747741971293,
-                "dateGroupModified": 1760013287928,
-                "id": "62",
                 "index": 1,
                 "parentId": "45",
                 "syncing": true,
-                "title": "🟨 便签"
+                "title": "📜 代码"
               },
               {
                 "children": [
@@ -813,7 +795,7 @@
               }
             ],
             "dateAdded": 1748940563536,
-            "dateGroupModified": 1760207730190,
+            "dateGroupModified": 1760410612319,
             "id": "45",
             "index": 1,
             "parentId": "1",
@@ -1508,7 +1490,7 @@
               },
               {
                 "dateAdded": 1747647146610,
-                "dateLastUsed": 1760353511454,
+                "dateLastUsed": 1760430145065,
                 "id": "196",
                 "index": 2,
                 "parentId": "126",
@@ -1596,7 +1578,7 @@
               },
               {
                 "dateAdded": 1728289132080,
-                "dateLastUsed": 1760329997237,
+                "dateLastUsed": 1760423067505,
                 "id": "204",
                 "index": 11,
                 "parentId": "126",
@@ -7738,7 +7720,7 @@
       {
         "children": [],
         "dateAdded": 1707645589983,
-        "dateGroupModified": 1759772503587,
+        "dateGroupModified": 1760456185488,
         "folderType": "other",
         "id": "854",
         "index": 1,
@@ -7747,7 +7729,7 @@
         "title": "其他书签"
       }
     ],
-    "dateAdded": 1760372791481,
+    "dateAdded": 1760451895996,
     "id": "0",
     "syncing": false,
     "title": ""
