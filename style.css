@@ -1,7 +1,113 @@
+/* === CSS 变量定义 === */
+:root {
+    /* 浅色主题变量 */
+    --bg-color: #f5f5f5;
+    --text-color: #333;
+    --top-bar-bg: #333;
+    --top-bar-color: #ddd;
+    --search-bg: #444;
+    --search-color: white;
+    --bottom-bar-bg: #333;
+    --bottom-bar-color: #ddd;
+    --button-hover-bg: #4CAF50;
+    
+    /* 菜单背景色 */
+    --level-2-bg: #ddd;
+    --level-3-bg: #f1ebd8;
+    --level-4-bg: #d5e6ff;
+    
+    /* 菜单边框色 */
+    --level-2-border: #bbb;
+    --level-3-border: #e7c8a0;
+    --level-4-border: #91a5c9;
+    
+    /* 菜单悬停色 */
+    --menu-hover-bg: #99d3fd;
+    --menu-hover-color: #b94152;
+    
+    /* 展开菜单色 */
+    --level-2-open-bg: #b94152;
+    --level-3-open-bg: #ffb75a;
+    --level-4-open-bg: #5a93ff;
+    --open-color: #fff;
+    
+    /* 书签链接 */
+    --bookmark-bg: #f8f8f8;
+    --bookmark-color: #333;
+    --bookmark-hover-bg: #99d3fd;
+    
+    /* Chrome Extension 组件 */
+    --extension-header-bg: #fffbe6;
+    --extension-header-border: #ffc107;
+    --extension-header-hover: #fdf2b3;
+    --extension-content-bg: white;
+    --extension-open-bg: #ffc107;
+    
+    /* 弹窗 */
+    --modal-bg: #fefefe;
+    --modal-border: #888;
+    --modal-upload-btn-bg: #007bff;
+    --modal-upload-btn-hover: #0056b3;
+}
+
+/* 黑夜主题变量 */
+[data-theme="dark"] {
+    --bg-color: #1a1a1a;
+    --text-color: #cbc9c9;
+    --top-bar-bg: #2d2d2d;
+    --top-bar-color: #e0e0e0;
+    --search-bg: #444;
+    --search-color: #e0e0e0;
+    --bottom-bar-bg: #2d2d2d;
+    --bottom-bar-color: #e0e0e0;
+    --button-hover-bg: #555;
+    
+    /* 菜单背景色 */
+    --level-2-bg: #252525;
+    --level-3-bg: #3a3a3a;
+    --level-4-bg: #444;
+    
+    /* 菜单边框色 */
+    --level-2-border: #444;
+    --level-3-border: #555;
+    --level-4-border: #666;
+    
+    /* 菜单悬停色 */
+    --menu-hover-bg: #4a5568;
+    --menu-hover-color: #63b3ed;
+    
+    /* 展开菜单色 */
+    --level-2-open-bg: #b94152;
+    --level-3-open-bg: #ffb75a;
+    --level-4-open-bg: #5a93ff;
+    --open-color: #ddd;
+    
+    /* 书签链接 */
+    --bookmark-bg: #1e1e1e;
+    --bookmark-color: #e0e0e0;
+    --bookmark-hover-bg: #4a5568;
+    
+    /* Chrome Extension 组件 */
+    --extension-header-bg: #2d3748;
+    --extension-header-border: #4a5568;
+    --extension-header-hover: #4a5568;
+    --extension-content-bg: #2d3748;
+    --extension-open-bg: #2c5282;
+    
+    /* 弹窗 */
+    --modal-bg: #2d3748;
+    --modal-border: #4a5568;
+    --modal-upload-btn-bg: #2b6cb0;
+    --modal-upload-btn-hover: #2c5282;
+}
+
 /* 框架属性 */
 * {
     margin: 0;
     padding: 0;
+    border: none;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
 }
 
 html {
@@ -15,20 +121,21 @@ body {
     max-width: 720px;
     margin: 0 auto;
     font-family: sans-serif;
-    background: #f5f5f5;
+    background: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
 }
 
 /* 栏目属性 */
 ul.accordion-menu,
 ul.accordion-submenu,
 ul.search-results {
-    /* 新增搜索结果列表样式 */
     list-style: none;
     padding: 0;
     margin: 0;
 }
 li.open {
-    border-bottom: 1px solid #ffb75a;
+    border-bottom: 1px solid var(--level-3-open-bg);
 }
 .accordion-menu li>a {
     display: block;
@@ -36,7 +143,7 @@ li.open {
     cursor: pointer;
     text-decoration: none;
     font-size: 1rem;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid var(--level-2-border);
 }
 
 .accordion-menu li.open>a.menu-item {
@@ -53,18 +160,18 @@ li.open {
 
 /* 顶部栏样式 */
 .top-bar {
-    background-color: #333;
-    color: #ddd;
+    background-color: var(--top-bar-bg);
+    color: var(--top-bar-color);
     font-size: 1.6rem;
     padding: 10px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .top-bar-content {
     width: 100%;
-    /* 占据整行 */
     display: flex;
     align-items: center;
     gap: 20px;
@@ -82,37 +189,56 @@ li.open {
     align-items: center;
     cursor: pointer;
     display: var(--title-display, flex);
-    /* 使用 CSS 变量 */
+}
+
+/* 主题切换按钮 */
+.theme-toggle {
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 8px;
+    margin-left: auto;
+    transition: transform 0.3s;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.1);
 }
 
 @media (max-width: 480px) {
     .top-bar.searching .top-bar-content .top-bar-title span {
-        display: none !important;        /* 使用 !important */
-		  .top-bar.searching {
-    position: relative; /* 关键点：创建新定位上下文 */
-  }
-
-  /* 搜索框精准定位 */
-  .searching .search-box {
-    position: absolute;
-    left: 0px; /* 等于logo宽度 */
-    width: auto;
-    top: 10px;
-    z-index: 100;
-  }
+        display: none !important;
+    }
+    .top-bar.searching {
+        position: relative;
+    }
+    .searching .search-box {
+        position: absolute;
+        left: 0px;
+        width: auto;
+        top: 10px;
+        z-index: 100;
     }
 }
 
-.search-container {
+.right-bar {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* 居中显示搜索框 */
 }
 
 .search-icon {
+    
+    background: none;
+    border: none;
+    color: inherit;
     cursor: pointer;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    padding: 8px;
+    margin-left: auto;
+    transition: transform 0.3s;
 }
 
 .search-box {
@@ -120,23 +246,24 @@ li.open {
     padding: 6px 10px;
     border-radius: 4px;
     border: none;
-    background: #444;
-    color: white;
+    background: var(--search-bg);
+    color: var(--search-color);
     font-size: 1.2rem;
     width: 280px;
     margin: auto 10px;
     flex-grow: 1;
-    /* 新增：允许扩展 */
+    transition: background-color 0.3s, color 0.3s;
 }
 
-/* 底部功能栏 - 保持与一级菜单相同样式 */
+/* 底部功能栏 */
 .bottom-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333;
-    color: #ddd;
+    background-color: var(--bottom-bar-bg);
+    color: var(--bottom-bar-color);
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .bottom-bar button {
@@ -147,11 +274,11 @@ li.open {
     cursor: pointer;
     padding: 8px 16px;
     border-radius: 4px;
-    transition: background-color 0.2s;
+    transition: background-color 0.3s;
 }
 
 .bottom-bar button:hover {
-    background-color: #4CAF50;
+    background-color: var(--button-hover-bg);
 }
 
 /* 隐藏一级菜单栏但保留其子菜单 */
@@ -168,15 +295,16 @@ li.open {
 .level-2>a.menu-item {
     box-sizing: border-box;
     padding: 10px 30px;
-    background-color: #ddd;
-    border-bottom: 1px solid #bbb;
+    background-color: var(--level-2-bg);
+    border-bottom: 1px solid var(--level-2-border);
     font-size: 1.4rem;
-    color: #333;
+    color: var(--text-color);
+    transition: all 0.3s;
 }
 
 .level-2>a.menu-item:hover {
-    background-color: #99d3fd;
-    color: #b94152;
+    background-color: var(--menu-hover-bg);
+    color: var(--menu-hover-color);
     font-weight: bold;
 }
 
@@ -184,15 +312,16 @@ li.open {
 .level-3>a.menu-item {
     padding: 8px 30px;
     margin: 0px auto;
-    background-color: #f1ebd8;
-    border-bottom: 1px solid  #e7c8a0;
+    background-color: var(--level-3-bg);
+    border-bottom: 1px solid var(--level-3-border);
     font-size: 1.3rem;
-    color: #333;
+    color: var(--text-color);
+    transition: all 0.3s;
 }
 
 .level-3>a.menu-item:hover {
-    background-color: #99d3fd;
-    color: #b94152;
+    background-color: var(--menu-hover-bg);
+    color: var(--menu-hover-color);
     font-weight: bold;
 }
 
@@ -200,22 +329,23 @@ li.open {
 .level-4>a.menu-item {
     padding: 8px 30px;
     margin: 0px auto;
-    background-color: #d5e6ff;
-    border-bottom: 1px solid #91a5c9;
+    background-color: var(--level-4-bg);
+    border-bottom: 1px solid var(--level-4-border);
     font-size: 1.2rem;
-    color: #333;
+    color: var(--text-color);
+    transition: all 0.3s;
 }
 
 .level-4>a.menu-item:hover {
-    background-color: #99d3fd;
-    color: #b94152;
+    background-color: var(--menu-hover-bg);
+    color: var(--menu-hover-color);
     font-weight: bold;
 }
 
 /* ========== 展开菜单栏属性 ========== */
 .level-2.open>a {
-    background-color: #b94152;
-    color: #fff;
+    background-color: var(--level-2-open-bg);
+    color: var(--open-color);
     font-weight: bold;
     padding: 10px 40px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
@@ -225,22 +355,22 @@ li.open {
 }
 
 .level-3.open>a {
-    background-color: #ffb75a;
-    color: #fff;
+    background-color: var(--level-3-open-bg);
+    color: var(--open-color);
     font-weight: bold;
     padding: 9px 40px;
     position: sticky;
-    top: 0; /* 二级菜单高度 */
+    top: 0;
     z-index: 20;
 }
 
 .level-4.open>a {
-    background-color: #5a93ff;
-    color: #fff;
+    background-color: var(--level-4-open-bg);
+    color: var(--open-color);
     font-weight: bold;
     padding: 9px 40px;
     position: sticky;
-    top: 0; /* 二级+三级菜单高度 */
+    top: 0;
     z-index: 30;
 }
 
@@ -248,22 +378,23 @@ li.open {
 a.bookmark-link {
     display: inline-flex;
     align-items: center;
-    background-color: #f8f8f8;
-    color: #333;
+    background-color: var(--bookmark-bg);
+    color: var(--bookmark-color);
     text-decoration: none;
     padding: 4px 8px;
     gap: 8px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    transition: all 0.3s;
 }
 
 a.bookmark-link:hover {
-    background-color: #99d3fd;
-    border-bottom: 1px solid #bbb;
+    background-color: var(--bookmark-hover-bg);
+    border-bottom: 1px solid var(--level-2-border);
     font-size: 1.3rem;
-    color: #b94152;
-	text-decoration:none;
+    color: var(--menu-hover-color);
+    text-decoration: none;
 }
 
 .favicon-icon {
@@ -271,75 +402,75 @@ a.bookmark-link:hover {
     height: 16px;
     margin-right: 10px;
     vertical-align: middle;
-	border-radius: 8px;
-    /* 垂直居中 */
+    border-radius: 8px;
 }
    
 /* === 复制文本项样式 === */
 .chrome-extension-wrapper {
-  margin: 0;
-  overflow: hidden;
+    margin: 0;
+    overflow: hidden;
 }
 
 .chrome-extension-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 20px;
-  background-color: #fffbe6;
-  border-bottom: 1px solid #ffc107;
-  cursor: pointer;
-  user-select: none;
-  transition: background-color 0.2s;
-  border-left: 4px solid #ffc107;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: var(--extension-header-bg);
+    border-bottom: 1px solid var(--extension-header-border);
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s;
+    border-left: 4px solid var(--extension-header-border);
 }
 
 .chrome-extension-header:hover {
-  background-color: #fdf2b3;
+    background-color: var(--extension-header-hover);
 }
 
 .chrome-extension-title {
-  flex: 1;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .chrome-extension-copy {
-  margin-left: 10px;
-  cursor: pointer;
-  opacity: 0.7;
-  transition: opacity 0.2s;
+    margin-left: 10px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.2s;
 }
 
 .chrome-extension-copy:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 .chrome-extension-content {
-  margin: 0;
-  padding: 15px;
-  background: white;
-  border-top: 1px solid #eee;
-  max-height: 560px;
-  overflow: auto;
-  white-space: pre-wrap;
-  font-family: monospace;
-  line-height: 1.5;
-  display: none;
+    margin: 0;
+    padding: 15px;
+    background: var(--extension-content-bg);
+    border-top: 1px solid var(--level-3-border);
+    max-height: 560px;
+    overflow: auto;
+    white-space: pre-wrap;
+    font-family: monospace;
+    line-height: 1.5;
+    display: none;
+    transition: background-color 0.3s;
 }
 
 /* 展开状态 */
 .chrome-extension-wrapper.open .chrome-extension-content {
-  display: block;
-
+    display: block;
 }
+
 .chrome-extension-wrapper.open .chrome-extension-header {
-    background-color: #ffc107;
-	color: #b94152;
-	font-weight: bold;
-	font-size: 1.2rem;
-	letter-spacing: 4px;
+    background-color: var(--extension-open-bg);
+    color: var(--menu-hover-color);
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 4px;
     height: 26px;
     position: sticky;
     top: 0;
@@ -348,27 +479,26 @@ a.bookmark-link:hover {
 
 /* 修复书签加载状态 */
 .bookmark-loading {
-  padding: 20px;
-  text-align: center;
-  color: #666;
+    padding: 20px;
+    text-align: center;
+    color: #666;
 }
 
 .bookmark-error {
-  padding: 20px;
-  text-align: center;
-  color: #d32f2f;
+    padding: 20px;
+    text-align: center;
+    color: #d32f2f;
 }
 
 .retry-btn {
-  margin-top: 10px;
-  padding: 8px 16px;
-  background-color: #4a90e2;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
-
 
 /* 弹窗样式 */
 .modal {
@@ -380,19 +510,20 @@ a.bookmark-link:hover {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.4); /* 半透明背景 */
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; /* 居中显示 */
+    background-color: var(--modal-bg);
+    margin: 15% auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid var(--modal-border);
     width: 80%;
     max-width: 500px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: background-color 0.3s, border-color 0.3s;
 }
 
 .close {
@@ -412,29 +543,31 @@ a.bookmark-link:hover {
 
 #modal-bookmark-file {
     margin: 20px;
-    padding: 10px 15px; /* 调整内边距 */
-    border: none; /* 移除边框 */
-    border-radius: 5px; /* 圆角 */
-    cursor: pointer; /* 鼠标悬停时显示手型 */
-    font-size: 14px; /* 字体大小 */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
 }
 
 #modal-upload-btn {
     margin: 20px;
-    background-color: #007bff; /* 蓝色背景 */
-    color: #fff; /* 白色文字 */
-    padding: 10px 15px; /* 调整内边距 */
-    border: none; /* 移除边框 */
-    border-radius: 5px; /* 圆角 */
-    cursor: pointer; /* 鼠标悬停时显示手型 */
-    font-size: 14px; /* 字体大小 */
+    background-color: var(--modal-upload-btn-bg);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
 }
 
 #modal-upload-btn:hover {
-    background-color: #0056b3; /* 鼠标悬停时加深颜色 */
+    background-color: var(--modal-upload-btn-hover);
 }
+
 @keyframes shan {
-    0% ,100%{
+    0%, 100% {
         color: #f93853;
         text-shadow: 4px 2px 4px #666;
     }

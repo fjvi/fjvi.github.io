@@ -1,3 +1,27 @@
+// ========== 主题管理 ==========
+const themeToggle = document.getElementById("theme-toggle");
+const currentTheme = localStorage.getItem("theme") || "light";
+
+// 应用保存的主题
+document.documentElement.setAttribute("data-theme", currentTheme);
+updateThemeButton(currentTheme);
+
+// 主题切换事件
+themeToggle.addEventListener("click", () => {
+    const currentTheme = document.documentElement.getAttribute("data-theme");
+    const newTheme = currentTheme === "light" ? "dark" : "light";
+    
+    document.documentElement.setAttribute("data-theme", newTheme);
+    localStorage.setItem("theme", newTheme);
+    updateThemeButton(newTheme);
+});
+
+// 更新主题按钮图标
+function updateThemeButton(theme) {
+    themeToggle.textContent = theme === "light" ? "☾" : "☼";
+    themeToggle.title = theme === "light" ? "切换到黑夜主题" : "切换到白天主题";
+}
+
 const fileInput = document.getElementById("bookmark-file");
 const importBtn = document.getElementById("import-btn");
 const bookmarkTree = document.getElementById("bookmarkTree");
@@ -337,12 +361,30 @@ function resolveDataUrlFromLocation() {
       cameFromUrlParam: true,
       isLocal: false
     };
-  } else {
-    // 简写模式：拼接完整远程 URL
-    const clean = dataParam.replace(/\.json$/i, "");
+  } else if (dataParam.startsWith("data/")) {
+    // data/前缀：使用Data API
+    const fileName = dataParam.substring(5);
     return {
-      dataUrl: `${REMOTE_DATA_BASE}${clean}.json?token=${DEFAULT_TOKEN}`,
-      shortParam: clean,
+      dataUrl: `${REMOTE_DATA_BASE}${fileName}.json?token=${DEFAULT_TOKEN}`,
+      shortParam: dataParam, // 🔥 保持 data/ 前缀
+      cameFromUrlParam: true,
+      isLocal: false
+    };
+  } else if (dataParam.startsWith("kv/")) {
+    // kv/前缀：使用KV API
+    const fileName = dataParam.substring(3);
+    return {
+      dataUrl: `https://api.mgt.xx.kg/kv/${fileName}?token=${DEFAULT_TOKEN}`,
+      shortParam: dataParam, // 🔥 保持 kv/ 前缀
+      cameFromUrlParam: true,
+      isLocal: false
+    };
+  } else {
+    // 默认：使用Data API（向后兼容）
+    const fileName = dataParam.replace(/\.json$/i, "");
+    return {
+      dataUrl: `${REMOTE_DATA_BASE}${fileName}.json?token=${DEFAULT_TOKEN}`,
+      shortParam: fileName,
       cameFromUrlParam: true,
       isLocal: false
     };
@@ -395,7 +437,7 @@ const loadBtn = document.getElementById("load-btn");
 if (loadBtn) {
   loadBtn.addEventListener("click", async () => {
     const defaultPath = DEFAULT_FILE; // "bookmarks"
-    const input = prompt("请输入远程文件名（如 bookmarks ）或完整 URL", defaultPath);
+    const input = prompt("请输入文件名（如 bookmarks）、data/文件名 或 kv/文件名", defaultPath);
     if (!input) return;
 
     try {
@@ -404,16 +446,26 @@ if (loadBtn) {
       if (input.startsWith("http")) {
         // 完整 URL
         dataUrl = input;
+      } else if (input.startsWith("data/")) {
+        // data/前缀：使用Data API
+        const fileName = input.substring(5).replace(/\.json$/i, "");
+        dataUrl = `${REMOTE_DATA_BASE}${fileName}.json?token=${DEFAULT_TOKEN}`;
+        shortParam = input; // 🔥 保持 data/ 前缀
+      } else if (input.startsWith("kv/")) {
+        // kv/前缀：使用KV API
+        const fileName = input.substring(3).replace(/\.json$/i, "");
+        dataUrl = `https://api.mgt.xx.kg/kv/${fileName}?token=${DEFAULT_TOKEN}`;
+        shortParam = input; // 🔥 保持 kv/ 前缀
       } else {
-        // 远程简写名
-        const cleanName = input.replace(/\.json$/i, "");
-        dataUrl = `${REMOTE_DATA_BASE}${cleanName}.json?token=${DEFAULT_TOKEN}`;
-        shortParam = cleanName;
+        // 默认：使用Data API（向后兼容）
+        const fileName = input.replace(/\.json$/i, "");
+        dataUrl = `${REMOTE_DATA_BASE}${fileName}.json?token=${DEFAULT_TOKEN}`;
+        shortParam = fileName;
       }
 
       await loadBookmarks(dataUrl);
 
-      // 只有当用户输入的是简写名时，才在地址栏显示 ?data=短名
+      // 更新地址栏
       if (shortParam) {
         const shortUrl = `${location.origin}${location.pathname}?data=${encodeURIComponent(shortParam)}`;
         history.replaceState(null, "", shortUrl);
@@ -448,13 +500,22 @@ window.addEventListener("popstate", async () => {
 
 // 修改后的 loadBookmarks（保持原接口）
 async function loadBookmarks(url) {
-  const processedUrl = url.startsWith('http') ? url :
-                       url.startsWith('data/') ? url : `data/${url}`;
   try {
-    const res = await fetch(processedUrl);
+    // 🔥 处理不同的URL类型
+    let fetchUrl = url;
+    if (!url.startsWith('http') && !url.startsWith('data/')) {
+      fetchUrl = `data/${url}`;
+    }
+
+    const res = await fetch(fetchUrl);
     if (!res.ok) throw new Error("获取失败");
 
-    const json = await res.json();
+    const rawData = await res.json();
+    
+    // 🔥 新增：统一数据提取
+    const json = extractBookmarkData(rawData);
+    if (!json) throw new Error("数据格式不支持");
+
     rawJSON = JSON.stringify(json, null, 2);
 
     // 尽量兼容多个书签 JSON 结构
@@ -481,6 +542,37 @@ async function loadBookmarks(url) {
   } catch (e) {
     alert(`⚠️ 无法加载书签: ${e.message}`);
   }
+}
+
+// 🔥 新增：统一数据提取方法
+function extractBookmarkData(rawData) {
+  // 1. 处理Worker KV API的封装格式
+  if (rawData && rawData.success !== undefined && rawData.data !== undefined) {
+    console.log('检测到Worker KV封装格式');
+    rawData = rawData.data;
+  }
+  
+  // 2. 处理应用层封装格式 {version, source, data: [...]}
+  if (rawData && rawData.data && Array.isArray(rawData.data)) {
+    console.log('检测到应用层封装格式');
+    return rawData.data;
+  }
+  
+  // 3. 处理直接数组格式 [...]
+  if (Array.isArray(rawData)) {
+    console.log('检测到直接数组格式');
+    return rawData;
+  }
+  
+  // 4. 处理对象格式但包含children {children: [...]}
+  if (rawData && rawData.children && Array.isArray(rawData.children)) {
+    console.log('检测到对象格式，使用children');
+    return [rawData]; // 包装成数组以保持格式一致
+  }
+  
+  // 无法识别的格式
+  console.warn('无法识别的数据格式:', rawData);
+  return rawData;
 }
 
 // ✅ 点击 "导入" 按钮显示弹窗
