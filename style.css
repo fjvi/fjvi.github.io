@@ -64,7 +64,7 @@
     
     /* 菜单背景色 */
     --level-2-bg: #252525;
-    --level-3-bg: #3a3a3a;
+    --level-3-bg: #1a202b;
     --level-4-bg: #444;
     
     /* 菜单边框色 */
@@ -78,12 +78,12 @@
     
     /* 展开菜单色 */
     --level-2-open-bg: #b94152;
-    --level-3-open-bg: #ffb75a;
+    --level-3-open-bg: #bf8132;
     --level-4-open-bg: #5a93ff;
     --open-color: #ddd;
     
     /* 书签链接 */
-    --bookmark-bg: #1e1e1e;
+    --bookmark-bg: #0e1014;
     --bookmark-color: #e0e0e0;
     --bookmark-hover-bg: #4a5568;
     
