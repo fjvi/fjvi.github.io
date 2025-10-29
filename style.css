@@ -64,7 +64,7 @@
     
     /* 菜单背景色 */
     --level-2-bg: #252525;
-    --level-3-bg: #1a202b;
+    --level-3-bg: #24251f;
     --level-4-bg: #444;
     
     /* 菜单边框色 */
@@ -74,7 +74,7 @@
     
     /* 菜单悬停色 */
     --menu-hover-bg: #4a5568;
-    --menu-hover-color: #63b3ed;
+    --menu-hover-color: #b94152;
     
     /* 展开菜单色 */
     --level-2-open-bg: #b94152;
@@ -83,8 +83,8 @@
     --open-color: #ddd;
     
     /* 书签链接 */
-    --bookmark-bg: #0e1014;
-    --bookmark-color: #e0e0e0;
+    --bookmark-bg: #1f232b;
+    --bookmark-color: #cbc9c9;
     --bookmark-hover-bg: #4a5568;
     
     /* Chrome Extension 组件 */
