@@ -326,8 +326,7 @@ searchBox.addEventListener("input", () => {
 });
 
 // ✅ 页面加载时自动尝试加载本地书签文件
-// 配置区 —— 根据你项目需要调整
-const LOCAL_DATA_PATH = "data/bookmarks.json";   // 本地书签文件路径
+const LOCAL_DATA_PATH = "data/bookmarks";   // 本地书签文件路径
 const REMOTE_DATA_BASE = "https://api.mgt.xx.kg/data/"; // 远程数据基址
 const DEFAULT_TOKEN = "read692";                 // 默认 token
 const DEFAULT_FILE = "bookmarks";                // 默认文件名
@@ -365,7 +364,7 @@ function resolveDataUrlFromLocation() {
     // data/前缀：使用Data API
     const fileName = dataParam.substring(5);
     return {
-      dataUrl: `${REMOTE_DATA_BASE}${fileName}.json?token=${DEFAULT_TOKEN}`,
+      dataUrl: `${REMOTE_DATA_BASE}${fileName}?token=${DEFAULT_TOKEN}`,
       shortParam: dataParam, // 🔥 保持 data/ 前缀
       cameFromUrlParam: true,
       isLocal: false
@@ -381,9 +380,9 @@ function resolveDataUrlFromLocation() {
     };
   } else {
     // 默认：使用Data API（向后兼容）
-    const fileName = dataParam.replace(/\.json$/i, "");
+    const fileName = dataParam.replace(/\$/i, "");
     return {
-      dataUrl: `${REMOTE_DATA_BASE}${fileName}.json?token=${DEFAULT_TOKEN}`,
+      dataUrl: `${REMOTE_DATA_BASE}${fileName}?token=${DEFAULT_TOKEN}`,
       shortParam: fileName,
       cameFromUrlParam: true,
       isLocal: false
@@ -448,18 +447,18 @@ if (loadBtn) {
         dataUrl = input;
       } else if (input.startsWith("data/")) {
         // data/前缀：使用Data API
-        const fileName = input.substring(5).replace(/\.json$/i, "");
-        dataUrl = `${REMOTE_DATA_BASE}${fileName}.json?token=${DEFAULT_TOKEN}`;
+        const fileName = input.substring(5).replace(/\$/i, "");
+        dataUrl = `${REMOTE_DATA_BASE}${fileName}?token=${DEFAULT_TOKEN}`;
         shortParam = input; // 🔥 保持 data/ 前缀
       } else if (input.startsWith("kv/")) {
         // kv/前缀：使用KV API
-        const fileName = input.substring(3).replace(/\.json$/i, "");
+        const fileName = input.substring(3).replace(/\$/i, "");
         dataUrl = `https://api.mgt.xx.kg/kv/${fileName}?token=${DEFAULT_TOKEN}`;
         shortParam = input; // 🔥 保持 kv/ 前缀
       } else {
         // 默认：使用Data API（向后兼容）
-        const fileName = input.replace(/\.json$/i, "");
-        dataUrl = `${REMOTE_DATA_BASE}${fileName}.json?token=${DEFAULT_TOKEN}`;
+        const fileName = input.replace(/\$/i, "");
+        dataUrl = `${REMOTE_DATA_BASE}${fileName}?token=${DEFAULT_TOKEN}`;
         shortParam = fileName;
       }
 
@@ -533,7 +532,7 @@ async function loadBookmarks(url) {
 
     // 更新 URL 参数但不刷新页面
     const newUrl = new URL(window.location);
-    if (url !== "data/bookmarks.json") {
+    if (url !== "data/bookmarks") {
       newUrl.searchParams.set('data', url);
     } else {
       newUrl.searchParams.delete('data');
@@ -616,7 +615,7 @@ modalUploadBtn?.addEventListener("click", async () => {
   if (!token) return alert("❌ 未提供 Token，上传已取消");
 
   const repo = "fjvi/data";
-  const path = "backup.json";
+  const path = "backup";
   const branch = "main";
   const getURL = `https://api.github.com/repos/${repo}/contents/${path}`;
   let sha = null;
@@ -694,7 +693,7 @@ exportBtn?.addEventListener("click", async () => {
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = "bookmarks.json";
+      a.download = "bookmarks";
       a.click();
       URL.revokeObjectURL(url);
     } else {
