@@ -2843,9 +2843,18 @@
                 "url": "https://github.com/topics/cloudflare"
               },
               {
+                "dateAdded": 1762704551042,
+                "id": "1110",
+                "index": 14,
+                "parentId": "225",
+                "syncing": true,
+                "title": "本周热门仓库",
+                "url": "https://github.com/trending?since=daily"
+              },
+              {
                 "dateAdded": 1762620430078,
                 "id": "1081",
-                "index": 14,
+                "index": 15,
                 "parentId": "225",
                 "syncing": true,
                 "title": " GitHub 短信验证",
@@ -2854,24 +2863,15 @@
               {
                 "dateAdded": 1762704452826,
                 "id": "1109",
-                "index": 15,
-                "parentId": "225",
-                "syncing": true,
-                "title": "Awesome",
-                "url": "https://github.com/search?q=Awesome+&type=repositories"
-              },
-              {
-                "dateAdded": 1762704551042,
-                "id": "1110",
                 "index": 16,
                 "parentId": "225",
                 "syncing": true,
-                "title": "本周热门仓库",
-                "url": "https://github.com/trending?since=daily"
+                "title": "Awesome 0",
+                "url": "https://github.com/search?q=Awesome+&type=repositories"
               }
             ],
             "dateAdded": 1740645478211,
-            "dateGroupModified": 1762705618397,
+            "dateGroupModified": 1762710708322,
             "id": "225",
             "index": 3,
             "parentId": "1",
