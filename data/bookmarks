@@ -470,44 +470,44 @@
                 "url": "https://692.xx.kg/"
               },
               {
-                "dateAdded": 1423571553780,
-                "dateLastUsed": 1752858660870,
-                "id": "37",
-                "index": 6,
-                "parentId": "2",
-                "syncing": true,
-                "title": "Google",
-                "url": "https://www.google.com/ncr"
-              },
-              {
                 "dateAdded": 1629118051302,
                 "dateLastUsed": 1755674822995,
                 "id": "38",
-                "index": 7,
+                "index": 6,
                 "parentId": "2",
                 "syncing": true,
                 "title": "YouTube",
                 "url": "https://www.youtube.com/"
               },
               {
-                "dateAdded": 1677593317248,
-                "dateLastUsed": 1756415399541,
-                "id": "39",
-                "index": 8,
+                "dateAdded": 1423571553780,
+                "dateLastUsed": 1752858660870,
+                "id": "37",
+                "index": 7,
                 "parentId": "2",
                 "syncing": true,
-                "title": "🅱ing",
-                "url": "https://www.bing.com/?setmkt=en-US&setlang=en-US"
+                "title": "Google",
+                "url": "https://www.google.com/ncr"
               },
               {
                 "dateAdded": 1426423492788,
                 "dateLastUsed": 1762198878827,
                 "id": "376",
-                "index": 9,
+                "index": 8,
                 "parentId": "2",
                 "syncing": true,
                 "title": "百度",
                 "url": "https://www.baidu.com/"
+              },
+              {
+                "dateAdded": 1677593317248,
+                "dateLastUsed": 1756415399541,
+                "id": "39",
+                "index": 9,
+                "parentId": "2",
+                "syncing": true,
+                "title": "🅱ing",
+                "url": "https://www.bing.com/?setmkt=en-US&setlang=en-US"
               },
               {
                 "dateAdded": 1740666626685,
@@ -561,7 +561,7 @@
               }
             ],
             "dateAdded": 1747300171048,
-            "dateGroupModified": 1762629531108,
+            "dateGroupModified": 1762697399638,
             "id": "2",
             "index": 0,
             "parentId": "1",
@@ -639,7 +639,7 @@
                     "parentId": "80",
                     "syncing": true,
                     "title": "ip.txt@v2rss",
-                    "url": "chrome-extension://bpchmgblmojinbogghdgnjeegojpnnmm/viewer/viewer.html?raw=www.visa.com.hk%23VISA__NL__www.visa.com.sg%23VISA__NL__www.visa.com.tw%23VISA__NL__ali.055500.xyz%23ali__NL__162.159.38.49%23JP__NL__162.159.44.65%23JP__NL__162.159.44.113%23JP__NL__104.18.32.137%23SG__NL__104.18.33.45%23SG__NL__104.18.38.2%23SG__NL__104.18.41.190%23SG__NL__104.18.42.54%23SG__NL__104.18.42.163%23SG__NL__172.64.145.93%23SG__NL__172.64.149.254%23SG__NL__172.64.154.211%23SG__NL__162.159.2.9%23SG__NL__162.159.5.6%23SG__NL__162.159.9.55%23SG__NL__maciej.ns.cloudflare.com%23CF__NL__natasha.ns.cloudflare.com%23CF__NL__arushi.ns.cloudflare.com%23CF__NL__alexa.ns.cloudflare.com%23CF__NL__adele.ns.cloudflare.com%23CF__NL__aida.ns.cloudflare.com%23CF__NL__aaden.ns.cloudflare.com%23CF__NL__anastasia.ns.cloudflare.com%23CF__NL__angelina.ns.cloudflare.com%23CF__NL__ace.ns.cloudflare.com%23CF__NL__bristol.ns.cloudflare.com%23CF__NL__bayan.ns.cloudflare.com%23CF__NL__brad.ns.cloudflare.com%23CF__NL__agustin.ns.cloudflare.com%23CF__NL__aisha.ns.cloudflare.com%23CF__NL__adaline.ns.cloudflare.com%23CF__NL__christina.ns.cloudflare.com%23CF__NL__alan.ns.cloudflare.com%23CF__NL__andronicus.ns.cloudflare.com%23CF__NL__anton.ns.cloudflare.com%23CF__NL__coco.ns.cloudflare.com%23CF__NL__otto.ns.cloudflare.com%23CF"
+                    "url": "chrome-extension://bpchmgblmojinbogghdgnjeegojpnnmm/viewer/viewer.html?raw=saas.sin.fan%23SAAS__NL__162.159.38.49%23JP__NL__162.159.44.65%23JP__NL__162.159.44.113%23JP__NL__108.162.198.71%23JP__NL__108.162.198.71%23JP__NL__104.18.32.137%23SG__NL__104.18.33.45%23SG__NL__104.18.38.2%23SG__NL__104.18.41.190%23SG__NL__104.18.42.54%23SG__NL__162.159.2.9%23SG__NL__162.159.5.6%23SG__NL__162.159.9.55%23SG__NL__172.64.145.93%23SG__NL__172.64.149.254%23SG__NL__172.64.154.211%23SG__NL__ali.ns.cloudflare.com%23CF__NL__maciej.ns.cloudflare.com%23CF__NL__natasha.ns.cloudflare.com%23CF__NL__arushi.ns.cloudflare.com%23CF__NL__alexa.ns.cloudflare.com%23CF__NL__adele.ns.cloudflare.com%23CF__NL__aida.ns.cloudflare.com%23CF__NL__aaden.ns.cloudflare.com%23CF__NL__anastasia.ns.cloudflare.com%23CF__NL__angelina.ns.cloudflare.com%23CF__NL__ace.ns.cloudflare.com%23CF__NL__bristol.ns.cloudflare.com%23CF__NL__bayan.ns.cloudflare.com%23CF__NL__brad.ns.cloudflare.com%23CF__NL__agustin.ns.cloudflare.com%23CF__NL__aisha.ns.cloudflare.com%23CF__NL__adaline.ns.cloudflare.com%23CF__NL__christina.ns.cloudflare.com%23CF__NL__alan.ns.cloudflare.com%23CF__NL__andronicus.ns.cloudflare.com%23CF__NL__anton.ns.cloudflare.com%23CF__NL__coco.ns.cloudflare.com%23CF__NL__otto.ns.cloudflare.com%23CF"
                   },
                   {
                     "dateAdded": 1759389386574,
@@ -734,7 +734,7 @@
                 "dateGroupModified": 1762375359613,
                 "id": "80",
                 "index": 0,
-                "parentId": "45",
+                "parentId": "1105",
                 "syncing": true,
                 "title": "💡 CF优选"
               },
@@ -764,7 +764,7 @@
                 "dateGroupModified": 1760013287928,
                 "id": "62",
                 "index": 1,
-                "parentId": "45",
+                "parentId": "1105",
                 "syncing": true,
                 "title": "🟨 便签"
               },
@@ -865,7 +865,7 @@
                 "dateGroupModified": 1760361608165,
                 "id": "46",
                 "index": 2,
-                "parentId": "45",
+                "parentId": "1105",
                 "syncing": true,
                 "title": "📜 代码"
               },
@@ -931,7 +931,7 @@
                 "dateGroupModified": 1760013287929,
                 "id": "67",
                 "index": 3,
-                "parentId": "45",
+                "parentId": "1105",
                 "syncing": true,
                 "title": "⚡ 命令行"
               },
@@ -940,7 +940,7 @@
                 "dateLastUsed": 1749055226026,
                 "id": "921",
                 "index": 4,
-                "parentId": "45",
+                "parentId": "1105",
                 "syncing": true,
                 "title": "月份英文缩写：",
                 "url": "chrome-extension://bpchmgblmojinbogghdgnjeegojpnnmm/viewer/viewer.html?raw=%E4%B8%80%E6%9C%88+January+%3D+Jan__NL__%E4%BA%8C%E6%9C%88+February+%3D+Feb__NL__%E4%B8%89%E6%9C%88+March+%3D+Mar__NL__%E5%9B%9B%E6%9C%88+April+%3D+Apr__NL__%E4%BA%94%E6%9C%88+May+%3D+May__NL__%E5%85%AD%E6%9C%88+June+%3D+Jun__NL__%E4%B8%83%E6%9C%88+July+%3D+Jul__NL__%E5%85%AB%E6%9C%88+August+%3D+Aug__NL__%E4%B9%9D%E6%9C%88+September+%3D+Sep+%2F+Sept__NL__%E5%8D%81%E6%9C%88+October+%3D+Oct__NL__%E5%8D%81%E4%B8%80%E6%9C%88+November+%3D+Nov__NL__%E5%8D%81%E4%BA%8C%E6%9C%88+December+%3D+Dec&title=%E6%9C%88%E4%BB%BD%E8%8B%B1%E6%96%87%E7%BC%A9%E5%86%99%EF%BC%9A"
@@ -950,7 +950,7 @@
                 "dateLastUsed": 1760015194059,
                 "id": "922",
                 "index": 5,
-                "parentId": "45",
+                "parentId": "1105",
                 "syncing": true,
                 "title": "保存到书签全部代码",
                 "url": "chrome-extension://bpchmgblmojinbogghdgnjeegojpnnmm/viewer/viewer.html?raw=%2F%2F+background.js__NL__chrome.runtime.onInstalled.addListener%28%28%29+%3D%3E+%7B__NL__++chrome.contextMenus.removeAll%28%28%29+%3D%3E+%7B__NL__++++chrome.contextMenus.create%28%7B__NL__++++++id%3A+%22add-selection-to-bookmarks%22%2C__NL__++++++title%3A+%22%E6%B7%BB%E5%8A%A0%E9%80%89%E4%B8%AD%E6%96%87%E6%9C%AC%E5%88%B0%E4%B9%A6%E7%AD%BE%F0%9F%93%8C%22%2C__NL__++++++contexts%3A+%5B%22selection%22%5D__NL__++++%7D%29%3B__NL__++++console.log%28%22%E2%9C%85+%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E5%B7%B2%E5%88%9B%E5%BB%BA%22%29%3B__NL__++%7D%29%3B__NL__%7D%29%3B__NL____NL__chrome.contextMenus.onClicked.addListener%28async+%28info%2C+tab%29+%3D%3E+%7B__NL__++if+%28info.menuItemId+%3D%3D%3D+%22add-selection-to-bookmarks%22%29+%7B__NL__++++const+%5B%7B+result%3A+selection+%7D%5D+%3D+await+chrome.scripting.executeScript%28%7B__NL__++++++target%3A+%7B+tabId%3A+tab.id+%7D%2C__NL__++++++func%3A+%28%29+%3D%3E+window.getSelection%28%29.toString%28%29__NL__++++%7D%29%3B__NL____NL__++++if+%28%21selection%29+%7B__NL__++++++console.warn%28%22%E2%9D%8C+%E6%97%A0%E6%9C%89%E6%95%88%E9%80%89%E4%B8%AD%E6%96%87%E6%9C%AC%22%29%3B__NL__++++++return%3B__NL__++++%7D__NL____NL__++++const+query+%3D+new+URLSearchParams%28%7B+raw%3A+selection+%7D%29.toString%28%29%3B__NL__++++chrome.windows.create%28%7B__NL__++++++url%3A+%60viewer%2Feditor.html%3F%24%7Bquery%7D%60%2C__NL__++++++type%3A+%22popup%22%2C__NL__++++++width%3A+500%2C__NL__++++++height%3A+400__NL__++++%7D%29%3B__NL__++%7D__NL__%7D%29%3B__NL____NL__%2F%2F+editor.js%EF%BC%88%E8%A2%AB+editor.html+%E5%BC%95%E7%94%A8%EF%BC%89__NL__document.addEventListener%28%22DOMContentLoaded%22%2C+%28%29+%3D%3E+%7B__NL__++const+params+%3D+new+URLSearchParams%28location.search%29%3B__NL__++const+raw+%3D+params.get%28%22raw%22%29+%7C%7C+%22%22%3B__NL__++const+contentBox+%3D+document.getElementById%28%22content%22%29%3B__NL__++const+titleBox+%3D+document.getElementById%28%22title%22%29%3B__NL____NL__++contentBox.value+%3D+raw%3B__NL__++titleBox.value+%3D+raw.split%28%22%5Cn%22%29.join%28%22+%22%29.slice%280%2C+30%29%3B__NL____NL__++let+isSaved+%3D+false%3B__NL____NL__++document.getElementById%28%22saveBtn%22%29.addEventListener%28%22click%22%2C+async+%28%29+%3D%3E+%7B__NL__++++const+title+%3D+titleBox.value.trim%28%29%3B__NL__++++const+content+%3D+contentBox.value.trim%28%29%3B__NL__++++const+replaced+%3D+content.replace%28%2F%5Cn%2Fg%2C+%22__NL__%22%29%3B__NL____NL__++++const+query+%3D+new+URLSearchParams%28%7B+raw%3A+replaced+%7D%29.toString%28%29%3B__NL__++++const+viewerUrl+%3D+chrome.runtime.getURL%28%60viewer%2Fviewer.html%3F%24%7Bquery%7D%60%29%3B__NL____NL__++++try+%7B__NL__++++++const+folders+%3D+await+chrome.bookmarks.search%28%7B+title%3A+%22%E5%89%AA%E8%BE%91++%F0%9F%93%91%22+%7D%29%3B__NL__++++++const+folder+%3D+folders.find%28b+%3D%3E+%21b.url%29%3B__NL__++++++const+folderId+%3D+folder+%3F+folder.id+%3A+%28await+chrome.bookmarks.create%28%7B+title%3A+%22%E5%89%AA%E8%BE%91++%F0%9F%93%91%22+%7D%29%29.id%3B__NL__++++++await+chrome.bookmarks.create%28%7B__NL__++++++++parentId%3A+folderId%2C__NL__++++++++title%2C__NL__++++++++url%3A+viewerUrl__NL__++++++%7D%29%3B__NL__++++++isSaved+%3D+true%3B__NL__++++++alert%28%22%E2%9C%85+%E5%B7%B2%E4%BF%9D%E5%AD%98%E4%B9%A6%E7%AD%BE%EF%BC%81%22%29%3B__NL__++++++chrome.windows.create%28%7B__NL__++++++++url%3A+viewerUrl%2C__NL__++++++++type%3A+%22popup%22%2C__NL__++++++++width%3A+500%2C&title=%E4%BF%9D%E5%AD%98%E5%88%B0%E4%B9%A6%E7%AD%BE%E5%85%A8%E9%83%A8%E4%BB%A3%E7%A0%81"
@@ -960,7 +960,7 @@
                 "dateLastUsed": 1749126186917,
                 "id": "923",
                 "index": 6,
-                "parentId": "45",
+                "parentId": "1105",
                 "syncing": true,
                 "title": "manifest文件代码",
                 "url": "chrome-extension://bpchmgblmojinbogghdgnjeegojpnnmm/viewer/viewer.html?raw=%7B__NL__++%22manifest_version%22%3A+3%2C__NL__++%22name%22%3A+%22bookmark_1.01%22%2C__NL__++%22description%22%3A+%22%E4%B8%80%E4%B8%AA%E6%94%AF%E6%8C%81%E5%B1%82%E7%BA%A7%E6%8A%98%E5%8F%A0%E6%98%BE%E7%A4%BA%E7%9A%84+Chrome+%E4%B9%A6%E7%AD%BE%E6%89%A9%E5%B1%95%EF%BC%8C%E6%94%AF%E6%8C%81%E6%B7%BB%E5%8A%A0%E9%80%89%E4%B8%AD%E6%96%87%E6%9C%AC%E5%88%B0+chrome+%E4%B9%A6%E7%AD%BE%EF%BC%8C%E5%90%8C%E6%AD%A5%E4%B9%A6%E7%AD%BE%E5%88%B0+GitHub+%E4%BB%93%E5%BA%93%E3%80%82%22%2C__NL__++%22version%22%3A+%221.0%22%2C__NL__++%22permissions%22%3A+%5B__NL__++++%22bookmarks%22%2C__NL__++++%22tabs%22%2C__NL__++++%22sidePanel%22%2C__NL__++++%22storage%22%2C__NL__++++%22contextMenus%22%2C__NL__++++%22scripting%22%2C__NL__++++%22activeTab%22%2C__NL__++++%22windows%22__NL__++%5D%2C__NL__++%22action%22%3A+%7B__NL__++++%22default_popup%22%3A+%22popup.html%22%2C__NL__++++%22default_icon%22%3A+%7B__NL__++++++%2216%22%3A+%22icons%2Ficon16.png%22%2C__NL__++++++%2232%22%3A+%22icons%2Ficon32.png%22%2C__NL__++++++%2248%22%3A+%22icons%2Ficon48.png%22%2C__NL__++++++%22128%22%3A+%22icons%2Ficon128.png%22__NL__++++%7D__NL__++%7D%2C__NL__++%22host_permissions%22%3A+%5B%22%3Call_urls%3E%22%5D%2C__NL__++%22web_accessible_resources%22%3A+%5B__NL__++++%7B__NL__++++++%22resources%22%3A+%5B__NL__++++++++%22popup.css%22%2C__NL__++++++++%22popup.js%22%2C__NL__++++++++%22editor%2Feditor.html%22%2C__NL__++++++++%22viewer%2Fviewer.html%22__NL__++++++%5D%2C__NL__++++++%22matches%22%3A+%5B%22%3Call_urls%3E%22%5D__NL__++++%7D__NL__++%5D%2C__NL__++%22side_panel%22%3A+%7B__NL__++++%22default_path%22%3A+%22index.html%22__NL__++%7D%2C__NL__++%22background%22%3A+%7B__NL__++++%22service_worker%22%3A+%22background.js%22__NL__++%7D%2C__NL__++%22icons%22%3A+%7B__NL__++++%2216%22%3A+%22icons%2Ficon16.png%22%2C__NL__++++%2232%22%3A+%22icons%2Ficon32.png%22%2C__NL__++++%2248%22%3A+%22icons%2Ficon48.png%22%2C__NL__++++%22128%22%3A+%22icons%2Ficon128.png%22__NL__++%7D%2C__NL__++%22options_page%22%3A+%22settings%2Fsettings.html%22__NL__%7D&title=manifest%E6%96%87%E4%BB%B6%E4%BB%A3%E7%A0%81"
@@ -970,7 +970,7 @@
                 "dateLastUsed": 1749124747259,
                 "id": "924",
                 "index": 7,
-                "parentId": "45",
+                "parentId": "1105",
                 "syncing": true,
                 "title": "注意事项：",
                 "url": "chrome-extension://bpchmgblmojinbogghdgnjeegojpnnmm/viewer/viewer.html?raw=%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9%EF%BC%9A__NL__API%E5%AF%86%E9%92%A5%E5%AE%89%E5%85%A8%EF%BC%9A__NL__%E7%A1%AE%E4%BF%9D%E4%BD%A0%E7%9A%84API%E5%AF%86%E9%92%A5%E5%AE%89%E5%85%A8%E5%AD%98%E5%82%A8%EF%BC%8C%E4%B8%8D%E8%A6%81%E7%9B%B4%E6%8E%A5%E5%B0%86%E5%AE%83%E5%B5%8C%E5%85%A5%E5%88%B0%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%E4%BB%A3%E7%A0%81%E4%B8%AD%E3%80%82__NL__%E6%95%B0%E6%8D%AE%E9%9A%90%E7%A7%81%EF%BC%9A__NL__%E7%A1%AE%E4%BF%9D%E4%BD%A0%E7%9A%84%E5%BA%94%E7%94%A8%E5%B0%8A%E9%87%8D%E7%94%A8%E6%88%B7%E7%9A%84%E6%95%B0%E6%8D%AE%E9%9A%90%E7%A7%81%EF%BC%8C%E5%B9%B6%E9%81%B5%E5%BE%AAGoogle%E7%9A%84API%E4%BD%BF%E7%94%A8%E6%94%BF%E7%AD%96%E3%80%82__NL__%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86%EF%BC%9A__NL__%E7%BC%96%E5%86%99%E4%BB%A3%E7%A0%81%E6%97%B6%EF%BC%8C%E9%9C%80%E8%A6%81%E5%A4%84%E7%90%86API%E8%B0%83%E7%94%A8%E7%9A%84%E9%94%99%E8%AF%AF%E4%BB%A5%E5%8F%8A%E6%95%B0%E6%8D%AE%E8%A7%A3%E6%9E%90%E4%B8%AD%E7%9A%84%E5%BC%82%E5%B8%B8%E3%80%82"
@@ -980,7 +980,7 @@
                 "dateLastUsed": 1749126172660,
                 "id": "925",
                 "index": 8,
-                "parentId": "45",
+                "parentId": "1105",
                 "syncing": true,
                 "title": "获取Google Keep API密钥",
                 "url": "chrome-extension://bpchmgblmojinbogghdgnjeegojpnnmm/viewer/viewer.html?raw=%E8%8E%B7%E5%8F%96Google+Keep+API%E5%AF%86%E9%92%A5%EF%BC%9A__NL__%E4%BD%A0%E9%9C%80%E8%A6%81%E7%94%B3%E8%AF%B7%E4%B8%80%E4%B8%AAGoogle+API%E5%AF%86%E9%92%A5%EF%BC%8C%E8%BF%99%E9%80%9A%E5%B8%B8%E9%9C%80%E8%A6%81%E6%8B%A5%E6%9C%89%E4%B8%80%E4%B8%AAGoogle%E4%BA%91%E5%B9%B3%E5%8F%B0%E9%A1%B9%E7%9B%AE%E3%80%82%E9%80%9A%E8%BF%87Google+API%E6%8E%A7%E5%88%B6%E5%8F%B0https%3A%2F%2Fconsole.cloud.google.com%2F%E5%8F%AF%E4%BB%A5%E7%AE%A1%E7%90%86%E4%BD%A0%E7%9A%84%E9%A1%B9%E7%9B%AE%EF%BC%8C%E5%B9%B6%E4%B8%BA%E4%BD%A0%E7%9A%84%E9%A1%B9%E7%9B%AE%E5%88%9B%E5%BB%BAAPI%E5%AF%86%E9%92%A5%E3%80%82__NL__2.+%E4%BD%BF%E7%94%A8API%E8%B0%83%E7%94%A8%E6%9D%A5%E8%8E%B7%E5%8F%96%E7%AC%94%E8%AE%B0%EF%BC%9A__NL__Google+Keep%E5%B9%B6%E4%B8%8D%E7%9B%B4%E6%8E%A5%E6%8F%90%E4%BE%9BREST+API%E6%8E%A5%E5%8F%A3%E3%80%82%E7%84%B6%E8%80%8C%EF%BC%8C%E4%BD%A0%E5%8F%AF%E4%BB%A5%E9%80%9A%E8%BF%87%E8%AE%BF%E9%97%AEGoogle+Drive+API%E6%9D%A5%E9%97%B4%E6%8E%A5%E8%8E%B7%E5%8F%96%E4%BD%A0%E7%9A%84Google+Keep%E7%AC%94%E8%AE%B0%EF%BC%8C%E5%9B%A0%E4%B8%BAGoogle+Keep%E7%9A%84%E7%AC%94%E8%AE%B0%E4%BC%9A%E5%AD%98%E5%82%A8%E5%9C%A8Google+Drive%E4%B8%AD%E3%80%82%E9%92%88%E5%AF%B9%E6%AD%A4%EF%BC%8C%E4%BD%A0%E5%B0%86%E9%9C%80%E8%A6%81%EF%BC%9A__NL__%E4%BA%86%E8%A7%A3Google+Drive+API%EF%BC%9A%3A%E7%86%9F%E6%82%89Google+Drive+API%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%8C%E7%89%B9%E5%88%AB%E6%98%AF%E5%A6%82%E4%BD%95%E5%88%97%E5%87%BA%E6%96%87%E4%BB%B6%E5%92%8C%E8%AE%BF%E9%97%AE%E6%96%87%E4%BB%B6%E5%86%85%E5%AE%B9%E3%80%82__NL__%E9%89%B4%E6%9D%83%EF%BC%9A%3A%E7%A1%AE%E4%BF%9D%E4%BD%A0%E5%AF%B9%E4%BD%A0%E7%9A%84Google+Drive%E8%B4%A6%E6%88%B7%E8%BF%9B%E8%A1%8C%E4%BA%86%E6%8E%88%E6%9D%83%EF%BC%8C%E4%BD%BF%E5%BE%97%E4%BD%A0%E7%9A%84%E5%BA%94%E7%94%A8%E8%83%BD%E5%A4%9F%E8%AE%BF%E9%97%AE%E4%BD%A0%E7%9A%84Google+Drive%E3%80%82__NL__%E6%90%9C%E7%B4%A2%E7%AC%94%E8%AE%B0%EF%BC%9A%3A%E4%BD%A0%E5%B0%86%E9%9C%80%E8%A6%81%E6%9F%A5%E8%AF%A2%E4%BD%A0%E7%9A%84Google+Drive%E4%B8%AD%E7%9A%84%E7%89%B9%E5%AE%9A%E6%96%87%E4%BB%B6%EF%BC%8C%E9%80%9A%E5%B8%B8%E6%98%AF%E4%BB%A5Google+Keep%E7%AC%94%E8%AE%B0%E7%9A%84%E6%A0%BC%E5%BC%8F%E5%AD%98%E5%82%A8%E7%9A%84%EF%BC%88%E5%8F%AF%E8%83%BD%E6%98%AFtxt%E6%88%96%E5%85%B6%E4%BB%96%E6%A0%BC%E5%BC%8F%EF%BC%89%E3%80%82__NL__3.+%E8%A7%A3%E6%9E%90%E7%AC%94%E8%AE%B0%E5%86%85%E5%AE%B9%EF%BC%9A__NL__%E8%8E%B7%E5%8F%96%E5%88%B0Google+Drive%E4%B8%AD%E7%9A%84%E6%96%87%E4%BB%B6%E4%B9%8B%E5%90%8E%EF%BC%8C%E4%BD%A0%E9%9C%80%E8%A6%81%E8%A7%A3%E6%9E%90%E6%96%87%E4%BB%B6%E4%B8%AD%E7%9A%84%E5%86%85%E5%AE%B9%E3%80%82%E6%A0%B9%E6%8D%AE%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%EF%BC%88%E4%BE%8B%E5%A6%82TXT%EF%BC%89%EF%BC%8C%E4%BD%A0%E9%9C%80%E8%A6%81%E7%BC%96%E5%86%99%E4%BB%A3%E7%A0%81%E6%9D%A5%E8%AF%BB%E5%8F%96%E5%92%8C%E6%A0%BC%E5%BC%8F%E5%8C%96%E7%AC%94%E8%AE%B0%E5%86%85%E5%AE%B9%E3%80%82__NL__4.+%E6%98%BE%E7%A4%BA%E7%AC%94%E8%AE%B0%EF%BC%9A__NL__%E5%B0%86%E8%A7%A3%E6%9E%90%E5%90%8E%E7%9A%84%E7%AC%94%E8%AE%B0%E5%86%85%E5%AE%B9%E6%98%BE%E7%A4%BA%E5%9C%A8%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%E4%B8%8A%E3%80%82%E4%BD%A0%E5%8F%AF%E4%BB%A5%E5%9C%A8%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%E4%B8%8A%E4%BD%BF%E7%94%A8HTML%E5%92%8CCSS%E6%9D%A5%E5%B8%83%E5%B1%80%E7%AC%94%E8%AE%B0%E5%86%85%E5%AE%B9%EF%BC%8C%E4%BE%8B%E5%A6%82%E7%94%A8%E5%88%97%E8%A1%A8%E6%88%96%E6%AE%B5%E8%90%BD%E5%BD%A2%E5%BC%8F%E3%80%82__NL__%E5%85%B7%E4%BD%93%E5%AE%9E%E7%8E%B0%E7%BB%86%E8%8A%82%EF%BC%88%E4%B8%BE%E4%BE%8B%EF%BC%89%EF%BC%9A__NL__%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E5%92%8C%E6%A1%86%E6%9E%B6%EF%BC%9A__NL__%E4%BD%A0%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8%E4%BB%BB%E4%BD%95%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E5%92%8C%E6%A1%86%E6%9E%B6%E6%9D%A5%E7%BC%96%E5%86%99%E5%92%8C%E5%AE%9E%E7%8E%B0%E8%BF%99%E4%B8%AA%E8%BF%87%E7%A8%8B%EF%BC%8C%E4%BE%8B%E5%A6%82Python%EF%BC%8CJavaScript%EF%BC%88%E4%B8%8ENode.js%E7%BB%93%E5%90%88%EF%BC%89%E3%80%82__NL__API%E8%B0%83%E7%94%A8%EF%BC%9A__NL__%E7%BC%96%E5%86%99%E4%BB%A3%E7%A0%81%EF%BC%8C%E4%BD%BF%E7%94%A8Google+Drive+API%E6%9D%A5%E8%B0%83%E7%94%A8API%E8%AF%B7%E6%B1%82%EF%BC%8C%E5%88%97%E5%87%BA%E6%96%87%E4%BB%B6%EF%BC%8C%E5%B9%B6%E8%AE%BF%E9%97%AE%E7%89%B9%E5%AE%9A%E6%96%87%E4%BB%B6%E7%9A%84%E5%86%85%E5%AE%B9%E3%80%82__NL__%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%EF%BC%9A__NL__%E4%BD%BF%E7%94%A8%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E7%9A%84%E5%B7%A5%E5%85%B7%E6%9D%A5%E8%A7%A3%E6%9E%90%E7%AC%94%E8%AE%B0%E5%86%85%E5%AE%B9%EF%BC%8C%E4%BE%8B%E5%A6%82%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A4%84%E7%90%86%EF%BC%8C%E6%96%87%E6%9C%AC%E6%A0%BC%E5%BC%8F%E5%8C%96%EF%BC%8C%E6%97%A5%E6%9C%9F%E5%A4%84%E7%90%86%E7%AD%89%E3%80%82__NL__%E5%89%8D%E7%AB%AF%E6%98%BE%E7%A4%BA%EF%BC%9A__NL__%E4%BD%BF%E7%94%A8HTML%E5%92%8CCSS%E6%9D%A5%E5%B8%83%E5%B1%80%E7%AC%94%E8%AE%B0%E5%86%85%E5%AE%B9%EF%BC%8C%E4%BD%BF%E5%85%B6%E5%9C%A8%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%E4%B8%8A%E7%BE%8E%E8%A7%82%E4%B8%94%E6%98%93%E8%AF%BB%E3%80%82__NL__%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9%EF%BC%9A__NL__API%E5%AF%86%E9%92%A5%E5%AE%89%E5%85%A8%EF%BC%9A__NL__%E7%A1%AE%E4%BF%9D%E4%BD%A0%E7%9A%84API%E5%AF%86%E9%92%A5%E5%AE%89%E5%85%A8%E5%AD%98%E5%82%A8%EF%BC%8C%E4%B8%8D%E8%A6%81%E7%9B%B4%E6%8E%A5%E5%B0%86%E5%AE%83%E5%B5%8C%E5%85%A5%E5%88%B0%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%E4%BB%A3%E7%A0%81%E4%B8%AD%E3%80%82__NL__%E6%95%B0%E6%8D%AE%E9%9A%90%E7%A7%81%EF%BC%9A__NL__%E7%A1%AE%E4%BF%9D%E4%BD%A0%E7%9A%84%E5%BA%94%E7%94%A8%E5%B0%8A%E9%87%8D%E7%94%A8%E6%88%B7%E7%9A%84%E6%95%B0%E6%8D%AE%E9%9A%90%E7%A7%81%EF%BC%8C%E5%B9%B6%E9%81%B5%E5%BE%AAGoogle%E7%9A%84API%E4%BD%BF%E7%94%A8%E6%94%BF%E7%AD%96%E3%80%82__NL__%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86%EF%BC%9A__NL__%E7%BC%96%E5%86%99%E4%BB%A3%E7%A0%81%E6%97%B6%EF%BC%8C%E9%9C%80%E8%A6%81%E5%A4%84%E7%90%86API%E8%B0%83%E7%94%A8%E7%9A%84%E9%94%99%E8%AF%AF%E4%BB%A5%E5%8F%8A%E6%95%B0%E6%8D%AE%E8%A7%A3%E6%9E%90%E4%B8%AD%E7%9A%84%E5%BC%82%E5%B8%B8%E3%80%82"
@@ -989,7 +989,7 @@
                 "dateAdded": 1749141213004,
                 "id": "926",
                 "index": 9,
-                "parentId": "45",
+                "parentId": "1105",
                 "syncing": true,
                 "title": "markdown表格模板",
                 "url": "chrome-extension://bpchmgblmojinbogghdgnjeegojpnnmm/viewer/viewer.html?raw=%7C+Table+Heading+1+%7C+Table+Heading+2+%7C+Center+align++++%7C+Right+align+++++%7C+Table+Heading+5+%7C__NL__%7C+%3A--------------+%7C+%3A--------------+%7C+%3A-------------%3A+%7C+--------------%3A+%7C+%3A--------------+%7C__NL__%7C+Item+1++++++++++%7C+Item+2++++++++++%7C+Item+3++++++++++%7C+Item+4++++++++++%7C+Item+5++++++++++%7C__NL__%7C+Item+1++++++++++%7C+Item+2++++++++++%7C+Item+3++++++++++%7C+Item+4++++++++++%7C+Item+5++++++++++%7C__NL__%7C+Item+1++++++++++%7C+Item+2++++++++++%7C+Item+3++++++++++%7C+Item+4++++++++++%7C+Item+5++++++++++%7C"
@@ -999,16 +999,16 @@
                 "dateLastUsed": 1749141542443,
                 "id": "927",
                 "index": 10,
-                "parentId": "45",
+                "parentId": "1105",
                 "syncing": true,
-                "title": "markdown 5种警报强调信息-分别是NOTE TIP IMPORTANT WARNING CAUTION 👀",
+                "title": "markdown 5种警报强调信息 👀",
                 "url": "chrome-extension://bpchmgblmojinbogghdgnjeegojpnnmm/viewer/viewer.html?raw=%3E+%5B%21NOTE%5D__NL__%3E+Useful+information+that+users+should+know%2C+even+when+skimming+content.__NL____NL__%3E+%5B%21TIP%5D__NL__%3E+Helpful+advice+for+doing+things+better+or+more+easily.__NL____NL__%3E+%5B%21IMPORTANT%5D__NL__%3E+Key+information+users+need+to+know+to+achieve+their+goal.__NL____NL__%3E+%5B%21WARNING%5D__NL__%3E+Urgent+info+that+needs+immediate+user+attention+to+avoid+problems.__NL____NL__%3E+%5B%21CAUTION%5D__NL__%3E+Advises+about+risks+or+negative+outcomes+of+certain+actions."
               },
               {
                 "dateAdded": 1750607209660,
                 "id": "928",
                 "index": 11,
-                "parentId": "45",
+                "parentId": "1105",
                 "syncing": true,
                 "title": "解决chrome extension popup最大宽高限制（800x600）",
                 "url": "chrome-extension://bpchmgblmojinbogghdgnjeegojpnnmm/viewer/viewer.html?raw=%E6%9C%80%E8%BF%91%E7%94%A8%E4%B8%AA%E6%8F%92%E4%BB%B6%E5%8F%91%E7%8E%B0popup%E8%A2%ABchrome%C2%A0%E7%A1%AC%E5%86%99%E6%AD%BB%E5%9C%A8%E4%BB%A3%E7%A0%81%E9%87%8C%E9%9D%A2%EF%BC%88800x600%EF%BC%89%EF%BC%8C%E5%A4%AA%E5%B0%8F%E7%9A%84%E6%A1%86%E4%BD%BF%E7%94%A8%E8%B5%B7%E6%9D%A5%E4%B8%8D%E6%96%B9%E4%BE%BF%EF%BC%8C%E7%A0%94%E7%A9%B6%E4%BA%86%E4%B8%8B%E4%BB%A3%E7%A0%81%EF%BC%8C%E5%8F%91%E7%8E%B0%E4%B8%8D%E6%94%B9%E4%BB%A3%E7%A0%81%E4%B9%9F%E5%8F%AF%E4%BB%A5%E7%9B%B4%E6%8E%A5%E6%94%B9%E5%8F%98%E7%9D%80%E5%AE%BD%E9%AB%98%E9%99%90%E5%88%B6%EF%BC%8C%E5%85%B7%E4%BD%93%E5%A6%82%E4%B8%8B__NL____NL__%C2%A0+%C2%A0+%C2%A0+%C2%A0%E6%89%BE%E5%88%B0%E5%AE%89%E8%A3%85%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84chrome.dll%28edge%E4%B8%BAmsedge.dll%EF%BC%8C%E5%9F%BA%E4%BA%8Echomium%E7%9A%84%E6%B5%8F%E8%A7%88%E5%99%A8%E5%85%A8%E9%83%BD%E5%8F%AF%E4%BB%A5%29%EF%BC%8C%E7%94%A8%E4%BA%8C%E8%BF%9B%E5%88%B6%E7%BC%96%E8%BE%91%E5%99%A8%E6%89%93%E5%BC%80%EF%BC%8C%E5%85%A8%E5%B1%80%E5%B0%8620+03+00+00+58+02%C2%A0%E6%9B%BF%E6%8D%A2%E4%B8%BA%C2%A040+06+00+00+e8+03%EF%BC%881600x1000%EF%BC%89%E5%B0%B1%E5%8F%AF%E4%BB%A5%E4%BA%86%E3%80%82ps%EF%BC%9A%E4%BF%AE%E6%94%B9%E5%89%8D%E5%85%88%E5%B0%86%E6%B5%8F%E8%A7%88%E5%99%A8%E5%BD%BB%E5%BA%95%E5%85%B3%E9%97%AD%EF%BC%8C%E5%85%A8%E5%B1%80%E6%9B%BF%E6%8D%A2%E6%98%AF%E5%B0%86%E6%89%80%E6%9C%89%E7%9B%B8%E5%85%B3800x600%E7%9A%84%E7%95%8C%E9%9D%A2%E9%99%90%E5%88%B6%E9%83%BD%E6%94%B9%E4%BA%86%EF%BC%8C%E5%8F%AF%E8%83%BD%E4%B8%8D%E6%AD%A2popup%E7%95%8C%E9%9D%A2%EF%BC%8C%E5%A6%82%E6%9E%9C%E4%B8%8D%E6%83%B3%E5%BD%B1%E5%93%8D%E5%85%B6%E4%BB%96%E7%9A%84%EF%BC%8C%E9%82%A3%E5%B0%B1%E4%B8%80%E4%B8%AA%E4%B8%AA%E6%9B%BF%E6%8D%A2%E7%9C%8B%E6%95%88%E6%9E%9C%E3%80%82__NL____NL__chromimu%E4%BB%A3%E7%A0%81%E5%9C%A8%E8%BF%99%E9%87%8C%C2%A0static+constexpr+gfx%3A%3ASize+kMaxSize+%3D+%7B1600%2C+1000%7D%3B%2F%2Fwystan+modify+%7B800%2C+600%7D+for+popup+page+221101"
@@ -1017,7 +1017,7 @@
                 "dateAdded": 1760207730190,
                 "id": "986",
                 "index": 12,
-                "parentId": "45",
+                "parentId": "1105",
                 "syncing": true,
                 "title": "书签管理扩展主脚本 main.js",
                 "url": "chrome-extension://bpchmgblmojinbogghdgnjeegojpnnmm/viewer/viewer.html?raw=%2F**__NL__+*+%E4%B9%A6%E7%AD%BE%E7%AE%A1%E7%90%86%E6%89%A9%E5%B1%95%E4%B8%BB%E8%84%9A%E6%9C%AC__NL__+*+%E5%8A%9F%E8%83%BD%EF%BC%9A%E5%B1%95%E7%A4%BA%E3%80%81%E6%90%9C%E7%B4%A2%E3%80%81%E5%AF%BC%E5%87%BA%E5%92%8C%E5%90%8C%E6%AD%A5%E4%B9%A6%E7%AD%BE__NL__+*+%E7%89%B9%E7%82%B9%EF%BC%9A%E9%9A%90%E8%97%8F%E9%A1%B6%E7%BA%A7%E8%8F%9C%E5%8D%95%E4%BD%86%E6%98%BE%E7%A4%BA%E5%AD%90%E5%AD%99%E7%BA%A7%E8%8F%9C%E5%8D%95__NL__+*%2F__NL____NL__%2F%2F+%E5%B8%B8%E9%87%8F%E5%AE%9A%E4%B9%89__NL__const+GITHUB_API_BASE+%3D+%22https%3A%2F%2Fapi.github.com%22%3B__NL__const+MESSAGES+%3D+%7B__NL__++++CONFIG_REQUIRED%3A+%22%E2%9D%8C+%E8%AF%B7%E5%85%88%E5%9C%A8%E8%AE%BE%E7%BD%AE%E9%A1%B5%E9%9D%A2%E5%A1%AB%E5%86%99%E5%AE%8C%E6%95%B4+GitHub+%E9%85%8D%E7%BD%AE%E4%BF%A1%E6%81%AF%EF%BC%81%22%2C__NL__++++SYNC_SUCCESS%3A+%22%E2%9C%85+%E4%B9%A6%E7%AD%BE%E5%90%8C%E6%AD%A5%E6%88%90%E5%8A%9F%22%2C__NL__++++SYNC_FAILED%3A+%22%E2%9D%8C+%E4%B9%A6%E7%AD%BE%E5%90%8C%E6%AD%A5%E5%A4%B1%E8%B4%A5%22%2C__NL__++++EXPORT_SUCCESS%3A+%22%E2%9C%85+%E4%B9%A6%E7%AD%BE%E5%AF%BC%E5%87%BA%E6%88%90%E5%8A%9F%22%2C__NL__++++RENDER_ERROR%3A+%22%E2%9D%8C+%E4%B9%A6%E7%AD%BE%E6%B8%B2%E6%9F%93%E5%A4%B1%E8%B4%A5%22__NL__%7D%3B__NL____NL__%2F%2F+DOM%E5%85%83%E7%B4%A0%E7%BC%93%E5%AD%98__NL__const+DOM+%3D+%7B__NL__++++topBarTitle%3A+document.querySelector%28%22.top-bar-title%22%29%2C__NL__++++searchIcon%3A+document.querySelector%28%22.search-icon%22%29%2C__NL__++++searchBox%3A+document.querySelector%28%22.search-box%22%29%2C__NL__++++bookmarkTree%3A+document.getElementById%28%22bookmarkTree%22%29%2C__NL__++++exportBtn%3A+document.getElementById%28%22export-btn%22%29%2C__NL__++++syncBtn%3A+document.getElementById%28%22more-btn%22%29%2C__NL__++++settingsBtn%3A+document.getElementById%28%22more-settings%22%29%2C__NL__++++clearSearch%3A+document.querySelector%28%22.clear-search%22%29+%2F%2F+%E6%B7%BB%E5%8A%A0%E6%B8%85%E9%99%A4%E6%8C%89%E9%92%AE%E5%BC%95%E7%94%A8__NL__%7D%3B__NL____NL__%2F%2F+%E5%B7%A5%E5%85%B7%E5%87%BD%E6%95%B0__NL__const+Utils+%3D+%7B__NL__++++%2F**__NL__+++++*+%E5%88%9B%E5%BB%BAfavicon%E5%85%83%E7%B4%A0__NL__+++++*+%40param+%7Bstring%7D+url+-+%E7%BD%91%E7%AB%99URL__NL__+++++*+%40returns+%7BHTMLImageElement%7D+favicon%E5%85%83%E7%B4%A0__NL__+++++*%2F__NL__++++createFavicon%28url%29+%7B__NL__++++++++const+icon+%3D+document.createElement%28%22img%22%29%3B__NL__++++++++icon.src+%3D+%60https%3A%2F%2Fwww.google.com%2Fs2%2Ffavicons%3Fsz%3D32%26domain_url%3D%24%7BencodeURIComponent%28url%29%7D%60%3B__NL__++++++++icon.className+%3D+%22favicon-icon%22%3B__NL__++++++++icon.onerror+%3D+%28%29+%3D%3E+%7B__NL__++++++++++++icon.src+%3D+%22icons%2Ficon.png%22%3B__NL__++++++++%7D%3B__NL__++++++++return+icon%3B__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E9%98%B2%E6%8A%96%E5%87%BD%E6%95%B0__NL__+++++*+%40param+%7BFunction%7D+func+-+%E8%A6%81%E6%89%A7%E8%A1%8C%E7%9A%84%E5%87%BD%E6%95%B0__NL__+++++*+%40param+%7Bnumber%7D+delay+-+%E5%BB%B6%E8%BF%9F%E6%97%B6%E9%97%B4%28ms%29__NL__+++++*+%40returns+%7BFunction%7D+%E9%98%B2%E6%8A%96%E5%90%8E%E7%9A%84%E5%87%BD%E6%95%B0__NL__+++++*%2F__NL__++++debounce%28func%2C+delay+%3D+300%29+%7B__NL__++++++++let+timer%3B__NL__++++++++return+function+%28...args%29+%7B__NL__++++++++++++clearTimeout%28timer%29%3B__NL__++++++++++++timer+%3D+setTimeout%28%28%29+%3D%3E+func.apply%28this%2C+args%29%2C+delay%29%3B__NL__++++++++%7D%3B__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E5%AE%89%E5%85%A8%E8%8E%B7%E5%8F%96URL%E4%B8%BB%E6%9C%BA%E5%90%8D__NL__+++++*+%40param+%7Bstring%7D+url+-+%E7%BD%91%E7%AB%99URL__NL__+++++*+%40returns+%7Bstring%7D+%E4%B8%BB%E6%9C%BA%E5%90%8D__NL__+++++*%2F__NL__++++getHostname%28url%29+%7B__NL__++++++++try+%7B__NL__++++++++++++return+new+URL%28url%29.hostname%3B__NL__++++++++%7D+catch+%7B__NL__++++++++++++return+%22%22%3B__NL__++++++++%7D__NL__++++%7D__NL__%7D%3B__NL____NL__%2F%2F+%E4%B9%A6%E7%AD%BE%E7%AE%A1%E7%90%86%E6%A8%A1%E5%9D%97__NL__const+BookmarkManager+%3D+%7B__NL__++++%2F**__NL__+++++*+%E8%8E%B7%E5%8F%96%E5%AE%8C%E6%95%B4%E7%9A%84%E4%B9%A6%E7%AD%BE%E6%A0%91__NL__+++++*+%40returns+%7BPromise%3CArray%3E%7D+%E4%B9%A6%E7%AD%BE%E6%A0%91__NL__+++++*%2F__NL__++++async+getBookmarkTree%28%29+%7B__NL__++++++++return+new+Promise%28%28resolve%29+%3D%3E+%7B__NL__++++++++++++chrome.bookmarks.getTree%28resolve%29%3B__NL__++++++++%7D%29%3B__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E6%90%9C%E7%B4%A2%E4%B9%A6%E7%AD%BE__NL__+++++*+%40param+%7Bstring%7D+query+-+%E6%90%9C%E7%B4%A2%E5%85%B3%E9%94%AE%E8%AF%8D__NL__+++++*+%40returns+%7BPromise%3CArray%3E%7D+%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C__NL__+++++*%2F__NL__++++async+searchBookmarks%28query%29+%7B__NL__++++++++return+new+Promise%28%28resolve%29+%3D%3E+%7B__NL__++++++++++++chrome.bookmarks.search%28query%2C+resolve%29%3B__NL__++++++++%7D%29%3B__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E5%88%9B%E5%BB%BA%E4%B9%A6%E7%AD%BE%E5%88%97%E8%A1%A8%E9%A1%B9__NL__+++++*+%40param+%7BObject%7D+bookmark+-+%E4%B9%A6%E7%AD%BE%E5%AF%B9%E8%B1%A1__NL__+++++*+%40param+%7Bnumber%7D+level+-+%E5%B5%8C%E5%A5%97%E5%B1%82%E7%BA%A7__NL__+++++*+%40returns+%7BHTMLLIElement%7D+%E5%88%97%E8%A1%A8%E9%A1%B9%E5%85%83%E7%B4%A0__NL__+++++*%2F__NL__++++createBookmarkItem%28bookmark%2C+level+%3D+2%29+%7B__NL__++++++++if+%28%21bookmark.url+%26%26+%21bookmark.title%29+return+null%3B__NL____NL__++++++++const+li+%3D+document.createElement%28%22li%22%29%3B__NL__++++++++li.classList.add%28%60level-%24%7Blevel%7D%60%29%3B__NL__++++++++__NL__++++++++const+a+%3D+document.createElement%28%22a%22%29%3B__NL__++++++++a.textContent+%3D+bookmark.title+%7C%7C+%22%28%E6%97%A0%E6%A0%87%E9%A2%98%29%22%3B__NL____NL__++++++++if+%28bookmark.url%29+%7B__NL__++++++++++++a.href+%3D+bookmark.url%3B__NL__++++++++++++a.target+%3D+%22_blank%22%3B__NL__++++++++++++a.classList.add%28%22bookmark-link%22%29%3B__NL____NL__++++++++++++if+%28bookmark.url.startsWith%28%22data%3Atext%22%29%29+%7B__NL__++++++++++++++++a.classList.add%28%22data-bookmark%22%29%3B__NL__++++++++++++++++const+dataIcon+%3D+document.createElement%28%22span%22%29%3B__NL__++++++++++++++++dataIcon.className+%3D+%22data-icon%22%3B__NL__++++++++++++++++dataIcon.textContent+%3D+%22%F0%9F%93%8B%22%3B__NL__++++++++++++++++const+label+%3D+document.createElement%28%22span%22%29%3B__NL__++++++++++++++++label.className+%3D+%22data-label%22%3B__NL__++++++++++++++++label.textContent+%3D+bookmark.title+%7C%7C+%22%28%E6%97%A0%E6%A0%87%E9%A2%98%29%22%3B__NL__++++++++++++++++a.textContent+%3D+%22%22%3B__NL__++++++++++++++++a.appendChild%28dataIcon%29%3B__NL__++++++++++++++++a.appendChild%28label%29%3B__NL__++++++++++++%7D+else+%7B__NL__++++++++++++++++a.prepend%28Utils.createFavicon%28bookmark.url%29%29%3B__NL__++++++++++++%7D__NL____NL__++++++++++++a.addEventListener%28%22click%22%2C+%28e%29+%3D%3E+%7B__NL__++++++++++++++++e.preventDefault%28%29%3B__NL__++++++++++++++++chrome.tabs%3F.create%28%7B+url%3A+bookmark.url+%7D%29%3B__NL__++++++++++++%7D%29%3B__NL__++++++++%7D+else+%7B__NL__++++++++++++a.classList.add%28%22menu-item%22%29%3B__NL__++++++++++++a.setAttribute%28%22role%22%2C+%22button%22%29%3B__NL__++++++++++++a.tabIndex+%3D+0%3B__NL__++++++++++++a.addEventListener%28%22click%22%2C+%28e%29+%3D%3E+%7B__NL__++++++++++++++++e.preventDefault%28%29%3B__NL__++++++++++++++++this.toggleBookmarkFolder%28li%29%3B__NL__++++++++++++%7D%29%3B__NL__++++++++++++a.addEventListener%28%22keydown%22%2C+%28e%29+%3D%3E+%7B__NL__++++++++++++++++if+%28e.key+%3D%3D%3D+%22Enter%22+%7C%7C+e.key+%3D%3D%3D+%22+%22%29+%7B__NL__++++++++++++++++++++e.preventDefault%28%29%3B__NL__++++++++++++++++++++this.toggleBookmarkFolder%28li%29%3B__NL__++++++++++++++++%7D__NL__++++++++++++%7D%29%3B__NL__++++++++%7D__NL____NL__++++++++li.appendChild%28a%29%3B__NL__++++++++return+li%3B__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E5%88%87%E6%8D%A2%E4%B9%A6%E7%AD%BE%E6%96%87%E4%BB%B6%E5%A4%B9%E7%8A%B6%E6%80%81__NL__+++++*+%40param+%7BHTMLLIElement%7D+li+-+%E5%88%97%E8%A1%A8%E9%A1%B9%E5%85%83%E7%B4%A0__NL__+++++*%2F__NL__++++toggleBookmarkFolder%28li%29+%7B__NL__++++++++const+scrollContainer+%3D+document.getElementById%28%27scroll-container%27%29%3B__NL__++++++++const+scrollPos+%3D+scrollContainer.scrollTop%3B__NL__++++++++__NL__++++++++%2F%2F+%E5%85%B3%E9%97%AD%E6%89%80%E6%9C%89%E5%90%8C%E7%BA%A7%E5%88%AB%E7%9A%84%E8%8F%9C%E5%8D%95__NL__++++++++const+siblings+%3D+Array.from%28li.parentElement.children%29%3B__NL__++++++++siblings.forEach%28sib+%3D%3E+%7B__NL__++++++++++++if+%28sib+%21%3D%3D+li%29+%7B__NL__++++++++++++++++sib.classList.remove%28%22open%22%29%3B__NL__++++++++++++%7D__NL__++++++++%7D%29%3B__NL__++++++++__NL__++++++++%2F%2F+%E5%88%87%E6%8D%A2%E5%BD%93%E5%89%8D%E8%8F%9C%E5%8D%95%E7%8A%B6%E6%80%81__NL__++++++++li.classList.toggle%28%22open%22%29%3B__NL__++++++++__NL__++++++++%2F%2F+%E4%BF%9D%E6%8C%81%E7%88%B6%E8%8F%9C%E5%8D%95%E6%89%93%E5%BC%80__NL__++++++++let+parent+%3D+li.parentElement%3B__NL__++++++++while+%28parent%3F.classList.contains%28%22accordion-submenu%22%29%29+%7B__NL__++++++++++++parent.parentElement.classList.add%28%22open%22%29%3B__NL__++++++++++++parent+%3D+parent.parentElement%3F.parentElement%3B__NL__++++++++%7D__NL__++++++++__NL__++++++++requestAnimationFrame%28%28%29+%3D%3E+%7B__NL__++++++++++++scrollContainer.scrollTop+%3D+scrollPos%3B__NL__++++++++++++li.scrollIntoView%28%7B__NL__++++++++++++++++behavior%3A+%27smooth%27%2C__NL__++++++++++++++++block%3A+%27start%27__NL__++++++++++++%7D%29%3B__NL__++++++++%7D%29%3B__NL__++++%7D%2C__NL____NL__++++%2F***+%E6%8A%98%E5%8F%A0%E6%89%80%E6%9C%89%E8%8F%9C%E5%8D%95*%2F__NL__++++collapseAllMenus%28%29+%7B__NL__++++++++const+openMenus+%3D+document.querySelectorAll%28%27.accordion-menu+li.open%2C+.accordion-submenu+li.open%27%29%3B__NL__++++++++openMenus.forEach%28menu+%3D%3E+%7B__NL__++++++++++++menu.classList.remove%28%22open%22%29%3B__NL__++++++++%7D%29%3B__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E5%88%9B%E5%BB%BA%E4%B9%A6%E7%AD%BE%E5%88%97%E8%A1%A8__NL__+++++*+%40param+%7BArray%7D+nodes+-+%E4%B9%A6%E7%AD%BE%E8%8A%82%E7%82%B9%E6%95%B0%E7%BB%84__NL__+++++*+%40param+%7BHTMLElement%7D+container+-+%E5%AE%B9%E5%99%A8%E5%85%83%E7%B4%A0__NL__+++++*+%40param+%7Bnumber%7D+level+-+%E5%B5%8C%E5%A5%97%E5%B1%82%E7%BA%A7__NL__+++++*+%40param+%7Bboolean%7D+isRoot+-+%E6%98%AF%E5%90%A6%E6%98%AF%E6%A0%B9%E8%8A%82%E7%82%B9__NL__+++++*+%40returns+%7BHTMLUListElement%7D+%E4%B9%A6%E7%AD%BE%E5%88%97%E8%A1%A8__NL__+++++*%2F__NL__++++createBookmarkList%28nodes%2C+container%2C+level+%3D+2%2C+isRoot+%3D+false%29+%7B__NL__++++++++const+ul+%3D+document.createElement%28%22ul%22%29%3B__NL__++++++++ul.className+%3D+level+%3D%3D%3D+2+%3F+%22accordion-menu%22+%3A+%22accordion-submenu%22%3B__NL____NL__++++++++nodes.forEach%28node+%3D%3E+%7B__NL__++++++++++++if+%28isRoot+%26%26+%21node.url%29+%7B__NL__++++++++++++++++if+%28node.children%29+%7B__NL__++++++++++++++++++++const+childUl+%3D+this.createBookmarkList%28node.children%2C+container%2C+level%2C+false%29%3B__NL__++++++++++++++++++++if+%28childUl%29+ul.appendChild%28childUl%29%3B__NL__++++++++++++++++%7D__NL__++++++++++++++++return%3B__NL__++++++++++++%7D__NL____NL__++++++++++++const+li+%3D+this.createBookmarkItem%28node%2C+level%29%3B__NL__++++++++++++if+%28%21li%29+return%3B__NL____NL__++++++++++++if+%28node.children%29+%7B__NL__++++++++++++++++const+childUl+%3D+this.createBookmarkList%28node.children%2C+container%2C+level+%2B+1%2C+false%29%3B__NL__++++++++++++++++if+%28childUl%29+li.appendChild%28childUl%29%3B__NL__++++++++++++%7D__NL____NL__++++++++++++ul.appendChild%28li%29%3B__NL__++++++++%7D%29%3B__NL____NL__++++++++return+ul%3B__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E6%B8%B2%E6%9F%93%E4%B9%A6%E7%AD%BE%E5%88%B0%E5%AE%B9%E5%99%A8__NL__+++++*+%40param+%7BArray%7D+bookmarkNodes+-+%E4%B9%A6%E7%AD%BE%E8%8A%82%E7%82%B9%E6%95%B0%E7%BB%84__NL__+++++*+%40param+%7BHTMLElement%7D+container+-+%E5%AE%B9%E5%99%A8%E5%85%83%E7%B4%A0__NL__+++++*+%40returns+%7BPromise%3Cvoid%3E%7D__NL__+++++*%2F__NL__++++async+renderBookmarks%28bookmarkNodes%2C+container%29+%7B__NL__++++++++try+%7B__NL__++++++++++++container.innerHTML+%3D+%22%22%3B__NL__++++++++++++const+ul+%3D+this.createBookmarkList%28bookmarkNodes%2C+container%2C+2%2C+true%29%3B__NL__++++++++++++container.appendChild%28ul%29%3B__NL__++++++++%7D+catch+%28err%29+%7B__NL__++++++++++++console.error%28MESSAGES.RENDER_ERROR%2C+err%29%3B__NL__++++++++%7D__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E6%B8%B2%E6%9F%93%E5%AE%8C%E6%95%B4%E4%B9%A6%E7%AD%BE%E6%A0%91__NL__+++++*+%40returns+%7BPromise%3Cvoid%3E%7D__NL__+++++*%2F__NL__++++async+renderFullBookmarks%28%29+%7B__NL__++++++++try+%7B__NL__++++++++++++const+tree+%3D+await+this.getBookmarkTree%28%29%3B__NL__++++++++++++const+rootChildren+%3D+tree%5B0%5D%3F.children+%7C%7C+%5B%5D%3B__NL__++++++++++++await+this.renderBookmarks%28rootChildren%2C+DOM.bookmarkTree%29%3B__NL__++++++++%7D+catch+%28err%29+%7B__NL__++++++++++++console.error%28MESSAGES.RENDER_ERROR%2C+err%29%3B__NL__++++++++%7D__NL__++++%7D__NL__%7D%3B__NL____NL__%2F%2F+GitHub%E5%90%8C%E6%AD%A5%E6%A8%A1%E5%9D%97__NL__const+GitHubSync+%3D+%7B__NL__++++_autoSyncTimer%3A+null%2C__NL__++++_isSyncing%3A+false%2C__NL____NL__++++async+getConfig%28%29+%7B__NL__++++++++return+chrome.storage.local.get%28%5B__NL__++++++++++++%22github_username%22%2C__NL__++++++++++++%22github_repo%22%2C+__NL__++++++++++++%22github_token%22%2C__NL__++++++++++++%22github_filename%22%2C__NL__++++++++++++%22auto_sync_enabled%22%2C__NL__++++++++++++%22auto_sync_delay%22%2C__NL__++++++++++++%22show_sync_notifications%22__NL__++++++++%5D%29%3B__NL__++++%7D%2C__NL____NL__++++validateConfig%28config%29+%7B__NL__++++++++const+%7B+github_username%2C+github_repo%2C+github_token%2C+github_filename+%7D+%3D+config%3B__NL__++++++++return+%21%21%28github_username+%26%26+github_repo+%26%26+github_token+%26%26+github_filename%29%3B__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E6%98%BE%E7%A4%BA%E5%90%8C%E6%AD%A5%E6%8F%90%E9%86%92__NL__+++++*%2F__NL__++++async+showNotification%28title%2C+message%2C+type+%3D+%27info%27%29+%7B__NL__++++++++const+config+%3D+await+this.getConfig%28%29%3B__NL__++++++++__NL__++++++++%2F%2F+%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E5%90%AF%E7%94%A8%E6%8F%90%E9%86%92__NL__++++++++if+%28%21config.show_sync_notifications%29+%7B__NL__++++++++++++return%3B__NL__++++++++%7D__NL____NL__++++++++try+%7B__NL__++++++++++++%2F%2F+%E4%BD%BF%E7%94%A8+Chrome+%E6%89%A9%E5%B1%95%E9%80%9A%E7%9F%A5+API__NL__++++++++++++chrome.notifications.create%28%7B__NL__++++++++++++++++type%3A+%27basic%27%2C__NL__++++++++++++++++iconUrl%3A+chrome.runtime.getURL%28%27icons%2Ficon48.png%27%29%2C__NL__++++++++++++++++title%3A+title%2C__NL__++++++++++++++++message%3A+message%2C__NL__++++++++++++++++priority%3A+2__NL__++++++++++++%7D%2C+%28notificationId%29+%3D%3E+%7B__NL__++++++++++++++++if+%28chrome.runtime.lastError%29+%7B__NL__++++++++++++++++++++console.log%28%27%E9%80%9A%E7%9F%A5%E5%88%9B%E5%BB%BA%E5%A4%B1%E8%B4%A5%3A%27%2C+chrome.runtime.lastError%29%3B__NL__++++++++++++++++++++%2F%2F+%E5%A4%87%E7%94%A8%E6%96%B9%E6%A1%88%EF%BC%9A%E4%BD%BF%E7%94%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8E%A7%E5%88%B6%E5%8F%B0%E8%BE%93%E5%87%BA__NL__++++++++++++++++++++const+icon+%3D+type+%3D%3D%3D+%27success%27+%3F+%27%E2%9C%85%27+%3A+type+%3D%3D%3D+%27error%27+%3F+%27%E2%9D%8C%27+%3A+%27%F0%9F%94%94%27%3B__NL__++++++++++++++++++++console.log%28%60%24%7Bicon%7D+%24%7Btitle%7D%3A+%24%7Bmessage%7D%60%29%3B__NL__++++++++++++++++%7D+else+%7B__NL__++++++++++++++++++++console.log%28%27%E9%80%9A%E7%9F%A5%E5%B7%B2%E6%98%BE%E7%A4%BA%3A%27%2C+notificationId%29%3B__NL__++++++++++++++++%7D__NL__++++++++++++%7D%29%3B__NL__++++++++%7D+catch+%28error%29+%7B__NL__++++++++++++console.error%28%27%E9%80%9A%E7%9F%A5%E5%8F%91%E9%80%81%E5%A4%B1%E8%B4%A5%3A%27%2C+error%29%3B__NL__++++++++++++%2F%2F+%E5%A4%87%E7%94%A8%E6%96%B9%E6%A1%88%EF%BC%9A%E4%BD%BF%E7%94%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8E%A7%E5%88%B6%E5%8F%B0%E8%BE%93%E5%87%BA__NL__++++++++++++const+icon+%3D+type+%3D%3D%3D+%27success%27+%3F+%27%E2%9C%85%27+%3A+type+%3D%3D%3D+%27error%27+%3F+%27%E2%9D%8C%27+%3A+%27%F0%9F%94%94%27%3B__NL__++++++++++++console.log%28%60%24%7Bicon%7D+%24%7Btitle%7D%3A+%24%7Bmessage%7D%60%29%3B__NL__++++++++%7D__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E7%94%9F%E6%88%90%E4%B9%A6%E7%AD%BE%E5%93%88%E5%B8%8C%E5%80%BC%E6%9D%A5%E6%A3%80%E6%B5%8B%E5%8F%98%E5%8C%96__NL__+++++*%2F__NL__++++generateBookmarkHash%28tree%29+%7B__NL__++++++++const+jsonString+%3D+JSON.stringify%28tree%2C+%28key%2C+value%29+%3D%3E+%7B__NL__++++++++++++%2F%2F+%E6%8E%92%E9%99%A4%E4%BC%9A%E5%8F%98%E5%8C%96%E7%9A%84%E5%AD%97%E6%AE%B5__NL__++++++++++++if+%28key+%3D%3D%3D+%27id%27+%7C%7C+key+%3D%3D%3D+%27dateAdded%27+%7C%7C+key+%3D%3D%3D+%27dateGroupModified%27%29+%7B__NL__++++++++++++++++return+undefined%3B__NL__++++++++++++%7D__NL__++++++++++++return+value%3B__NL__++++++++%7D%29%3B__NL__++++++++__NL__++++++++let+hash+%3D+0%3B__NL__++++++++for+%28let+i+%3D+0%3B+i+%3C+jsonString.length%3B+i%2B%2B%29+%7B__NL__++++++++++++const+char+%3D+jsonString.charCodeAt%28i%29%3B__NL__++++++++++++hash+%3D+%28%28hash+%3C%3C+5%29+-+hash%29+%2B+char%3B__NL__++++++++++++hash+%3D+hash+%26+hash%3B__NL__++++++++%7D__NL__++++++++return+hash.toString%28%29%3B__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E4%BF%9D%E5%AD%98%E5%90%8C%E6%AD%A5%E7%8A%B6%E6%80%81__NL__+++++*%2F__NL__++++async+saveSyncState%28hash%29+%7B__NL__++++++++await+chrome.storage.local.set%28%7B__NL__++++++++++++last_sync_time%3A+Date.now%28%29%2C__NL__++++++++++++last_bookmark_hash%3A+hash__NL__++++++++%7D%29%3B__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E8%8E%B7%E5%8F%96%E6%9C%80%E5%90%8E%E5%90%8C%E6%AD%A5%E7%8A%B6%E6%80%81__NL__+++++*%2F__NL__++++async+getLastSyncState%28%29+%7B__NL__++++++++return+chrome.storage.local.get%28%5B__NL__++++++++++++%22last_sync_time%22%2C__NL__++++++++++++%22last_bookmark_hash%22__NL__++++++++%5D%29%3B__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E6%A3%80%E6%9F%A5%E4%B9%A6%E7%AD%BE%E6%98%AF%E5%90%A6%E6%9C%89%E5%8F%98%E5%8C%96__NL__+++++*%2F__NL__++++async+hasBookmarkChanges%28%29+%7B__NL__++++++++try+%7B__NL__++++++++++++const+tree+%3D+await+BookmarkManager.getBookmarkTree%28%29%3B__NL__++++++++++++const+currentHash+%3D+this.generateBookmarkHash%28tree%29%3B__NL__++++++++++++const+lastState+%3D+await+this.getLastSyncState%28%29%3B__NL__++++++++++++__NL__++++++++++++%2F%2F+%E5%A6%82%E6%9E%9C%E6%B2%A1%E6%9C%89%E4%B8%8A%E6%AC%A1%E5%90%8C%E6%AD%A5%E8%AE%B0%E5%BD%95%EF%BC%8C%E5%88%99%E8%AE%A4%E4%B8%BA%E6%9C%89%E5%8F%98%E5%8C%96__NL__++++++++++++if+%28%21lastState.last_bookmark_hash%29+%7B__NL__++++++++++++++++return+true%3B__NL__++++++++++++%7D__NL__++++++++++++__NL__++++++++++++return+currentHash+%21%3D%3D+lastState.last_bookmark_hash%3B__NL__++++++++%7D+catch+%28error%29+%7B__NL__++++++++++++console.error%28%27%E6%A3%80%E6%9F%A5%E4%B9%A6%E7%AD%BE%E5%8F%98%E5%8C%96%E5%A4%B1%E8%B4%A5%3A%27%2C+error%29%3B__NL__++++++++++++return+true%3B+%2F%2F+%E5%87%BA%E9%94%99%E6%97%B6%E8%AE%A4%E4%B8%BA%E6%9C%89%E5%8F%98%E5%8C%96%EF%BC%8C%E7%A1%AE%E4%BF%9D%E5%90%8C%E6%AD%A5__NL__++++++++%7D__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E6%89%A7%E8%A1%8C%E5%90%8C%E6%AD%A5%E6%93%8D%E4%BD%9C__NL__+++++*%2F__NL__++++async+performSync%28isManual+%3D+false%29+%7B__NL__++++++++if+%28this._isSyncing%29+%7B__NL__++++++++++++console.log%28%22%E5%90%8C%E6%AD%A5%E6%AD%A3%E5%9C%A8%E8%BF%9B%E8%A1%8C%E4%B8%AD%EF%BC%8C%E8%B7%B3%E8%BF%87%22%29%3B__NL__++++++++++++return%3B__NL__++++++++%7D__NL____NL__++++++++try+%7B__NL__++++++++++++this._isSyncing+%3D+true%3B__NL__++++++++++++__NL__++++++++++++const+config+%3D+await+this.getConfig%28%29%3B__NL__++++++++++++if+%28%21this.validateConfig%28config%29%29+%7B__NL__++++++++++++++++if+%28isManual%29+%7B__NL__++++++++++++++++++++alert%28MESSAGES.CONFIG_REQUIRED%29%3B__NL__++++++++++++++++++++chrome.runtime.openOptionsPage%28%29%3B__NL__++++++++++++++++%7D__NL__++++++++++++++++return%3B__NL__++++++++++++%7D__NL____NL__++++++++++++%2F%2F+%E5%A6%82%E6%9E%9C%E4%B8%8D%E6%98%AF%E6%89%8B%E5%8A%A8%E5%90%8C%E6%AD%A5%EF%BC%8C%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E6%9C%89%E5%8F%98%E5%8C%96__NL__++++++++++++if+%28%21isManual%29+%7B__NL__++++++++++++++++const+hasChanges+%3D+await+this.hasBookmarkChanges%28%29%3B__NL__++++++++++++++++if+%28%21hasChanges%29+%7B__NL__++++++++++++++++++++console.log%28%22%E4%B9%A6%E7%AD%BE%E6%97%A0%E5%8F%98%E5%8C%96%EF%BC%8C%E8%B7%B3%E8%BF%87%E8%87%AA%E5%8A%A8%E5%90%8C%E6%AD%A5%22%29%3B__NL__++++++++++++++++++++return%3B__NL__++++++++++++++++%7D__NL__++++++++++++%7D__NL____NL__++++++++++++const+%7B+github_username%2C+github_repo%2C+github_token%2C+github_filename+%7D+%3D+config%3B__NL__++++++++++++const+path+%3D+%60%24%7Bgithub_filename%7D%60%3B__NL__++++++++++++const+url+%3D+%60%24%7BGITHUB_API_BASE%7D%2Frepos%2F%24%7Bgithub_username%7D%2F%24%7Bgithub_repo%7D%2Fcontents%2F%24%7Bpath%7D%60%3B__NL____NL__++++++++++++const+tree+%3D+await+BookmarkManager.getBookmarkTree%28%29%3B__NL__++++++++++++const+content+%3D+btoa%28unescape%28encodeURIComponent%28JSON.stringify%28tree%2C+null%2C+2%29%29%29%29%3B__NL____NL__++++++++++++let+sha+%3D+null%3B__NL__++++++++++++try+%7B__NL__++++++++++++++++const+res+%3D+await+fetch%28url%2C+%7B__NL__++++++++++++++++++++headers%3A+%7B__NL__++++++++++++++++++++++++Authorization%3A+%60Bearer+%24%7Bgithub_token%7D%60%2C__NL__++++++++++++++++++++++++Accept%3A+%22application%2Fvnd.github%2Bjson%22__NL__++++++++++++++++++++%7D__NL__++++++++++++++++%7D%29%3B__NL__++++++++++++++++if+%28res.ok%29+%7B__NL__++++++++++++++++++++const+json+%3D+await+res.json%28%29%3B__NL__++++++++++++++++++++sha+%3D+json.sha%3B__NL__++++++++++++++++%7D__NL__++++++++++++%7D+catch+%28e%29+%7B__NL__++++++++++++++++console.error%28%22%E8%8E%B7%E5%8F%96%E7%8E%B0%E6%9C%89%E6%96%87%E4%BB%B6SHA%E5%A4%B1%E8%B4%A5%3A%22%2C+e%29%3B__NL__++++++++++++%7D__NL____NL__++++++++++++const+payload+%3D+%7B__NL__++++++++++++++++message%3A+%60%E6%9B%B4%E6%96%B0%E4%B9%A6%E7%AD%BE+%24%7Bnew+Date%28%29.toLocaleString%28%29%7D%60%2C__NL__++++++++++++++++content%2C__NL__++++++++++++++++branch%3A+%22main%22%2C__NL__++++++++++++++++...%28sha+%3F+%7B+sha+%7D+%3A+%7B%7D%29__NL__++++++++++++%7D%3B__NL____NL__++++++++++++const+res+%3D+await+fetch%28url%2C+%7B__NL__++++++++++++++++method%3A+%22PUT%22%2C__NL__++++++++++++++++headers%3A+%7B__NL__++++++++++++++++++++Authorization%3A+%60Bearer+%24%7Bgithub_token%7D%60%2C__NL__++++++++++++++++++++%22Content-Type%22%3A+%22application%2Fjson%22%2C__NL__++++++++++++++++++++Accept%3A+%22application%2Fvnd.github%2Bjson%22__NL__++++++++++++++++%7D%2C__NL__++++++++++++++++body%3A+JSON.stringify%28payload%29__NL__++++++++++++%7D%29%3B__NL____NL__++++++++++++if+%28res.ok%29+%7B__NL__++++++++++++++++%2F%2F+%E4%BF%9D%E5%AD%98%E5%90%8C%E6%AD%A5%E7%8A%B6%E6%80%81__NL__++++++++++++++++const+currentHash+%3D+this.generateBookmarkHash%28tree%29%3B__NL__++++++++++++++++await+this.saveSyncState%28currentHash%29%3B__NL__++++++++++++++++__NL__++++++++++++++++%2F%2F+%E5%8F%AA%E5%9C%A8%E5%90%8C%E6%AD%A5%E5%AE%8C%E6%88%90%E6%97%B6%E6%98%BE%E7%A4%BA%E6%88%90%E5%8A%9F%E6%8F%90%E9%86%92__NL__++++++++++++++++if+%28config.show_sync_notifications%29+%7B__NL__++++++++++++++++++++await+this.showNotification%28%27%E4%B9%A6%E7%AD%BE%E5%90%8C%E6%AD%A5%27%2C+%27%E4%B9%A6%E7%AD%BE%E5%90%8C%E6%AD%A5%E6%88%90%E5%8A%9F%EF%BC%81%27%2C+%27success%27%29%3B__NL__++++++++++++++++%7D__NL__++++++++++++++++__NL__++++++++++++++++if+%28isManual%29+%7B__NL__++++++++++++++++++++alert%28MESSAGES.SYNC_SUCCESS%29%3B__NL__++++++++++++++++%7D+else+%7B__NL__++++++++++++++++++++console.log%28%22%E2%9C%85+%E8%87%AA%E5%8A%A8%E5%90%8C%E6%AD%A5%E6%88%90%E5%8A%9F%22%29%3B__NL__++++++++++++++++%7D__NL__++++++++++++%7D+else+%7B__NL__++++++++++++++++const+errorData+%3D+await+res.json%28%29.catch%28%28%29+%3D%3E+%28%7B%7D%29%29%3B__NL__++++++++++++++++throw+new+Error%28errorData.message+%7C%7C+%22%E6%9C%AA%E7%9F%A5%E9%94%99%E8%AF%AF%22%29%3B__NL__++++++++++++%7D__NL__++++++++%7D+catch+%28err%29+%7B__NL__++++++++++++console.error%28MESSAGES.SYNC_FAILED%2C+err%29%3B__NL__++++++++++++__NL__++++++++++++%2F%2F+%E5%8F%AA%E5%9C%A8%E5%90%8C%E6%AD%A5%E5%A4%B1%E8%B4%A5%E6%97%B6%E6%98%BE%E7%A4%BA%E9%94%99%E8%AF%AF%E6%8F%90%E9%86%92__NL__++++++++++++const+config+%3D+await+this.getConfig%28%29%3B__NL__++++++++++++if+%28config.show_sync_notifications%29+%7B__NL__++++++++++++++++await+this.showNotification%28%27%E4%B9%A6%E7%AD%BE%E5%90%8C%E6%AD%A5%27%2C+%60%E5%90%8C%E6%AD%A5%E5%A4%B1%E8%B4%A5%3A+%24%7Berr.message%7D%60%2C+%27error%27%29%3B__NL__++++++++++++%7D__NL__++++++++++++__NL__++++++++++++if+%28isManual%29+%7B__NL__++++++++++++++++alert%28%60%24%7BMESSAGES.SYNC_FAILED%7D%3A+%24%7Berr.message%7D%60%29%3B__NL__++++++++++++%7D__NL__++++++++%7D+finally+%7B__NL__++++++++++++this._isSyncing+%3D+false%3B__NL__++++++++%7D__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E6%89%8B%E5%8A%A8%E5%90%8C%E6%AD%A5__NL__+++++*%2F__NL__++++async+sync%28%29+%7B__NL__++++++++await+this.performSync%28true%29%3B__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E8%87%AA%E5%8A%A8%E5%90%8C%E6%AD%A5__NL__+++++*%2F__NL__++++async+autoSync%28%29+%7B__NL__++++++++const+config+%3D+await+this.getConfig%28%29%3B__NL__++++++++__NL__++++++++%2F%2F+%E6%A3%80%E6%9F%A5%E8%87%AA%E5%8A%A8%E5%90%8C%E6%AD%A5%E6%98%AF%E5%90%A6%E5%90%AF%E7%94%A8__NL__++++++++if+%28%21config.auto_sync_enabled%29+%7B__NL__++++++++++++return%3B__NL__++++++++%7D__NL____NL__++++++++console.log%28%22%F0%9F%94%8D+%E6%A3%80%E6%9F%A5%E8%87%AA%E5%8A%A8%E5%90%8C%E6%AD%A5...%22%29%3B__NL__++++++++await+this.performSync%28false%29%3B__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E5%AE%89%E6%8E%92%E5%BB%B6%E6%97%B6%E5%90%8C%E6%AD%A5__NL__+++++*%2F__NL__++++scheduleDelayedSync%28%29+%7B__NL__++++++++if+%28this._autoSyncTimer%29+%7B__NL__++++++++++++clearTimeout%28this._autoSyncTimer%29%3B__NL__++++++++%7D__NL____NL__++++++++this.getConfig%28%29.then%28config+%3D%3E+%7B__NL__++++++++++++const+delaySeconds+%3D+config.auto_sync_delay+%7C%7C+5%3B__NL__++++++++++++const+delayMilliseconds+%3D+delaySeconds+*+1000%3B+%2F%2F+%E8%BD%AC%E6%8D%A2%E4%B8%BA%E6%AF%AB%E7%A7%92__NL__++++++++++++__NL__++++++++++++console.log%28%60%E2%8F%B0+%E5%AE%89%E6%8E%92+%24%7BdelaySeconds%7D+%E7%A7%92%E5%90%8E%E8%87%AA%E5%8A%A8%E5%90%8C%E6%AD%A5%60%29%3B__NL__++++++++++++__NL__++++++++++++this._autoSyncTimer+%3D+setTimeout%28async+%28%29+%3D%3E+%7B__NL__++++++++++++++++console.log%28%60%F0%9F%94%84+%E6%89%A7%E8%A1%8C%E8%87%AA%E5%8A%A8%E5%90%8C%E6%AD%A5%60%29%3B__NL__++++++++++++++++await+this.autoSync%28%29%3B__NL__++++++++++++%7D%2C+delayMilliseconds%29%3B__NL__++++++++%7D%29%3B__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E5%88%9D%E5%A7%8B%E5%8C%96%E8%87%AA%E5%8A%A8%E5%90%8C%E6%AD%A5%E7%9B%91%E5%90%AC__NL__+++++*%2F__NL__++++initAutoSync%28%29+%7B__NL__++++++++console.log%28%22%F0%9F%94%84+%E5%88%9D%E5%A7%8B%E5%8C%96%E8%87%AA%E5%8A%A8%E5%90%8C%E6%AD%A5%E7%9B%91%E5%90%AC...%22%29%3B__NL__++++++++__NL__++++++++%2F%2F+%E7%9B%91%E5%90%AC%E4%B9%A6%E7%AD%BE%E5%8F%98%E5%8C%96__NL__++++++++chrome.bookmarks.onCreated.addListener%28%28%29+%3D%3E+%7B__NL__++++++++++++this.onBookmarkChanged%28%29%3B__NL__++++++++%7D%29%3B__NL__++++++++__NL__++++++++chrome.bookmarks.onRemoved.addListener%28%28%29+%3D%3E+%7B__NL__++++++++++++this.onBookmarkChanged%28%29%3B__NL__++++++++%7D%29%3B__NL__++++++++__NL__++++++++chrome.bookmarks.onChanged.addListener%28%28%29+%3D%3E+%7B__NL__++++++++++++this.onBookmarkChanged%28%29%3B__NL__++++++++%7D%29%3B__NL__++++++++__NL__++++++++chrome.bookmarks.onMoved.addListener%28%28%29+%3D%3E+%7B__NL__++++++++++++this.onBookmarkChanged%28%29%3B__NL__++++++++%7D%29%3B__NL____NL__++++++++console.log%28%22%E2%9C%85+%E8%87%AA%E5%8A%A8%E5%90%8C%E6%AD%A5%E7%9B%91%E5%90%AC%E5%99%A8%E5%88%9D%E5%A7%8B%E5%8C%96%E5%AE%8C%E6%88%90%22%29%3B__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E4%B9%A6%E7%AD%BE%E5%8F%98%E5%8C%96%E5%A4%84%E7%90%86__NL__+++++*%2F__NL__++++async+onBookmarkChanged%28%29+%7B__NL__++++++++const+config+%3D+await+this.getConfig%28%29%3B__NL__++++++++if+%28config.auto_sync_enabled%29+%7B__NL__++++++++++++console.log%28%22%F0%9F%93%9D+%E4%B9%A6%E7%AD%BE%E5%8F%98%E5%8C%96%EF%BC%8C%E5%AE%89%E6%8E%92%E8%87%AA%E5%8A%A8%E5%90%8C%E6%AD%A5%22%29%3B__NL__++++++++++++this.scheduleDelayedSync%28%29%3B__NL__++++++++%7D__NL__++++%7D__NL__%7D%3B__NL____NL__%2F%2F+%E5%AF%BC%E5%87%BA%E6%A8%A1%E5%9D%97__NL__const+ExportManager+%3D+%7B__NL__++++async+export%28%29+%7B__NL__++++++++try+%7B__NL__++++++++++++const+tree+%3D+await+BookmarkManager.getBookmarkTree%28%29%3B__NL__++++++++++++const+json+%3D+JSON.stringify%28tree%2C+null%2C+2%29%3B__NL__++++++++++++const+blob+%3D+new+Blob%28%5Bjson%5D%2C+%7B+type%3A+%22application%2Fjson%22+%7D%29%3B__NL__++++++++++++const+url+%3D+URL.createObjectURL%28blob%29%3B__NL____NL__++++++++++++const+a+%3D+document.createElement%28%22a%22%29%3B__NL__++++++++++++a.href+%3D+url%3B__NL__++++++++++++a.download+%3D+%60bookmarks_%24%7Bnew+Date%28%29.toISOString%28%29.slice%280%2C+10%29%7D.json%60%3B__NL__++++++++++++document.body.appendChild%28a%29%3B__NL__++++++++++++a.click%28%29%3B__NL____NL__++++++++++++setTimeout%28%28%29+%3D%3E+%7B__NL__++++++++++++++++document.body.removeChild%28a%29%3B__NL__++++++++++++++++URL.revokeObjectURL%28url%29%3B__NL__++++++++++++++++alert%28MESSAGES.EXPORT_SUCCESS%29%3B__NL__++++++++++++%7D%2C+100%29%3B__NL__++++++++%7D+catch+%28err%29+%7B__NL__++++++++++++console.error%28%22%E5%AF%BC%E5%87%BA%E5%A4%B1%E8%B4%A5%3A%22%2C+err%29%3B__NL__++++++++++++alert%28%22%E2%9D%8C+%E5%AF%BC%E5%87%BA%E5%A4%B1%E8%B4%A5%22%29%3B__NL__++++++++%7D__NL__++++%7D__NL__%7D%3B__NL____NL__%2F%2F+UI%E4%BA%A4%E4%BA%92%E6%A8%A1%E5%9D%97__NL__const+UIManager+%3D+%7B__NL__++++%2F**__NL__+++++*+%E5%88%9D%E5%A7%8B%E5%8C%96UI%E4%BA%8B%E4%BB%B6__NL__+++++*%2F__NL__++++initEvents%28%29+%7B__NL__++++++++%2F%2F+%E7%82%B9%E5%87%BBlogo%E6%89%93%E5%BC%80index.html__NL__++++++++document.querySelector%28%27.title-icon%27%29.addEventListener%28%27click%27%2C+%28e%29+%3D%3E+%7B__NL__++++++++++++e.stopPropagation%28%29%3B__NL__++++++++++++chrome.tabs.create%28%7B+url%3A+chrome.runtime.getURL%28%22index.html%22%29+%7D%29%3B__NL__++++++++%7D%29%3B__NL____NL__++++++++%2F%2F+%E7%82%B9%E5%87%BB%E6%A0%87%E9%A2%98%E6%8A%98%E5%8F%A0%E6%89%80%E6%9C%89%E8%8F%9C%E5%8D%95__NL__++++++++document.querySelector%28%27.top-bar-title+span%27%29.addEventListener%28%27click%27%2C+%28e%29+%3D%3E+%7B__NL__++++++++++++e.stopPropagation%28%29%3B__NL__++++++++++++BookmarkManager.collapseAllMenus%28%29%3B__NL__++++++++%7D%29%3B__NL____NL__++++++++%2F%2F+%E6%90%9C%E7%B4%A2%E5%9B%BE%E6%A0%87%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6+-+%E6%98%BE%E7%A4%BA%E6%90%9C%E7%B4%A2%E6%A1%86__NL__++++++++DOM.searchIcon%3F.addEventListener%28%22click%22%2C+this.toggleSearch.bind%28this%29%29%3B__NL__++++++++__NL__++++++++%2F%2F+%E6%90%9C%E7%B4%A2%E6%A1%86%E5%A4%B1%E5%8E%BB%E7%84%A6%E7%82%B9%E4%BA%8B%E4%BB%B6__NL__++++++++DOM.searchBox%3F.addEventListener%28%22blur%22%2C+this.handleSearchBlur.bind%28this%29%29%3B__NL__++++++++__NL__++++++++%2F%2F+%E6%90%9C%E7%B4%A2%E6%A1%86%E8%BE%93%E5%85%A5%E4%BA%8B%E4%BB%B6+-+%E6%B7%BB%E5%8A%A0%E9%98%B2%E6%8A%96__NL__++++++++DOM.searchBox%3F.addEventListener%28__NL__++++++++++++%22input%22%2C__NL__++++++++++++Utils.debounce%28this.handleSearchInput.bind%28this%29%2C+300%29__NL__++++++++%29%3B__NL____NL__++++++++%2F%2F+%E6%B8%85%E9%99%A4%E6%90%9C%E7%B4%A2%E6%8C%89%E9%92%AE%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6__NL__++++++++DOM.clearSearch%3F.addEventListener%28%22click%22%2C+%28%29+%3D%3E+%7B__NL__++++++++++++DOM.searchBox.value+%3D+%22%22%3B+%2F%2F+%E6%B8%85%E7%A9%BA%E6%90%9C%E7%B4%A2%E6%A1%86__NL__++++++++++++DOM.clearSearch.style.display+%3D+%22none%22%3B+%2F%2F+%E9%9A%90%E8%97%8F%E6%B8%85%E9%99%A4%E6%8C%89%E9%92%AE__NL__++++++++++++BookmarkManager.renderFullBookmarks%28%29%3B+%2F%2F+%E6%81%A2%E5%A4%8D%E5%AE%8C%E6%95%B4%E4%B9%A6%E7%AD%BE%E6%A0%91__NL__++++++++++++DOM.searchBox.focus%28%29%3B+%2F%2F+%E4%BF%9D%E6%8C%81%E7%84%A6%E7%82%B9%E5%9C%A8%E6%90%9C%E7%B4%A2%E6%A1%86__NL__++++++++%7D%29%3B__NL____NL__++++++++%2F%2F+%E5%BA%95%E9%83%A8%E6%8C%89%E9%92%AE%E4%BA%8B%E4%BB%B6__NL__++++++++DOM.exportBtn%3F.addEventListener%28%22click%22%2C+ExportManager.export.bind%28ExportManager%29%29%3B__NL__++++++++DOM.syncBtn%3F.addEventListener%28%22click%22%2C+GitHubSync.sync.bind%28GitHubSync%29%29%3B__NL__++++++++DOM.settingsBtn%3F.addEventListener%28%22click%22%2C+%28%29+%3D%3E+%7B__NL__++++++++++++chrome.runtime.openOptionsPage%28%29%3B__NL__++++++++%7D%29%3B__NL____NL__++++++++%2F%2F+%E7%AA%97%E5%8F%A3%E5%A4%A7%E5%B0%8F%E6%94%B9%E5%8F%98%E4%BA%8B%E4%BB%B6__NL__++++++++window.addEventListener%28%22resize%22%2C+this.toggleTitleVisibility.bind%28this%29%29%3B__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E5%88%87%E6%8D%A2%E6%90%9C%E7%B4%A2%E6%A1%86%E6%98%BE%E7%A4%BA%E7%8A%B6%E6%80%81__NL__+++++*%2F__NL__++++toggleSearch%28%29+%7B__NL__++++++++DOM.searchIcon.style.display+%3D+%22none%22%3B__NL__++++++++DOM.searchBox.style.display+%3D+%22block%22%3B__NL__++++++++DOM.searchBox.focus%28%29%3B__NL__++++++++this.toggleTitleVisibility%28%29%3B__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E5%A4%84%E7%90%86%E6%90%9C%E7%B4%A2%E6%A1%86%E5%A4%B1%E5%8E%BB%E7%84%A6%E7%82%B9__NL__+++++*%2F__NL__++++handleSearchBlur%28%29+%7B__NL__++++++++if+%28%21DOM.searchBox.value%29+%7B__NL__++++++++++++DOM.searchBox.style.display+%3D+%22none%22%3B__NL__++++++++++++DOM.searchIcon.style.display+%3D+%22block%22%3B__NL__++++++++++++DOM.clearSearch.style.display+%3D+%22none%22%3B+%2F%2F+%E5%90%8C%E6%97%B6%E9%9A%90%E8%97%8F%E6%B8%85%E9%99%A4%E6%8C%89%E9%92%AE__NL__++++++++++++this.toggleTitleVisibility%28%29%3B__NL__++++++++%7D__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E5%A4%84%E7%90%86%E6%90%9C%E7%B4%A2%E8%BE%93%E5%85%A5__NL__+++++*+%40param+%7BEvent%7D+e+-+%E8%BE%93%E5%85%A5%E4%BA%8B%E4%BB%B6__NL__+++++*%2F__NL__++++async+handleSearchInput%28e%29+%7B__NL__++++++++const+keyword+%3D+e.target.value.trim%28%29%3B__NL__++++++++%2F%2F+%E6%A0%B9%E6%8D%AE%E6%98%AF%E5%90%A6%E6%9C%89%E6%90%9C%E7%B4%A2%E5%86%85%E5%AE%B9%E6%98%BE%E7%A4%BA%2F%E9%9A%90%E8%97%8F%E6%B8%85%E9%99%A4%E6%8C%89%E9%92%AE__NL__++++++++DOM.clearSearch.style.display+%3D+keyword+%3F+%22block%22+%3A+%22none%22%3B__NL__++++++++__NL__++++++++if+%28keyword%29+%7B__NL__++++++++++++const+results+%3D+await+BookmarkManager.searchBookmarks%28keyword%29%3B__NL__++++++++++++await+BookmarkManager.renderBookmarks%28results%2C+DOM.bookmarkTree%29%3B__NL__++++++++%7D+else+%7B__NL__++++++++++++await+BookmarkManager.renderFullBookmarks%28%29%3B__NL__++++++++%7D__NL__++++%7D%2C__NL____NL__++++%2F**__NL__+++++*+%E5%88%87%E6%8D%A2%E6%A0%87%E9%A2%98%E5%8F%AF%E8%A7%81%E6%80%A7%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%E8%AE%BE%E8%AE%A1%EF%BC%89__NL__+++++*%2F__NL__++++toggleTitleVisibility%28%29+%7B__NL__++++++++if+%28window.innerWidth+%3C%3D+480%29+%7B__NL__++++++++++++DOM.topBarTitle.style.display+%3D+DOM.searchBox.style.display+%3D%3D%3D+%22block%22+%3F+%22none%22+%3A+%22flex%22%3B__NL__++++++++%7D+else+%7B__NL__++++++++++++DOM.topBarTitle.style.display+%3D+%22flex%22%3B__NL__++++++++%7D__NL__++++%7D__NL__%7D%3B__NL____NL__%2F%2F+%E4%B8%BB%E5%85%A5%E5%8F%A3__NL__document.addEventListener%28%22DOMContentLoaded%22%2C+async+%28%29+%3D%3E+%7B__NL__++++UIManager.initEvents%28%29%3B__NL__++++UIManager.toggleTitleVisibility%28%29%3B__NL__++++await+BookmarkManager.renderFullBookmarks%28%29%3B__NL__++++__NL__++++%2F%2F+%E5%88%9D%E5%A7%8B%E5%8C%96%E8%87%AA%E5%8A%A8%E5%90%8C%E6%AD%A5__NL__++++GitHubSync.initAutoSync%28%29%3B__NL__%7D%29%3B"
@@ -1026,7 +1026,7 @@
                 "dateAdded": 1760625374497,
                 "id": "1002",
                 "index": 13,
-                "parentId": "45",
+                "parentId": "1105",
                 "syncing": true,
                 "title": "api密码前端调用代码",
                 "url": "chrome-extension://bpchmgblmojinbogghdgnjeegojpnnmm/viewer/viewer.html?raw=const+response+%3D+await+fetch%28%22https%3A%2F%2Fapi.mgt.xx.kg%2Fpassword%22%2C+%7B__NL__++method%3A+%22POST%22%2C__NL__++headers%3A+%7B__NL__++++%22Content-Type%22%3A+%22application%2Fjson%22__NL__++%7D%2C__NL__++body%3A+JSON.stringify%28%7B+password%3A+%22%E7%94%A8%E6%88%B7%E8%BE%93%E5%85%A5%E7%9A%84%E5%AF%86%E7%A0%81%22+%7D%29__NL__%7D%29%3B__NL____NL__const+result+%3D+await+response.json%28%29%3B__NL__if+%28result.success%29+%7B__NL__++%2F%2F+%E5%AF%86%E7%A0%81%E6%AD%A3%E7%A1%AE__NL__%7D+else+%7B__NL__++%2F%2F+%E5%AF%86%E7%A0%81%E9%94%99%E8%AF%AF__NL__%7D"
@@ -1035,7 +1035,7 @@
                 "dateAdded": 1760765043172,
                 "id": "1009",
                 "index": 14,
-                "parentId": "45",
+                "parentId": "1105",
                 "syncing": true,
                 "title": "KV 使用情况分析",
                 "url": "chrome-extension://bpchmgblmojinbogghdgnjeegojpnnmm/viewer/viewer.html?raw=1.+KV+%E6%93%8D%E4%BD%9C%E8%AE%A1%E6%95%B0__NL__%E6%AF%8F%E6%AC%A1%E5%9B%BE%E6%A0%87%E5%8A%A0%E8%BD%BD%EF%BC%9A1%E6%AC%A1%E8%AF%BB%E5%8F%96%E6%93%8D%E4%BD%9C%EF%BC%88%E5%A6%82%E6%9E%9C%E7%BC%93%E5%AD%98%E5%91%BD%E4%B8%AD%EF%BC%89__NL__%E6%AF%8F%E6%AC%A1%E6%96%B0%E5%9B%BE%E6%A0%87%EF%BC%9A1%E6%AC%A1%E5%86%99%E5%85%A5%E6%93%8D%E4%BD%9C%EF%BC%88%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AE%BF%E9%97%AE%E6%97%B6%EF%BC%89__NL__%E6%9B%B4%E6%96%B0%E6%93%8D%E4%BD%9C%EF%BC%9ATTL%E8%BF%87%E6%9C%9F%E5%90%8E%E9%87%8D%E6%96%B0%E5%86%99%E5%85%A5__NL____NL__2.+Cloudflare+KV+%E5%85%8D%E8%B4%B9%E9%99%90%E5%88%B6__NL__%E6%AF%8F%E6%97%A5%E8%AF%BB%E5%8F%96%EF%BC%9A100%2C000+%E6%AC%A1__NL__%E6%AF%8F%E6%97%A5%E5%86%99%E5%85%A5%EF%BC%9A1%2C000+%E6%AC%A1++__NL__%E6%AF%8F%E6%97%A5%E5%88%A0%E9%99%A4%EF%BC%9A1%2C000+%E6%AC%A1__NL__%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%EF%BC%9A1+GB__NL____NL__3.+%E5%AE%9E%E9%99%85%E4%BD%BF%E7%94%A8%E4%BC%B0%E7%AE%97__NL__%E5%81%87%E8%AE%BE%EF%BC%9A__NL__100%E4%B8%AA%E4%B9%A6%E7%AD%BE__NL__%E6%AF%8F%E4%B8%AA%E7%94%A8%E6%88%B7%E6%AF%8F%E5%A4%A9%E8%AE%BF%E9%97%AE10%E6%AC%A1__NL__100%E4%B8%AA%E7%94%A8%E6%88%B7__NL__%E4%B8%8B%E8%BD%BD__NL__%E6%AF%8F%E6%97%A5%E8%AF%BB%E5%8F%96%EF%BC%9A100%E4%B9%A6%E7%AD%BE+%C3%97+10%E6%AC%A1+%C3%97+100%E7%94%A8%E6%88%B7+%3D+100%2C000%E6%AC%A1__NL__%E6%AF%8F%E6%97%A5%E5%86%99%E5%85%A5%EF%BC%9A%E5%8F%AA%E5%9C%A8%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AE%BF%E9%97%AE%E6%97%B6%E5%86%99%E5%85%A5+%E2%89%88+100%E6%AC%A1"
@@ -1044,7 +1044,7 @@
                 "dateAdded": 1762531581432,
                 "id": "1076",
                 "index": 15,
-                "parentId": "45",
+                "parentId": "1105",
                 "syncing": true,
                 "title": "致电PayPal客户服务  400-921-1000 +86",
                 "url": "chrome-extension://bpchmgblmojinbogghdgnjeegojpnnmm/viewer/viewer.html?raw=%E8%87%B4%E7%94%B5PayPal%E5%AE%A2%E6%88%B7%E6%9C%8D%E5%8A%A1__NL____NL__400-921-1000__NL__%2B86-21-2891-3888__NL__%E5%AE%A2%E6%88%B7%E6%9C%8D%E5%8A%A1%E6%97%B6%E9%97%B4__NL__%E5%91%A8%E4%B8%80%E8%87%B3%E5%91%A8%E4%BA%949%3A00%E8%87%B318%3A00%EF%BC%88%E5%8C%97%E4%BA%AC%E6%97%B6%E9%97%B4%EF%BC%89__NL__%E4%BD%BF%E7%94%A8%E6%89%8B%E6%9C%BA%E6%88%96%E5%9B%BD%E9%99%85%E9%95%BF%E9%80%94%E7%94%B5%E8%AF%9D%E6%8B%A8%E6%89%93%E6%AD%A4%E5%8F%B7%E7%A0%81%EF%BC%8C%E5%85%B7%E4%BD%93%E8%B4%B9%E7%94%A8%E5%88%99%E4%BE%9D%E6%8D%AE%E7%94%B5%E4%BF%A1%E6%9C%8D%E5%8A%A1%E5%95%86%E6%9D%A1%E6%AC%BE%E8%80%8C%E5%AE%9A%E3%80%82__NL__%E6%88%91%E4%BB%AC%E5%8F%AA%E8%83%BD%E4%B8%8E%E8%B4%A6%E6%88%B7%E6%8C%81%E6%9C%89%E4%BA%BA%E8%AE%A8%E8%AE%BA%E4%B8%8E%E8%B4%A6%E6%88%B7%E4%BF%A1%E6%81%AF%E6%9C%89%E5%85%B3%E7%9A%84%E9%97%AE%E9%A2%98%E3%80%82__NL____NL__%E5%A6%82%E6%9E%9C%E6%82%A8%E6%9C%89%E5%90%AC%E5%8A%9B%E6%88%96%E8%AF%AD%E8%A8%80%E9%9A%9C%E7%A2%8D%EF%BC%8C%E8%AF%B7%E9%80%9A%E8%BF%87IP%E4%B8%AD%E7%BB%A7%E6%9C%8D%E5%8A%A1%E4%B8%8E%E6%88%91%E4%BB%AC%E8%81%94%E7%B3%BB%E3%80%82"
@@ -1053,19 +1053,19 @@
                 "dateAdded": 1762620271377,
                 "id": "1080",
                 "index": 16,
-                "parentId": "45",
+                "parentId": "1105",
                 "syncing": true,
                 "title": "<option value=\"+86\">China +86<",
                 "url": "chrome-extension://bpchmgblmojinbogghdgnjeegojpnnmm/viewer/viewer.html?raw=%3Coption+value%3D%22%2B86%22%3EChina+%2B86%3C%2Foption%3E"
               }
             ],
-            "dateAdded": 1748940563536,
-            "dateGroupModified": 1762620430078,
-            "id": "45",
+            "dateAdded": 1762691508746,
+            "dateGroupModified": 1762691585841,
+            "id": "1105",
             "index": 1,
             "parentId": "1",
             "syncing": true,
-            "title": "剪辑  📑"
+            "title": "剪贴  📑"
           },
           {
             "children": [
@@ -1764,7 +1764,7 @@
               },
               {
                 "dateAdded": 1747647146610,
-                "dateLastUsed": 1762628123836,
+                "dateLastUsed": 1762708133117,
                 "id": "196",
                 "index": 2,
                 "parentId": "126",
@@ -1774,7 +1774,7 @@
               },
               {
                 "dateAdded": 1747844112070,
-                "dateLastUsed": 1762592288801,
+                "dateLastUsed": 1762698628049,
                 "id": "197",
                 "index": 3,
                 "parentId": "126",
@@ -1814,7 +1814,7 @@
               },
               {
                 "dateAdded": 1728289132080,
-                "dateLastUsed": 1762453500669,
+                "dateLastUsed": 1762691274370,
                 "id": "204",
                 "index": 7,
                 "parentId": "126",
@@ -2286,19 +2286,10 @@
                     "syncing": true,
                     "title": "Sink",
                     "url": "https://github.com/fjvi/Sink"
-                  },
-                  {
-                    "dateAdded": 1762596910771,
-                    "id": "1079",
-                    "index": 19,
-                    "parentId": "226",
-                    "syncing": true,
-                    "title": "gllao/自动登录netlib.re网站保活域名",
-                    "url": "https://github.com/gllao/Auto-login-netlib"
                   }
                 ],
                 "dateAdded": 1747616185011,
-                "dateGroupModified": 1762596925451,
+                "dateGroupModified": 1762705830993,
                 "id": "226",
                 "index": 0,
                 "parentId": "225",
@@ -2308,9 +2299,36 @@
               {
                 "children": [
                   {
+                    "dateAdded": 1762636538364,
+                    "id": "1096",
+                    "index": 0,
+                    "parentId": "245",
+                    "syncing": true,
+                    "title": "qwer-search",
+                    "url": "https://github.com/qwer-search?tab=repositories"
+                  },
+                  {
+                    "dateAdded": 1759329308180,
+                    "id": "254",
+                    "index": 1,
+                    "parentId": "245",
+                    "syncing": true,
+                    "title": "yutian81-对各种技术充满热情的小白",
+                    "url": "https://github.com/yutian81?tab=repositories"
+                  },
+                  {
+                    "dateAdded": 1762635591892,
+                    "id": "1092",
+                    "index": 2,
+                    "parentId": "245",
+                    "syncing": true,
+                    "title": "eooce",
+                    "url": "https://github.com/eooce?tab=repositories"
+                  },
+                  {
                     "dateAdded": 1756844499904,
                     "id": "246",
-                    "index": 0,
+                    "index": 3,
                     "parentId": "245",
                     "syncing": true,
                     "title": "v2rayN桌面",
@@ -2319,7 +2337,7 @@
                   {
                     "dateAdded": 1756843573976,
                     "id": "247",
-                    "index": 1,
+                    "index": 4,
                     "parentId": "245",
                     "syncing": true,
                     "title": "v2rayNG安卓",
@@ -2328,7 +2346,7 @@
                   {
                     "dateAdded": 1756845205952,
                     "id": "248",
-                    "index": 2,
+                    "index": 5,
                     "parentId": "245",
                     "syncing": true,
                     "title": "karing",
@@ -2337,7 +2355,7 @@
                   {
                     "dateAdded": 1756845896888,
                     "id": "249",
-                    "index": 3,
+                    "index": 6,
                     "parentId": "245",
                     "syncing": true,
                     "title": "clash-verge桌面",
@@ -2346,7 +2364,7 @@
                   {
                     "dateAdded": 1759328991044,
                     "id": "250",
-                    "index": 4,
+                    "index": 7,
                     "parentId": "245",
                     "syncing": true,
                     "title": "ClashMeta安卓",
@@ -2355,7 +2373,7 @@
                   {
                     "dateAdded": 1756844941904,
                     "id": "251",
-                    "index": 5,
+                    "index": 8,
                     "parentId": "245",
                     "syncing": true,
                     "title": "Gmeek",
@@ -2365,25 +2383,16 @@
                     "dateAdded": 1741701578526,
                     "dateLastUsed": 1759328840669,
                     "id": "253",
-                    "index": 6,
+                    "index": 9,
                     "parentId": "245",
                     "syncing": true,
                     "title": "hst1189/webstack: ❤️网站收藏夹❤️ ",
                     "url": "https://github.com/hst1189/webstack"
                   },
                   {
-                    "dateAdded": 1759329308180,
-                    "id": "254",
-                    "index": 7,
-                    "parentId": "245",
-                    "syncing": true,
-                    "title": "yutian81-对各种技术充满热情的小白",
-                    "url": "https://github.com/yutian81?tab=repositories"
-                  },
-                  {
                     "dateAdded": 1759329431556,
                     "id": "255",
-                    "index": 8,
+                    "index": 10,
                     "parentId": "245",
                     "syncing": true,
                     "title": "menav: 一键部署的个人导航站生成器",
@@ -2393,7 +2402,7 @@
                     "dateAdded": 1759338068950,
                     "dateLastUsed": 1760106011268,
                     "id": "256",
-                    "index": 9,
+                    "index": 11,
                     "parentId": "245",
                     "syncing": true,
                     "title": "CloudPaste",
@@ -2402,7 +2411,7 @@
                   {
                     "dateAdded": 1759398755936,
                     "id": "259",
-                    "index": 10,
+                    "index": 12,
                     "parentId": "245",
                     "syncing": true,
                     "title": "marimo/响应式的Python笔记本",
@@ -2411,7 +2420,7 @@
                   {
                     "dateAdded": 1759750299064,
                     "id": "261",
-                    "index": 11,
+                    "index": 13,
                     "parentId": "245",
                     "syncing": true,
                     "title": "thumbsup：生成静态 HTML 照片/视频库",
@@ -2420,16 +2429,16 @@
                   {
                     "dateAdded": 1761935474869,
                     "id": "1046",
-                    "index": 12,
+                    "index": 14,
                     "parentId": "245",
                     "syncing": true,
-                    "title": "HappyLeslieAlexander/Snavigation: 一个简约好看的浏览器主页",
+                    "title": "简约好看的主页HappyLeslieAlexander/Snavigation: ",
                     "url": "https://github.com/HappyLeslieAlexander/Snavigation"
                   },
                   {
                     "dateAdded": 1762376890130,
                     "id": "1058",
-                    "index": 13,
+                    "index": 15,
                     "parentId": "245",
                     "syncing": true,
                     "title": "is-a-dev/register：获取您自己的漂亮子域名“.is-a.dev”。",
@@ -2438,7 +2447,7 @@
                   {
                     "dateAdded": 1762377069179,
                     "id": "1060",
-                    "index": 14,
+                    "index": 16,
                     "parentId": "245",
                     "syncing": true,
                     "title": "ccbikai/Sink：⚡ 一个简单/快速/安全的链接缩短器，带有分析功能，100% 在 Cloudflare 上运行。",
@@ -2447,7 +2456,7 @@
                   {
                     "dateAdded": 1762377336170,
                     "id": "1061",
-                    "index": 15,
+                    "index": 17,
                     "parentId": "245",
                     "syncing": true,
                     "title": "XPoet/picx: 🏞️ PicX 是一款基于 GitHub API 开发的图床工具，提供图片上传托管、生成图片链接和常用图片工具箱服务。",
@@ -2456,7 +2465,7 @@
                   {
                     "dateAdded": 1762377648721,
                     "id": "1064",
-                    "index": 16,
+                    "index": 18,
                     "parentId": "245",
                     "syncing": true,
                     "title": "一个轻量级的内容管理系统，自托管在 Cloudflare 上，用于播客、博客、照片、视频、文档和精选网址",
@@ -2465,15 +2474,33 @@
                   {
                     "dateAdded": 1762377931233,
                     "id": "1065",
-                    "index": 17,
+                    "index": 19,
                     "parentId": "245",
                     "syncing": true,
-                    "title": "提升部署在cloudflare、vercel或netlify的网页在中国的访问速度和稳定性",
+                    "title": "CF中国网站提速",
                     "url": "https://github.com/xingpingcn/enhanced-FaaS-in-China"
+                  },
+                  {
+                    "dateAdded": 1762635393004,
+                    "id": "1091",
+                    "index": 20,
+                    "parentId": "245",
+                    "syncing": true,
+                    "title": "eooce/music-player: 在线音乐播放器",
+                    "url": "https://github.com/eooce/music-player"
+                  },
+                  {
+                    "dateAdded": 1762636038116,
+                    "id": "1093",
+                    "index": 21,
+                    "parentId": "245",
+                    "syncing": true,
+                    "title": "eooce/Merge-sub: 将多个订阅或自建节点合并成一个订阅",
+                    "url": "https://github.com/eooce/Merge-sub"
                   }
                 ],
                 "dateAdded": 1740645981638,
-                "dateGroupModified": 1762387333219,
+                "dateGroupModified": 1762704452826,
                 "id": "245",
                 "index": 1,
                 "parentId": "225",
@@ -2696,13 +2723,13 @@
                 "index": 2,
                 "parentId": "225",
                 "syncing": true,
-                "title": "基于CF  🚀"
+                "title": "CF-APP  🚀"
               },
               {
                 "children": [
                   {
                     "dateAdded": 1749195584972,
-                    "dateLastUsed": 1760096289404,
+                    "dateLastUsed": 1762691228136,
                     "id": "280",
                     "index": 0,
                     "parentId": "937",
@@ -2731,6 +2758,7 @@
               },
               {
                 "dateAdded": 1759676780451,
+                "dateLastUsed": 1762705620338,
                 "id": "282",
                 "index": 5,
                 "parentId": "225",
@@ -2749,10 +2777,28 @@
                 "url": "https://github.com/fjvi/note/issues/new/choose"
               },
               {
+                "dateAdded": 1760627613570,
+                "id": "1003",
+                "index": 7,
+                "parentId": "225",
+                "syncing": true,
+                "title": "⬆上传 nav",
+                "url": "https://github.com/fjvi/nav/upload/main"
+              },
+              {
+                "dateAdded": 1747849910853,
+                "id": "283",
+                "index": 8,
+                "parentId": "225",
+                "syncing": true,
+                "title": "⬆上传 fjvi.github.io",
+                "url": "https://github.com/fjvi/fjvi.github.io/upload/main"
+              },
+              {
                 "dateAdded": 1727795015903,
                 "dateLastUsed": 1742439529472,
                 "id": "285",
-                "index": 7,
+                "index": 9,
                 "parentId": "225",
                 "syncing": true,
                 "title": "Gists",
@@ -2762,7 +2808,7 @@
                 "dateAdded": 1741443224804,
                 "dateLastUsed": 1741508443034,
                 "id": "286",
-                "index": 8,
+                "index": 10,
                 "parentId": "225",
                 "syncing": true,
                 "title": "GitHub探索",
@@ -2771,29 +2817,11 @@
               {
                 "dateAdded": 1746892089746,
                 "id": "287",
-                "index": 9,
+                "index": 11,
                 "parentId": "225",
                 "syncing": true,
                 "title": "Codespaces",
                 "url": "https://github.com/codespaces"
-              },
-              {
-                "dateAdded": 1747849910853,
-                "id": "283",
-                "index": 10,
-                "parentId": "225",
-                "syncing": true,
-                "title": "⬆上传 fjvi.github.io",
-                "url": "https://github.com/fjvi/fjvi.github.io/upload/main"
-              },
-              {
-                "dateAdded": 1760627613570,
-                "id": "1003",
-                "index": 11,
-                "parentId": "225",
-                "syncing": true,
-                "title": "⬆上传 nav",
-                "url": "https://github.com/fjvi/nav/upload/main"
               },
               {
                 "dateAdded": 1760610480591,
@@ -2820,12 +2848,30 @@
                 "index": 14,
                 "parentId": "225",
                 "syncing": true,
-                "title": "SMS Verification - GitHub 支持",
+                "title": " GitHub 短信验证",
                 "url": "https://support.github.com/verification/sms_verification"
+              },
+              {
+                "dateAdded": 1762704452826,
+                "id": "1109",
+                "index": 15,
+                "parentId": "225",
+                "syncing": true,
+                "title": "Awesome",
+                "url": "https://github.com/search?q=Awesome+&type=repositories"
+              },
+              {
+                "dateAdded": 1762704551042,
+                "id": "1110",
+                "index": 16,
+                "parentId": "225",
+                "syncing": true,
+                "title": "本周热门仓库",
+                "url": "https://github.com/trending?since=daily"
               }
             ],
             "dateAdded": 1740645478211,
-            "dateGroupModified": 1762620439638,
+            "dateGroupModified": 1762705618397,
             "id": "225",
             "index": 3,
             "parentId": "1",
@@ -2856,20 +2902,10 @@
                     "url": "https://github.com/fjvi/bbbfff"
                   },
                   {
-                    "dateAdded": 1759948182036,
-                    "dateLastUsed": 1760193390079,
-                    "id": "244",
-                    "index": 2,
-                    "parentId": "948",
-                    "syncing": true,
-                    "title": "sub-web-modify 订阅转换前端",
-                    "url": "https://github.com/fjvi/sub-web-modify"
-                  },
-                  {
                     "dateAdded": 1760169622374,
                     "dateLastUsed": 1760170059439,
                     "id": "954",
-                    "index": 3,
+                    "index": 2,
                     "parentId": "948",
                     "syncing": true,
                     "title": "short 短链生成器",
@@ -2879,7 +2915,7 @@
                     "dateAdded": 1760169316495,
                     "dateLastUsed": 1760170093113,
                     "id": "953",
-                    "index": 4,
+                    "index": 3,
                     "parentId": "948",
                     "syncing": true,
                     "title": "Url-Shorten-Worker 短链生成器",
@@ -2888,7 +2924,7 @@
                   {
                     "dateAdded": 1747821476154,
                     "id": "240",
-                    "index": 5,
+                    "index": 4,
                     "parentId": "948",
                     "syncing": true,
                     "title": "text2kv: 文本文件储存器",
@@ -2897,7 +2933,7 @@
                   {
                     "dateAdded": 1760170331989,
                     "id": "956",
-                    "index": 6,
+                    "index": 5,
                     "parentId": "948",
                     "syncing": true,
                     "title": "cloudflare-drop: 文件或文本共享",
@@ -2906,15 +2942,25 @@
                   {
                     "dateAdded": 1760170434756,
                     "id": "958",
-                    "index": 7,
+                    "index": 6,
                     "parentId": "948",
                     "syncing": true,
                     "title": "edgetunnel: 订阅节点部署",
                     "url": "https://github.com/fjvi/edge"
+                  },
+                  {
+                    "dateAdded": 1759948182036,
+                    "dateLastUsed": 1760193390079,
+                    "id": "244",
+                    "index": 7,
+                    "parentId": "948",
+                    "syncing": true,
+                    "title": "订阅转换前端",
+                    "url": "https://github.com/fjvi/sub-web-modify"
                   }
                 ],
                 "dateAdded": 1760161991166,
-                "dateGroupModified": 1760170434756,
+                "dateGroupModified": 1762706939160,
                 "id": "948",
                 "index": 0,
                 "parentId": "26",
@@ -3093,10 +3139,169 @@
             "index": 4,
             "parentId": "1",
             "syncing": true,
-            "title": "Cloudflare"
+            "title": "APP"
           },
           {
             "children": [
+              {
+                "children": [
+                  {
+                    "dateAdded": 1762531272662,
+                    "id": "1075",
+                    "index": 0,
+                    "parentId": "1104",
+                    "syncing": true,
+                    "title": "PayPal",
+                    "url": "https://www.paypal.com/myaccount/summary"
+                  },
+                  {
+                    "dateAdded": 1760769282596,
+                    "id": "1013",
+                    "index": 1,
+                    "parentId": "1104",
+                    "syncing": true,
+                    "title": "Vercel",
+                    "url": "https://vercel.com/mgtang"
+                  },
+                  {
+                    "dateAdded": 1759327251986,
+                    "id": "368",
+                    "index": 2,
+                    "parentId": "1104",
+                    "syncing": true,
+                    "title": "Netlify",
+                    "url": "https://www.netlify.com/"
+                  },
+                  {
+                    "dateAdded": 1760768831301,
+                    "id": "1012",
+                    "index": 3,
+                    "parentId": "1104",
+                    "syncing": true,
+                    "title": "数据库 - Upstash",
+                    "url": "https://console.upstash.com/redis?teamid=0"
+                  },
+                  {
+                    "dateAdded": 1741590079736,
+                    "id": "416",
+                    "index": 4,
+                    "parentId": "1104",
+                    "syncing": true,
+                    "title": "Pocket",
+                    "url": "https://getpocket.com/zh/saves"
+                  },
+                  {
+                    "dateAdded": 1742307737407,
+                    "dateLastUsed": 1744645562708,
+                    "id": "482",
+                    "index": 5,
+                    "parentId": "1104",
+                    "syncing": true,
+                    "title": "Pinterest",
+                    "url": "https://www.pinterest.com/"
+                  },
+                  {
+                    "dateAdded": 1421159965711,
+                    "dateLastUsed": 1741524681767,
+                    "id": "383",
+                    "index": 6,
+                    "parentId": "1104",
+                    "syncing": true,
+                    "title": "Inoreader",
+                    "url": "https://www.inoreader.com/"
+                  },
+                  {
+                    "dateAdded": 1457938282828,
+                    "id": "384",
+                    "index": 7,
+                    "parentId": "1104",
+                    "syncing": true,
+                    "title": "Evernote",
+                    "url": "https://www.evernote.com/Home.action"
+                  },
+                  {
+                    "dateAdded": 1762532371397,
+                    "id": "1077",
+                    "index": 8,
+                    "parentId": "1104",
+                    "syncing": true,
+                    "title": "搬瓦工- Vultr.com",
+                    "url": "https://my.vultr.com/billing/#billinghistory"
+                  },
+                  {
+                    "dateAdded": 1729067020846,
+                    "id": "387",
+                    "index": 9,
+                    "parentId": "1104",
+                    "syncing": true,
+                    "title": "SourceForge.net",
+                    "url": "https://sourceforge.net/projects/mgta/"
+                  },
+                  {
+                    "dateAdded": 1756831171505,
+                    "id": "388",
+                    "index": 10,
+                    "parentId": "1104",
+                    "syncing": true,
+                    "title": "Hugging Face",
+                    "url": "https://huggingface.co/"
+                  }
+                ],
+                "dateAdded": 1762690735545,
+                "dateGroupModified": 1762690843035,
+                "id": "1104",
+                "index": 0,
+                "parentId": "370",
+                "syncing": true,
+                "title": "服务"
+              },
+              {
+                "children": [
+                  {
+                    "dateAdded": 1762690394648,
+                    "id": "1099",
+                    "index": 0,
+                    "parentId": "1100",
+                    "syncing": true,
+                    "title": "Firefox插件 YouTube",
+                    "url": "https://addons.mozilla.org/zh-CN/android/collections/18648486/YouTube/"
+                  },
+                  {
+                    "dateAdded": 1762690451335,
+                    "id": "1101",
+                    "index": 1,
+                    "parentId": "1100",
+                    "syncing": true,
+                    "title": "YouTube 控制面板",
+                    "url": "https://addons.mozilla.org/zh-CN/android/addon/control-panel-for-youtube/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=collection"
+                  },
+                  {
+                    "dateAdded": 1762690456104,
+                    "id": "1102",
+                    "index": 2,
+                    "parentId": "1100",
+                    "syncing": true,
+                    "title": "后台播放Background Video Player",
+                    "url": "https://addons.mozilla.org/zh-CN/android/addon/background-video-player/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=collection"
+                  },
+                  {
+                    "dateAdded": 1762690461536,
+                    "id": "1103",
+                    "index": 3,
+                    "parentId": "1100",
+                    "syncing": true,
+                    "title": "提取视频链接Extract Video Link ",
+                    "url": "https://addons.mozilla.org/zh-CN/android/addon/extract-video-link/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=collection"
+                  }
+                ],
+                "dateAdded": 1762690437720,
+                "dateGroupModified": 1762690461536,
+                "id": "1100",
+                "index": 1,
+                "parentId": "370",
+                "syncing": true,
+                "title": "扩展"
+              },
               {
                 "children": [
                   {
@@ -3117,12 +3322,66 @@
                     "syncing": true,
                     "title": "YGSJ_剪辑",
                     "url": "https://usink.pages.dev/ygsjjj"
+                  },
+                  {
+                    "dateAdded": 1762630088504,
+                    "id": "1083",
+                    "index": 2,
+                    "parentId": "1082",
+                    "syncing": true,
+                    "title": "Outlook",
+                    "url": "https://outlook.live.com/"
+                  },
+                  {
+                    "dateAdded": 1762630160384,
+                    "id": "1084",
+                    "index": 3,
+                    "parentId": "1082",
+                    "syncing": true,
+                    "title": "OneNote",
+                    "url": "https://onenote.cloud.microsoft/zh-hans/"
+                  },
+                  {
+                    "dateAdded": 1762630209952,
+                    "id": "1085",
+                    "index": 4,
+                    "parentId": "1082",
+                    "syncing": true,
+                    "title": "Word 网页版 ",
+                    "url": "https://word.cloud.microsoft/"
+                  },
+                  {
+                    "dateAdded": 1762630268264,
+                    "id": "1086",
+                    "index": 5,
+                    "parentId": "1082",
+                    "syncing": true,
+                    "title": "Excel 网页版",
+                    "url": "https://excel.cloud.microsoft/"
+                  },
+                  {
+                    "dateAdded": 1762630307104,
+                    "id": "1087",
+                    "index": 6,
+                    "parentId": "1082",
+                    "syncing": true,
+                    "title": "PowerPoint 网页版",
+                    "url": "https://powerpoint.cloud.microsoft/"
+                  },
+                  {
+                    "dateAdded": 1762630454808,
+                    "id": "1088",
+                    "index": 7,
+                    "parentId": "1082",
+                    "syncing": true,
+                    "title": "相册 - OneDrive",
+                    "url": "https://onedrive.live.com/?view=8"
                   }
                 ],
                 "dateAdded": 1762627369607,
-                "dateGroupModified": 1762627377446,
+                "dateGroupModified": 1762630454808,
                 "id": "1082",
-                "index": 0,
+                "index": 2,
                 "parentId": "370",
                 "syncing": true,
                 "title": "微软"
@@ -3171,7 +3430,7 @@
                 "dateAdded": 1728201052706,
                 "dateGroupModified": 1728288965305,
                 "id": "371",
-                "index": 1,
+                "index": 3,
                 "parentId": "370",
                 "syncing": true,
                 "title": "ZOHO"
@@ -3179,7 +3438,7 @@
               {
                 "dateAdded": 1760802743343,
                 "id": "1031",
-                "index": 2,
+                "index": 4,
                 "parentId": "370",
                 "syncing": true,
                 "title": "OneDrive",
@@ -3189,7 +3448,7 @@
                 "dateAdded": 1684151863024,
                 "dateLastUsed": 1762528095944,
                 "id": "377",
-                "index": 3,
+                "index": 5,
                 "parentId": "370",
                 "syncing": true,
                 "title": "抖音",
@@ -3199,7 +3458,7 @@
                 "dateAdded": 1648568595694,
                 "dateLastUsed": 1753286855313,
                 "id": "378",
-                "index": 4,
+                "index": 6,
                 "parentId": "370",
                 "syncing": true,
                 "title": "哔哩",
@@ -3208,7 +3467,7 @@
               {
                 "dateAdded": 1629887897095,
                 "id": "379",
-                "index": 5,
+                "index": 7,
                 "parentId": "370",
                 "syncing": true,
                 "title": "西瓜",
@@ -3218,7 +3477,7 @@
                 "dateAdded": 1759327126929,
                 "dateLastUsed": 1759327193005,
                 "id": "380",
-                "index": 6,
+                "index": 8,
                 "parentId": "370",
                 "syncing": true,
                 "title": "x.com",
@@ -3228,7 +3487,7 @@
                 "dateAdded": 1759205888016,
                 "dateLastUsed": 1759207937508,
                 "id": "389",
-                "index": 7,
+                "index": 9,
                 "parentId": "370",
                 "syncing": true,
                 "title": "Grok",
@@ -3238,7 +3497,7 @@
                 "dateAdded": 1464070014221,
                 "dateLastUsed": 1754679697915,
                 "id": "381",
-                "index": 8,
+                "index": 10,
                 "parentId": "370",
                 "syncing": true,
                 "title": "Facebook",
@@ -3247,30 +3506,11 @@
               {
                 "dateAdded": 1626882758889,
                 "id": "382",
-                "index": 9,
+                "index": 11,
                 "parentId": "370",
                 "syncing": true,
                 "title": "Instagram",
                 "url": "https://www.instagram.com/"
-              },
-              {
-                "dateAdded": 1421159965711,
-                "dateLastUsed": 1741524681767,
-                "id": "383",
-                "index": 10,
-                "parentId": "370",
-                "syncing": true,
-                "title": "Inoreader",
-                "url": "https://www.inoreader.com/"
-              },
-              {
-                "dateAdded": 1457938282828,
-                "id": "384",
-                "index": 11,
-                "parentId": "370",
-                "syncing": true,
-                "title": "Evernote",
-                "url": "https://www.evernote.com/Home.action"
               },
               {
                 "dateAdded": 1728201160682,
@@ -3282,108 +3522,26 @@
                 "url": "https://www.v2ex.com/"
               },
               {
-                "dateAdded": 1762531272662,
-                "id": "1075",
+                "dateAdded": 1762276101514,
+                "id": "1051",
                 "index": 13,
                 "parentId": "370",
                 "syncing": true,
-                "title": "PayPal",
-                "url": "https://www.paypal.com/myaccount/summary"
-              },
-              {
-                "dateAdded": 1762532371397,
-                "id": "1077",
-                "index": 14,
-                "parentId": "370",
-                "syncing": true,
-                "title": "搬瓦工- Vultr.com",
-                "url": "https://my.vultr.com/billing/#billinghistory"
-              },
-              {
-                "dateAdded": 1760769282596,
-                "id": "1013",
-                "index": 15,
-                "parentId": "370",
-                "syncing": true,
-                "title": "Vercel",
-                "url": "https://vercel.com/mgtang"
-              },
-              {
-                "dateAdded": 1759327251986,
-                "id": "368",
-                "index": 16,
-                "parentId": "370",
-                "syncing": true,
-                "title": "Netlify",
-                "url": "https://www.netlify.com/"
-              },
-              {
-                "dateAdded": 1760768831301,
-                "id": "1012",
-                "index": 17,
-                "parentId": "370",
-                "syncing": true,
-                "title": "数据库 - Upstash",
-                "url": "https://console.upstash.com/redis?teamid=0"
-              },
-              {
-                "dateAdded": 1729067020846,
-                "id": "387",
-                "index": 18,
-                "parentId": "370",
-                "syncing": true,
-                "title": "SourceForge.net",
-                "url": "https://sourceforge.net/projects/mgta/"
+                "title": "NodeLoc网络社区",
+                "url": "https://www.nodeloc.com/"
               },
               {
                 "dateAdded": 1710859922000,
                 "id": "386",
-                "index": 19,
+                "index": 14,
                 "parentId": "370",
                 "syncing": true,
                 "title": "Gitee.com",
                 "url": "https://gitee.com/"
-              },
-              {
-                "dateAdded": 1756831171505,
-                "id": "388",
-                "index": 20,
-                "parentId": "370",
-                "syncing": true,
-                "title": "Hugging Face",
-                "url": "https://huggingface.co/"
-              },
-              {
-                "dateAdded": 1742307737407,
-                "dateLastUsed": 1744645562708,
-                "id": "482",
-                "index": 21,
-                "parentId": "370",
-                "syncing": true,
-                "title": "Pinterest",
-                "url": "https://www.pinterest.com/"
-              },
-              {
-                "dateAdded": 1741590079736,
-                "id": "416",
-                "index": 22,
-                "parentId": "370",
-                "syncing": true,
-                "title": "Pocket",
-                "url": "https://getpocket.com/zh/saves"
-              },
-              {
-                "dateAdded": 1762276101514,
-                "id": "1051",
-                "index": 23,
-                "parentId": "370",
-                "syncing": true,
-                "title": "NodeLoc社区",
-                "url": "https://www.nodeloc.com/"
               }
             ],
             "dateAdded": 1728288827409,
-            "dateGroupModified": 1762629486445,
+            "dateGroupModified": 1762690794362,
             "id": "370",
             "index": 5,
             "parentId": "1",
@@ -3634,33 +3792,33 @@
                   },
                   {
                     "dateAdded": 1759767197381,
-                    "dateLastUsed": 1761845025792,
+                    "dateLastUsed": 1762697465081,
                     "id": "317",
                     "index": 13,
                     "parentId": "289",
                     "syncing": true,
-                    "title": "692/fjvi",
+                    "title": "fjvi.pages.dev",
                     "url": "https://fjvi.pages.dev/6889692"
                   },
                   {
                     "dateAdded": 1759516623860,
-                    "dateLastUsed": 1759903097095,
+                    "dateLastUsed": 1762632097375,
                     "id": "318",
                     "index": 14,
                     "parentId": "289",
                     "syncing": true,
                     "title": "V2RSS@kkk🔗",
-                    "url": "https://v2rss.pages.dev/kkk"
+                    "url": "https://usink.pages.dev/kkk"
                   },
                   {
                     "dateAdded": 1759767283405,
-                    "dateLastUsed": 1762201920534,
+                    "dateLastUsed": 1762632064611,
                     "id": "319",
                     "index": 15,
                     "parentId": "289",
                     "syncing": true,
                     "title": "V2RSS@kkk.glla.qzz.io          🔗",
-                    "url": "https://rss.mgt.xx.kg/sub?password=6889692&security=tls&type=ws&host=kkk.glla.qzz.io&sni=kkk.glla.qzz.io&fp=random&path=%2F%3Fed%3D2560"
+                    "url": "https://usink.pages.dev/4f9b3a"
                   },
                   {
                     "dateAdded": 1747616600342,
@@ -3670,47 +3828,47 @@
                     "parentId": "289",
                     "syncing": true,
                     "title": "V2RSS@fjvi.pages.dev          🔗",
-                    "url": "https://urlink.pages.dev/35w8"
+                    "url": "https://usink.pages.dev/fjvipages"
                   },
                   {
-                    "dateAdded": 1759763127886,
-                    "dateLastUsed": 1762200560254,
-                    "id": "321",
+                    "dateAdded": 1759692005974,
+                    "dateLastUsed": 1762631783938,
+                    "id": "349",
                     "index": 17,
                     "parentId": "289",
                     "syncing": true,
-                    "title": "V2RSS/snip          🔗",
-                    "url": "https://urlink.pages.dev/snip"
+                    "title": "snip片段",
+                    "url": "https://snip.692.cloudns.be/13383918-1256-4c1e-bfd8-62e82421dabe"
                   },
                   {
-                    "dateAdded": 1761937843279,
-                    "dateLastUsed": 1762200601441,
-                    "id": "1047",
+                    "dateAdded": 1759763127886,
+                    "dateLastUsed": 1762631800185,
+                    "id": "321",
                     "index": 18,
                     "parentId": "289",
                     "syncing": true,
-                    "title": "V2RSS/snip2  🔗",
-                    "url": "https://urlink.pages.dev/snip2"
+                    "title": "V2RSS/snip          🔗",
+                    "url": "https://usink.pages.dev/snip"
                   },
                   {
                     "dateAdded": 1762375110132,
-                    "dateLastUsed": 1762375568144,
+                    "dateLastUsed": 1762631900178,
                     "id": "1055",
                     "index": 19,
                     "parentId": "289",
                     "syncing": true,
-                    "title": "V2RSS/snip0",
-                    "url": "https://urlink.pages.dev/cgA7"
+                    "title": "V2RSS/snip1",
+                    "url": "https://usink.pages.dev/snip1"
                   },
                   {
-                    "dateAdded": 1747616529397,
-                    "dateLastUsed": 1762200256393,
-                    "id": "322",
+                    "dateAdded": 1761937843279,
+                    "dateLastUsed": 1762631961966,
+                    "id": "1047",
                     "index": 20,
                     "parentId": "289",
                     "syncing": true,
-                    "title": "V2RSS/SG          🔗",
-                    "url": "https://urlink.pages.dev/sg"
+                    "title": "V2RSS/snip2  🔗",
+                    "url": "https://usink.pages.dev/snip2"
                   },
                   {
                     "dateAdded": 1747616747857,
@@ -3722,19 +3880,29 @@
                     "url": "vless://e340dcb9-6fd8-491d-81b8-08441d1730f5@sg.692.cloudns.be:443?encryption=none&security=tls&sni=sg.692.cloudns.be&allowInsecure=1&type=ws&host=sg.692.cloudns.be&path=%2F#sg.692.cloudns.be"
                   },
                   {
-                    "dateAdded": 1759902506348,
-                    "dateLastUsed": 1762200494978,
-                    "id": "324",
+                    "dateAdded": 1747616529397,
+                    "dateLastUsed": 1762200256393,
+                    "id": "322",
                     "index": 22,
                     "parentId": "289",
                     "syncing": true,
+                    "title": "V2RSS/SG          🔗",
+                    "url": "https://usink.pages.dev/sg"
+                  },
+                  {
+                    "dateAdded": 1759902506348,
+                    "dateLastUsed": 1762200494978,
+                    "id": "324",
+                    "index": 23,
+                    "parentId": "289",
+                    "syncing": true,
                     "title": "V2RSS/270          🔗",
-                    "url": "https://urlink.pages.dev/270"
+                    "url": "https://usink.pages.dev/270"
                   },
                   {
                     "dateAdded": 1762387333219,
                     "id": "1067",
-                    "index": 23,
+                    "index": 24,
                     "parentId": "289",
                     "syncing": true,
                     "title": "Clash snip2",
@@ -3744,7 +3912,7 @@
                     "dateAdded": 1759942795765,
                     "dateLastUsed": 1762200392508,
                     "id": "325",
-                    "index": 24,
+                    "index": 25,
                     "parentId": "289",
                     "syncing": true,
                     "title": "Clash V2RSS",
@@ -3754,7 +3922,7 @@
                     "dateAdded": 1759942755901,
                     "dateLastUsed": 1762200484171,
                     "id": "326",
-                    "index": 25,
+                    "index": 26,
                     "parentId": "289",
                     "syncing": true,
                     "title": "Clash 侃侃侃",
@@ -3763,15 +3931,24 @@
                   {
                     "dateAdded": 1761145889578,
                     "id": "1041",
-                    "index": 26,
+                    "index": 27,
                     "parentId": "289",
                     "syncing": true,
                     "title": "joey订阅中心",
                     "url": "https://joey.glla.qzz.io/dd09d24c-70c3-44a7-b921-9b1f435f25d7"
+                  },
+                  {
+                    "dateAdded": 1762636308932,
+                    "id": "1094",
+                    "index": 28,
+                    "parentId": "289",
+                    "syncing": true,
+                    "title": "merge.zabc.net",
+                    "url": "https://merge.zabc.net/b51e161b6af6a7f0b99a?CFIP=saas.sin.fan&CFPORT=443"
                   }
                 ],
                 "dateAdded": 1747322770569,
-                "dateGroupModified": 1762438245175,
+                "dateGroupModified": 1762697452058,
                 "id": "289",
                 "index": 0,
                 "parentId": "288",
@@ -3781,38 +3958,58 @@
               {
                 "children": [
                   {
-                    "dateAdded": 1729432652823,
-                    "dateLastUsed": 1762375599808,
-                    "id": "344",
+                    "dateAdded": 1762697399638,
+                    "dateLastUsed": 1762697503224,
+                    "id": "1107",
                     "index": 0,
                     "parentId": "343",
                     "syncing": true,
-                    "title": "cloudflare-服务器列表",
-                    "url": "https://github.com/indianajson/cloudflare-nameservers"
-                  },
-                  {
-                    "dateAdded": 1759242619372,
-                    "dateLastUsed": 1760175838600,
-                    "id": "348",
-                    "index": 1,
-                    "parentId": "343",
-                    "syncing": true,
-                    "title": "cf-names.txt",
-                    "url": "https://raw.githubusercontent.com/6889692/cloudflare-nameservers/main/cloudflare-names.txt"
+                    "title": "wiki/ip.txt",
+                    "url": "https://github.com/6889692/wiki/blob/main/ip.txt"
                   },
                   {
                     "dateAdded": 1762367854000,
                     "id": "1054",
-                    "index": 2,
+                    "index": 1,
                     "parentId": "343",
                     "syncing": true,
                     "title": "ip.txt",
                     "url": "https://raw.githubusercontent.com/6889692/wiki/main/ip.txt"
                   },
                   {
+                    "dateAdded": 1729432652823,
+                    "dateLastUsed": 1762631575886,
+                    "id": "344",
+                    "index": 2,
+                    "parentId": "343",
+                    "syncing": true,
+                    "title": "cloudflare-服务器列表",
+                    "url": "https://github.com/6889692/cloudflare-nameservers"
+                  },
+                  {
+                    "dateAdded": 1759242619372,
+                    "dateLastUsed": 1760175838600,
+                    "id": "348",
+                    "index": 3,
+                    "parentId": "343",
+                    "syncing": true,
+                    "title": "cf-nameservers.txt",
+                    "url": "https://raw.githubusercontent.com/6889692/wiki/main/cf.txt"
+                  },
+                  {
+                    "dateAdded": 1762631488543,
+                    "dateLastUsed": 1762631754007,
+                    "id": "1090",
+                    "index": 4,
+                    "parentId": "343",
+                    "syncing": true,
+                    "title": "cf-ip.txt",
+                    "url": "https://raw.githubusercontent.com/6889692/wiki/main/cfip.txt"
+                  },
+                  {
                     "dateAdded": 1741507863020,
                     "id": "345",
-                    "index": 3,
+                    "index": 5,
                     "parentId": "343",
                     "syncing": true,
                     "title": "IP 范围 | Cloudflare",
@@ -3820,28 +4017,18 @@
                   },
                   {
                     "dateAdded": 1742731272452,
-                    "dateLastUsed": 1760175723893,
+                    "dateLastUsed": 1762631765975,
                     "id": "347",
-                    "index": 4,
+                    "index": 6,
                     "parentId": "343",
                     "syncing": true,
                     "title": "cloudflare支持托管的域名",
                     "url": "https://github.com/publicsuffix/list"
                   },
                   {
-                    "dateAdded": 1759692005974,
-                    "dateLastUsed": 1760107369522,
-                    "id": "349",
-                    "index": 5,
-                    "parentId": "343",
-                    "syncing": true,
-                    "title": "snip片段",
-                    "url": "https://snip.692.cloudns.be/13383918-1256-4c1e-bfd8-62e82421dabe"
-                  },
-                  {
                     "dateAdded": 1760178069647,
                     "id": "960",
-                    "index": 6,
+                    "index": 7,
                     "parentId": "343",
                     "syncing": true,
                     "title": "网站托管于 Cloudflare Hosting 流量排名前 10 万的网站",
@@ -3850,15 +4037,24 @@
                   {
                     "dateAdded": 1762376477114,
                     "id": "1057",
-                    "index": 7,
+                    "index": 8,
                     "parentId": "343",
                     "syncing": true,
                     "title": "利用域名服务器查找 Cloudflare 帐户",
                     "url": "https://github.com/mackenly/flarehunter"
+                  },
+                  {
+                    "dateAdded": 1762636641339,
+                    "id": "1097",
+                    "index": 9,
+                    "parentId": "343",
+                    "syncing": true,
+                    "title": "CloudFlare优选IPV4地址 - 微测网",
+                    "url": "https://www.wetest.vip/page/cloudflare/address_v4.html"
                   }
                 ],
                 "dateAdded": 1741495989192,
-                "dateGroupModified": 1762439681493,
+                "dateGroupModified": 1762697530010,
                 "id": "343",
                 "index": 1,
                 "parentId": "288",
@@ -4183,7 +4379,7 @@
               }
             ],
             "dateAdded": 1728201033215,
-            "dateGroupModified": 1760802221540,
+            "dateGroupModified": 1762632163666,
             "id": "288",
             "index": 6,
             "parentId": "1",
@@ -4575,10 +4771,37 @@
                 "syncing": true,
                 "title": "记事本(Notepad With Speech)",
                 "url": "https://notepad.flowsoft7.com/?lang=zh-CN"
+              },
+              {
+                "dateAdded": 1762636428051,
+                "id": "1095",
+                "index": 29,
+                "parentId": "390",
+                "syncing": true,
+                "title": "在线订阅转换eooce",
+                "url": "https://sublink.eooce.com/"
+              },
+              {
+                "dateAdded": 1762706939160,
+                "id": "1127",
+                "index": 30,
+                "parentId": "390",
+                "syncing": true,
+                "title": "浏览器指纹检测",
+                "url": "https://www.browserscan.net/zh"
+              },
+              {
+                "dateAdded": 1762707397296,
+                "id": "1128",
+                "index": 31,
+                "parentId": "390",
+                "syncing": true,
+                "title": "eooce导航",
+                "url": "https://eooce.ct8.pl/"
               }
             ],
             "dateAdded": 1728642988357,
-            "dateGroupModified": 1760797282845,
+            "dateGroupModified": 1762707397296,
             "id": "390",
             "index": 7,
             "parentId": "1",
@@ -5124,10 +5347,100 @@
                     "syncing": true,
                     "title": "幼儿园",
                     "url": "https://3dwarehouse.sketchup.com/collection/2328f30d-63af-4e1e-957b-28a04bc02e46/anaokulu"
+                  },
+                  {
+                    "dateAdded": 1762705124361,
+                    "id": "1111",
+                    "index": 28,
+                    "parentId": "473",
+                    "syncing": true,
+                    "title": "免费素材图片.pexels",
+                    "url": "https://www.pexels.com/zh-cn/"
+                  },
+                  {
+                    "dateAdded": 1762705158577,
+                    "id": "1112",
+                    "index": 29,
+                    "parentId": "473",
+                    "syncing": true,
+                    "title": "Gratisography - 免费高分辨率图片",
+                    "url": "https://gratisography.com/"
+                  },
+                  {
+                    "dateAdded": 1762705174297,
+                    "id": "1113",
+                    "index": 30,
+                    "parentId": "473",
+                    "syncing": true,
+                    "title": "免费图片、背景和照片 • picjumbo",
+                    "url": "https://picjumbo.com/"
+                  },
+                  {
+                    "dateAdded": 1762705185385,
+                    "id": "1114",
+                    "index": 31,
+                    "parentId": "473",
+                    "syncing": true,
+                    "title": "Pixabay 免费图片",
+                    "url": "https://pixabay.com/"
+                  },
+                  {
+                    "dateAdded": 1762705206122,
+                    "id": "1116",
+                    "index": 32,
+                    "parentId": "473",
+                    "syncing": true,
+                    "title": "Canva 免费图库照片 - Canva",
+                    "url": "https://www.canva.com/photos/free/"
+                  },
+                  {
+                    "dateAdded": 1762705214601,
+                    "id": "1117",
+                    "index": 33,
+                    "parentId": "473",
+                    "syncing": true,
+                    "title": "reshot | 免费图标和插图",
+                    "url": "https://www.reshot.com/"
+                  },
+                  {
+                    "dateAdded": 1762705274249,
+                    "id": "1120",
+                    "index": 34,
+                    "parentId": "473",
+                    "syncing": true,
+                    "title": "rawpixel免费图库照片",
+                    "url": "https://www.rawpixel.com/"
+                  },
+                  {
+                    "dateAdded": 1762705299129,
+                    "id": "1122",
+                    "index": 35,
+                    "parentId": "473",
+                    "syncing": true,
+                    "title": "免费商用图片素材 | Morguefile.com",
+                    "url": "https://morguefile.com/"
+                  },
+                  {
+                    "dateAdded": 1762705304257,
+                    "id": "1123",
+                    "index": 36,
+                    "parentId": "473",
+                    "syncing": true,
+                    "title": "PxHere摄影图库",
+                    "url": "https://pxhere.com/"
+                  },
+                  {
+                    "dateAdded": 1762705338193,
+                    "id": "1125",
+                    "index": 37,
+                    "parentId": "473",
+                    "syncing": true,
+                    "title": "ISO Republic图片和视频素材",
+                    "url": "https://isorepublic.com/"
                   }
                 ],
                 "dateAdded": 1741496561260,
-                "dateGroupModified": 1760995177049,
+                "dateGroupModified": 1762705338193,
                 "id": "473",
                 "index": 1,
                 "parentId": "466",
@@ -8240,7 +8553,7 @@
           }
         ],
         "dateAdded": 1707645589983,
-        "dateGroupModified": 1760802317772,
+        "dateGroupModified": 1762691533643,
         "folderType": "bookmarks-bar",
         "id": "1",
         "index": 0,
@@ -8251,7 +8564,7 @@
       {
         "children": [],
         "dateAdded": 1707645589983,
-        "dateGroupModified": 1760461120519,
+        "dateGroupModified": 1762691508747,
         "folderType": "other",
         "id": "854",
         "index": 1,
@@ -8260,7 +8573,7 @@
         "title": "其他书签"
       }
     ],
-    "dateAdded": 1762587927068,
+    "dateAdded": 1762705441514,
     "id": "0",
     "syncing": false,
     "title": ""
