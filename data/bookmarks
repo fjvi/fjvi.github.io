@@ -1057,10 +1057,19 @@
                 "syncing": true,
                 "title": "<option value=\"+86\">China +86<",
                 "url": "chrome-extension://bpchmgblmojinbogghdgnjeegojpnnmm/viewer/viewer.html?raw=%3Coption+value%3D%22%2B86%22%3EChina+%2B86%3C%2Foption%3E"
+              },
+              {
+                "dateAdded": 1763989045212,
+                "id": "1190",
+                "index": 15,
+                "parentId": "1105",
+                "syncing": true,
+                "title": "更可靠的 favicon 服务",
+                "url": "chrome-extension://bpchmgblmojinbogghdgnjeegojpnnmm/viewer/viewer.html?raw=renderBookmarkCard%28bookmark%29+%7B__NL__++++if+%28%21bookmark.url%29+return+%27%27%3B__NL__++++__NL__++++if+%28bookmark.url.startsWith%28%27chrome-extension%3A%2F%2F%27%29%29+%7B__NL__++++++++return+this.renderExtensionCard%28bookmark%29%3B__NL__++++%7D+else+%7B__NL__++++++++const+domain+%3D+new+URL%28bookmark.url%29.hostname%3B__NL__++++++++const+cardId+%3D+%27card-%27+%2B+Date.now%28%29+%2B+%27-%27+%2B+Math.random%28%29.toString%2836%29.substr%282%2C+5%29%3B__NL__++++++++__NL__++++++++%2F%2F+%E6%94%B9%E4%B8%BA%E8%8E%B7%E5%8F%96%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6__NL__++++++++const+lastChar+%3D+this.getLastCharacter%28bookmark.title%29%3B__NL__++++++++const+textColor+%3D+this.generateColorFromText%28bookmark.title%29%3B__NL__++++++++__NL__++++++++%2F%2F+%E6%94%B9%E8%BF%9B%E7%9A%84+favicon+%E5%8A%A0%E8%BD%BD%E9%80%BB%E8%BE%91__NL__++++++++let+iconUrl%3B__NL__++++++++if+%28this.isDevelopment%29+%7B__NL__++++++++++++%2F%2F+%E4%BD%BF%E7%94%A8%E6%9B%B4%E5%8F%AF%E9%9D%A0%E7%9A%84+favicon+%E6%9C%8D%E5%8A%A1__NL__++++++++++++iconUrl+%3D+%60https%3A%2F%2Ficons.duckduckgo.com%2Fip3%2F%24%7Bdomain%7D.ico%60%3B__NL__++++++++%7D+else+%7B__NL__++++++++++++iconUrl+%3D+%27%2Ficons%2F%27+%2B+domain+%2B+%27.png%27%3B__NL__++++++++%7D__NL__++++++++__NL__++++++++return+%60__NL__++++++++++++%3Cdiv+class%3D%22bookmark-card%22+id%3D%22%24%7BcardId%7D%22%3E__NL__++++++++++++++++%3Ca+href%3D%22%24%7Bbookmark.url%7D%22+class%3D%22bookmark-link%22+target%3D%22_blank%22+rel%3D%22noopener%22%3E__NL__++++++++++++++++++++%3Cdiv+class%3D%22bookmark-content%22%3E__NL__++++++++++++++++++++++++%3Cdiv+class%3D%22bookmark-icon%22%3E__NL__++++++++++++++++++++++++++++%3Cimg+src%3D%22%24%7BiconUrl%7D%22+__NL__+++++++++++++++++++++++++++++++++alt%3D%22%24%7Bbookmark.title%7D%22+__NL__+++++++++++++++++++++++++++++++++class%3D%22favicon%22__NL__+++++++++++++++++++++++++++++++++data-domain%3D%22%24%7Bdomain%7D%22__NL__+++++++++++++++++++++++++++++++++onerror%3D%22this.style.display%3D%27none%27%3B+this.nextElementSibling.style.display%3D%27flex%27%3B%22__NL__+++++++++++++++++++++++++++++++++loading%3D%22lazy%22%3E__NL__++++++++++++++++++++++++++++%3Cdiv+class%3D%22text-icon%22+style%3D%22display%3Anone%3B%22%3E__NL__++++++++++++++++++++++++++++++++%3Cspan+style%3D%22color%3A%24%7BtextColor%7D%3B+font-size%3A18px%3B+font-weight%3Abold%3B%22%3E%24%7BlastChar%7D%3C%2Fspan%3E__NL__++++++++++++++++++++++++++++%3C%2Fdiv%3E__NL__++++++++++++++++++++++++%3C%2Fdiv%3E__NL__++++++++++++++++++++++++%3Cdiv+class%3D%22bookmark-info%22%3E__NL__++++++++++++++++++++++++++++%3Ch3+class%3D%22bookmark-title%22%3E%24%7Bbookmark.title%7D%3C%2Fh3%3E__NL__++++++++++++++++++++++++++++%24%7Bbookmark.description+%3F+%60%3Cp+class%3D%22bookmark-desc%22%3E%24%7Bbookmark.description%7D%3C%2Fp%3E%60+%3A+%27%27%7D__NL__++++++++++++++++++++++++++++%3Cdiv+class%3D%22bookmark-meta%22%3E__NL__++++++++++++++++++++++++++++++++%3Cspan+class%3D%22bookmark-url%22%3E%24%7Bdomain%7D%3C%2Fspan%3E__NL__++++++++++++++++++++++++++++%3C%2Fdiv%3E__NL__++++++++++++++++++++++++%3C%2Fdiv%3E__NL__++++++++++++++++++++%3C%2Fdiv%3E__NL__++++++++++++++++%3C%2Fa%3E__NL__++++++++++++%3C%2Fdiv%3E__NL__++++++++%60%3B__NL__++++%7D__NL__%7D"
               }
             ],
             "dateAdded": 1762691508746,
-            "dateGroupModified": 1762951675288,
+            "dateGroupModified": 1763989045212,
             "id": "1105",
             "index": 1,
             "parentId": "1",
@@ -2035,6 +2044,7 @@
               },
               {
                 "dateAdded": 1728289451864,
+                "dateLastUsed": 1763839478672,
                 "id": "220",
                 "index": 27,
                 "parentId": "126",
@@ -8948,7 +8958,7 @@
         "title": "其他书签"
       }
     ],
-    "dateAdded": 1763762273830,
+    "dateAdded": 1763962590999,
     "id": "0",
     "syncing": false,
     "title": ""
